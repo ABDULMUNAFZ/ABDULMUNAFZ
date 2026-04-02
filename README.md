@@ -186,7 +186,6 @@ email       : z.abdulmunaf@gmail.com
 
 <div align="center">
 
-![snake gif](https://github.com/ABDULMUNAFZ/ABDULMUNAFZ/blob/output/github-contribution-grid-snake.svg)
 
 
 <!-- 
