@@ -186,6 +186,9 @@ email       : z.abdulmunaf@gmail.com
 
 <div align="center">
 
+![snake gif](https://github.com/ABDULMUNAFZ/ABDULMUNAFZ/blob/output/github-contribution-grid-snake.svg)
+
+
 <!-- 
   ⚙️ TO ENABLE THE SNAKE ANIMATION:
   Add this GitHub Actions workflow to your repo at:
