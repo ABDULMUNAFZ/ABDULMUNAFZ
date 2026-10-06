@@ -83,6 +83,31 @@
   ],
   "projects": [
     {
+      "title": "FloodGuard",
+      "short": "FloodGuard",
+      "description": "Hyperlocal flash-flood prediction, risk and rescue for Wayanad, Kerala: a 3D command map for responders and a citizen PWA. Smart India Hackathon 2026.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "FastAPI",
+        "PostGIS",
+        "XGBoost"
+      ],
+      "url": "https://github.com/ABDULMUNAFZ/Hyperlocal-Intelligence-for-Flash-Flood-Prediction-Risk--Response"
+    },
+    {
+      "title": "Knowra",
+      "short": "Knowra",
+      "description": "Evidence-first knowledge assistant: hybrid pgvector + BM25 search with reranking, every answer traced to a cited source passage.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "pgvector",
+        "Supabase"
+      ],
+      "url": "https://github.com/ABDULMUNAFZ/Knowra-Evidence-First-Intelligent-Knowledge-Assistant"
+    },
+    {
       "title": "Full-Stack Chat + Sentiment AI",
       "short": "Chat + Sentiment AI",
       "description": "Real-time chat with image sharing and live sentiment analysis, stored securely in MongoDB Atlas.",
@@ -115,26 +140,6 @@
         "Python"
       ],
       "url": "https://github.com/ABDULMUNAFZ/Indian-Sign-Language-Recognition-System"
-    },
-    {
-      "title": "Bakery Brand Website",
-      "short": "Bakery Website",
-      "description": "Freelance: a custom, pixel-perfect marketing site for a bakery brand.",
-      "stack": [
-        "React",
-        "CSS",
-        "Webflow"
-      ]
-    },
-    {
-      "title": "Counseling & Healing Services",
-      "short": "Healing Services",
-      "description": "Freelance: a calm, accessible landing page for a therapy practice.",
-      "stack": [
-        "React",
-        "Node",
-        "Flask"
-      ]
     }
   ],
   "stack": [

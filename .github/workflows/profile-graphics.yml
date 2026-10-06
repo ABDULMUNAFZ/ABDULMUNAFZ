@@ -43,6 +43,17 @@ jobs:
       - name: Generate section cards
         run: node scripts/cards.mjs dist
 
+      - name: Sync README tooltips with profile data
+        if: github.ref == 'refs/heads/main'
+        run: |
+          node scripts/readme.mjs
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Sync README with data/profile.json" README.md
+            git push
+          fi
+
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:

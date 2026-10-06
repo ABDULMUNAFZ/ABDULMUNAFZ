@@ -169,7 +169,7 @@ function work({ theme, fullPage }) {
       const tag = fullPage && p.url ? "a" : "g";
       const href = fullPage && p.url ? ` href="${esc(p.url)}"` : "";
       // Neighbouring cards cover all but a left strip, so the title runs up that strip like a book spine.
-      const title = `<text transform="translate(-70 -300) rotate(-90)" class="spine">${esc(p.short)}</text>`;
+      const title = `<text transform="translate(-70 -470) rotate(-90)" text-anchor="end" class="spine">${esc(p.short)}</text>`;
       return (
         `<${tag} id="w${k}" class="card"${href}><g transform="rotate(${angles[k]} ${pivotX} ${pivotY})">` +
         `<animateTransform attributeName="transform" type="rotate" from="0 ${pivotX} ${pivotY}" to="${angles[k]} ${pivotX} ${pivotY}" dur="1s" begin="0.2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>` +
