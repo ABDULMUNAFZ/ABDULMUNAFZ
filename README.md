@@ -12,6 +12,14 @@
 
 <br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-light.svg" />
+  <img width="100%" alt="3D contribution calendar" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
+</picture>
+
+<br/>
+
 ### `01` &nbsp;About
 
 I build front-ends that feel fast and ML systems that run in real time — object detection, emotion recognition, terrain segmentation, sign-language translation. Currently shipping **AI-powered full-stack web apps** while finishing a Master's in Computer Technology.
@@ -63,12 +71,6 @@ speaks     : English · Tamil · Hindi · Urdu
 <br/>
 
 ### `05` &nbsp;Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-light.svg" />
-  <img width="100%" alt="3D contribution calendar" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
-</picture>
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ABDULMUNAFZ&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&bg_color=0B0D10&text_color=ECE7DD&icon_color=FF7A3D&border_color=23272E&border_radius=16" alt="GitHub stats" />
