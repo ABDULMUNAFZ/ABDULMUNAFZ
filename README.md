@@ -12,7 +12,7 @@
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg">
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-full.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-light.svg" />

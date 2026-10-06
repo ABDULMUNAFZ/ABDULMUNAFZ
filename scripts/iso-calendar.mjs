@@ -135,7 +135,7 @@ const fmtDay = (iso) =>
     timeZone: "UTC",
   });
 
-function render({ weeks, stats, theme, login }) {
+function render({ weeks, stats, theme, login, fullPage = false }) {
   const t = THEMES[theme];
   const W = 880;
   const H = 440;
@@ -204,9 +204,12 @@ function render({ weeks, stats, theme, login }) {
     .map((c, k) => `<rect x="${92 + k * 16}" y="${H - 34}" width="11" height="11" rx="2" fill="${c}"/>`)
     .join("");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${login}: ${stats.total} contributions in the last year">
+  // Without fixed dimensions the SVG scales to fill the browser window when opened directly.
+  const dims = fullPage ? "" : ` width="${W}" height="${H}"`;
+  const pad = fullPage ? 24 : 0;
+  return `<svg xmlns="http://www.w3.org/2000/svg"${dims} viewBox="${-pad} ${-pad} ${W + 2 * pad} ${H + 2 * pad}" role="img" aria-label="${login}: ${stats.total} contributions in the last year">
 <style>
-  .b{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
+${fullPage ? `  :root{background:${t.bg}}\n` : ""}  .b{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
   .lbl{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.12em;fill:${t.muted}}
   .val{font:700 26px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:${t.text}}
@@ -254,4 +257,5 @@ await mkdir(outDir, { recursive: true });
 for (const theme of Object.keys(THEMES)) {
   await writeFile(join(outDir, `calendar-3d-${theme}.svg`), render({ weeks, stats, theme, login }));
 }
-console.log(`wrote calendar-3d-{dark,light}.svg to ${outDir}`, stats);
+await writeFile(join(outDir, "calendar-3d-full.svg"), render({ weeks, stats, theme: "dark", login, fullPage: true }));
+console.log(`wrote calendar-3d-{dark,light,full}.svg to ${outDir}`, stats);
