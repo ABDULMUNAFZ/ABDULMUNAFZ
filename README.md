@@ -16,69 +16,73 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-light.svg" />
-  <img width="100%" title="Click to explore each day" alt="3D contribution calendar" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
+  <img width="100%" title="Click to explore" alt="3D contribution calendar" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
 </picture>
 </a>
-<p align="center"><sub>Click the calendar, then hover any block for that day's contributions.</sub></p>
+<p align="center"><sub>Click any card to open it full-screen — then hover to explore.</sub></p>
 
 <br/>
 
-### `01` &nbsp;About
-
-I build front-ends that feel fast and ML systems that run in real time — object detection, emotion recognition, terrain segmentation, sign-language translation. Currently shipping **AI-powered full-stack web apps** while finishing a Master's in Computer Technology.
-
-```yaml
-based_in   : Coimbatore, Tamil Nadu
-studying   : M.Sc. Computer Technology — Sri Krishna Arts & Science College
-previously : B.Sc. AI & Machine Learning — Rathinam College
-works_with : React · TypeScript · Python · PyTorch · OpenCV
-talk_to_me : front-end architecture, computer vision, hackathon builds
-speaks     : English · Tamil · Hindi · Urdu
-```
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-full.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-light.svg" />
+  <img width="100%" title="Click to explore" alt="About: Abdul Munaf Z, front-end engineer and ML builder based in Coimbatore. M.Sc. Computer Technology, B.Sc. AI & ML. Works with React, TypeScript, Python, PyTorch." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-dark.svg" />
+</picture>
+</a>
 
 <br/>
 
-### `02` &nbsp;Hackathons
-
-| Result | Event | Where | Year |
-|:--|:--|:--|:-:|
-| **1st Place** | HACKSTRONAUTS 24-hr Challenge — Exadata Club | SRM University, Chennai | 2025 |
-| **1st Prize** | Mealzy — Innovative Food Web Solutions | AIC Raise, Coimbatore | 2025 |
-| **2nd Prize** | New India Vibrant Hackathon — Urban Governance | Surat Municipal Corporation | 2023 |
-| **3rd Prize** | Indian Sign Language Detection System | Sri Krishna College of Engineering | 2026 |
-| **Top 8** | Bitathon — SAS Analytics Model Pitch | Goa Institute of Management | 2026 |
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-full.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-light.svg" />
+  <img width="100%" title="Click to explore" alt="Hackathons: 1st HACKSTRONAUTS (SRM, 2025), 1st Mealzy (AIC Raise, 2025), 2nd New India Vibrant (Surat, 2023), 3rd ISL Detection (SKCE, 2026), Top 8 Bitathon (GIM, 2026)" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-dark.svg" />
+</picture>
+</a>
 
 <br/>
 
-### `03` &nbsp;Selected work
-
-| Project | What it does | Built with |
-|:--|:--|:--|
-| [**Full-Stack Chat + Sentiment AI**](https://full-stack-chatting-website.onrender.com) | Real-time chat with image sharing and live sentiment analysis, stored in MongoDB Atlas | React · Node · MongoDB · NLP |
-| [**GreenSight AI**](https://github.com/ABDULMUNAFZ/Duality-AI-Offroad-Semantic-Segmentation-Challenge) | Classifies off-road terrain into 10 environmental classes in real time | Python · YOLOv8 · PyTorch |
-| [**Indian Sign Language Recognition**](https://github.com/ABDULMUNAFZ/Indian-Sign-Language-Recognition-System) | Continuous sentence formation with multi-language text-to-speech | OpenCV · PyTorch |
-| **Bakery brand site** <sub>freelance</sub> | Pixel-perfect marketing site for a bakery brand | React · Webflow |
-| **Counseling & healing services** <sub>freelance</sub> | Calm, accessible landing page for a therapy practice | React · Node · Flask |
-
-<br/>
-
-### `04` &nbsp;Stack
-
-| | |
-|:--|:--|
-| **Front-end** | ![React](https://img.shields.io/badge/React-1A1D23?style=flat-square&logo=react&logoColor=FF7A3D) ![TypeScript](https://img.shields.io/badge/TypeScript-1A1D23?style=flat-square&logo=typescript&logoColor=FF7A3D) ![JavaScript](https://img.shields.io/badge/JavaScript-1A1D23?style=flat-square&logo=javascript&logoColor=FF7A3D) ![Three.js](https://img.shields.io/badge/Three.js-1A1D23?style=flat-square&logo=threedotjs&logoColor=FF7A3D) ![HTML5](https://img.shields.io/badge/HTML5-1A1D23?style=flat-square&logo=html5&logoColor=FF7A3D) ![CSS3](https://img.shields.io/badge/CSS3-1A1D23?style=flat-square&logo=css&logoColor=FF7A3D) ![Webflow](https://img.shields.io/badge/Webflow-1A1D23?style=flat-square&logo=webflow&logoColor=FF7A3D) |
-| **Back-end & cloud** | ![Python](https://img.shields.io/badge/Python-1A1D23?style=flat-square&logo=python&logoColor=FF7A3D) ![Node.js](https://img.shields.io/badge/Node.js-1A1D23?style=flat-square&logo=nodedotjs&logoColor=FF7A3D) ![Flask](https://img.shields.io/badge/Flask-1A1D23?style=flat-square&logo=flask&logoColor=FF7A3D) ![MongoDB](https://img.shields.io/badge/MongoDB-1A1D23?style=flat-square&logo=mongodb&logoColor=FF7A3D) ![Netlify](https://img.shields.io/badge/Netlify-1A1D23?style=flat-square&logo=netlify&logoColor=FF7A3D) ![Hostinger](https://img.shields.io/badge/Hostinger-1A1D23?style=flat-square&logo=hostinger&logoColor=FF7A3D) |
-| **AI / ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-1A1D23?style=flat-square&logo=pytorch&logoColor=FF7A3D) ![TensorFlow](https://img.shields.io/badge/TensorFlow-1A1D23?style=flat-square&logo=tensorflow&logoColor=FF7A3D) ![OpenCV](https://img.shields.io/badge/OpenCV-1A1D23?style=flat-square&logo=opencv&logoColor=FF7A3D) ![YOLOv8](https://img.shields.io/badge/YOLOv8-1A1D23?style=flat-square) ![Twilio](https://img.shields.io/badge/Twilio-1A1D23?style=flat-square&logo=twilio&logoColor=FF7A3D) |
-| **Tools** | ![Git](https://img.shields.io/badge/Git-1A1D23?style=flat-square&logo=git&logoColor=FF7A3D) ![Bitbucket](https://img.shields.io/badge/Bitbucket-1A1D23?style=flat-square&logo=bitbucket&logoColor=FF7A3D) ![PyCharm](https://img.shields.io/badge/PyCharm-1A1D23?style=flat-square&logo=pycharm&logoColor=FF7A3D) ![WordPress](https://img.shields.io/badge/WordPress-1A1D23?style=flat-square&logo=wordpress&logoColor=FF7A3D) ![LaTeX](https://img.shields.io/badge/LaTeX-1A1D23?style=flat-square&logo=latex&logoColor=FF7A3D) ![Adobe](https://img.shields.io/badge/Adobe_CC-1A1D23?style=flat-square) |
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-full.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-light.svg" />
+  <img width="100%" title="Click to explore" alt="Selected work: Chat + Sentiment AI, GreenSight AI, Indian Sign Language Recognition, and two freelance sites" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-dark.svg" />
+</picture>
+</a>
+<p align="center"><sub><a href="https://full-stack-chatting-website.onrender.com">Chat + Sentiment AI</a> · <a href="https://github.com/ABDULMUNAFZ/Duality-AI-Offroad-Semantic-Segmentation-Challenge">GreenSight AI</a> · <a href="https://github.com/ABDULMUNAFZ/Indian-Sign-Language-Recognition-System">Sign Language Recognition</a></sub></p>
 
 <br/>
 
-### `05` &nbsp;Activity
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-full.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-light.svg" />
+  <img width="100%" title="Click to explore" alt="Tech stack: React, TypeScript, JavaScript, Three.js, Python, Node.js, Flask, MongoDB, PyTorch, TensorFlow, OpenCV, YOLOv8, Git and more" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-dark.svg" />
+</picture>
+</a>
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ABDULMUNAFZ&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&bg_color=0B0D10&text_color=ECE7DD&icon_color=FF7A3D&border_color=23272E&border_radius=16" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ABDULMUNAFZ&layout=compact&langs_count=8&hide_title=true&bg_color=0B0D10&text_color=ECE7DD&border_color=23272E&border_radius=16" alt="Top languages" />
-</p>
+<br/>
+
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-full.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-light.svg" />
+  <img width="100%" title="Click to explore" alt="Certifications: Google, Oracle Cloud, Git, OPSWAT, RapidMiner, Forage, Great Learning" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-dark.svg" />
+</picture>
+</a>
+
+<br/>
+
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-full.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-light.svg" />
+  <img width="100%" title="Click to explore" alt="Languages by code share, plus public repos, stars, followers and pull requests" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-dark.svg" />
+</picture>
+</a>
+
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/snake-dark.svg" />
@@ -86,12 +90,4 @@ speaks     : English · Tamil · Hindi · Urdu
   <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/snake.svg" />
 </picture>
 
-<br/>
-
-### `06` &nbsp;Certifications
-
-![Google](https://img.shields.io/badge/Google-1A1D23?style=flat-square&logo=google&logoColor=FF7A3D) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-1A1D23?style=flat-square&logo=oracle&logoColor=FF7A3D) ![Git](https://img.shields.io/badge/Git-1A1D23?style=flat-square&logo=git&logoColor=FF7A3D) ![OPSWAT](https://img.shields.io/badge/OPSWAT-1A1D23?style=flat-square) ![RapidMiner](https://img.shields.io/badge/RapidMiner-1A1D23?style=flat-square) ![Forage](https://img.shields.io/badge/Forage-1A1D23?style=flat-square) ![Great Learning](https://img.shields.io/badge/Great_Learning-1A1D23?style=flat-square)
-
-<br/>
-
-<p align="center"><sub>3D calendar and snake regenerate every 12 hours from <a href="./scripts/iso-calendar.mjs"><code>scripts/iso-calendar.mjs</code></a> and <a href="https://github.com/Platane/snk">Platane/snk</a>.</sub></p>
+<p align="center"><sub>Every graphic here is generated by <a href="./scripts"><code>scripts/</code></a> from <a href="./data/profile.json"><code>data/profile.json</code></a> and live GitHub data, refreshed every 12 hours.</sub></p>

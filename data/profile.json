@@ -1,0 +1,223 @@
+{
+  "about": {
+    "whoami": "Abdul Munaf Z — front-end engineer & ML builder",
+    "rows": [
+      {
+        "key": "based_in",
+        "value": "Coimbatore, Tamil Nadu",
+        "note": "India · IST (UTC+5:30)"
+      },
+      {
+        "key": "studying",
+        "value": "M.Sc. Computer Technology",
+        "note": "Sri Krishna Arts & Science College"
+      },
+      {
+        "key": "previously",
+        "value": "B.Sc. AI & Machine Learning",
+        "note": "Rathinam College"
+      },
+      {
+        "key": "works_with",
+        "value": "React · TypeScript · Python · PyTorch",
+        "note": "plus OpenCV for real-time vision"
+      },
+      {
+        "key": "building",
+        "value": "AI-powered full-stack web apps",
+        "note": "real-time ML in the browser loop"
+      },
+      {
+        "key": "talk_to_me",
+        "value": "front-end, computer vision, hackathons",
+        "note": "z.abdulmunaf@gmail.com"
+      },
+      {
+        "key": "speaks",
+        "value": "English · Tamil · Hindi · Urdu",
+        "note": "Urdu: spoken only"
+      }
+    ]
+  },
+  "hackathons": [
+    {
+      "result": "2ND",
+      "rank": 2,
+      "short": "New India Vibrant",
+      "event": "New India Vibrant Hackathon — Urban Governance",
+      "venue": "Surat Municipal Corporation",
+      "year": 2023
+    },
+    {
+      "result": "1ST",
+      "rank": 1,
+      "short": "HACKSTRONAUTS 24h",
+      "event": "HACKSTRONAUTS 24-hr Challenge — Exadata Club",
+      "venue": "SRM University, Chennai",
+      "year": 2025
+    },
+    {
+      "result": "1ST",
+      "rank": 1,
+      "short": "Mealzy Food Web",
+      "event": "Mealzy — Innovative Food Web Solutions",
+      "venue": "AIC Raise, Coimbatore",
+      "year": 2025
+    },
+    {
+      "result": "3RD",
+      "rank": 3,
+      "short": "Sign Language AI",
+      "event": "Indian Sign Language Detection System",
+      "venue": "Sri Krishna College of Engineering",
+      "year": 2026
+    },
+    {
+      "result": "TOP 8",
+      "rank": 4,
+      "short": "Bitathon SAS",
+      "event": "Bitathon — SAS Analytics Model Pitch",
+      "venue": "Goa Institute of Management",
+      "year": 2026
+    }
+  ],
+  "projects": [
+    {
+      "title": "Full-Stack Chat + Sentiment AI",
+      "short": "Chat + Sentiment AI",
+      "description": "Real-time chat with image sharing and live sentiment analysis, stored securely in MongoDB Atlas.",
+      "stack": [
+        "React",
+        "Node",
+        "MongoDB",
+        "NLP"
+      ],
+      "url": "https://full-stack-chatting-website.onrender.com"
+    },
+    {
+      "title": "GreenSight AI",
+      "short": "GreenSight AI",
+      "description": "Deep-learning pipeline that classifies off-road terrain into 10 environmental classes in real time.",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "PyTorch"
+      ],
+      "url": "https://github.com/ABDULMUNAFZ/Duality-AI-Offroad-Semantic-Segmentation-Challenge"
+    },
+    {
+      "title": "Indian Sign Language Recognition",
+      "short": "Sign Language AI",
+      "description": "Continuous sentence formation from signs with multi-language text-to-speech, built accessibility-first.",
+      "stack": [
+        "OpenCV",
+        "PyTorch",
+        "Python"
+      ],
+      "url": "https://github.com/ABDULMUNAFZ/Indian-Sign-Language-Recognition-System"
+    },
+    {
+      "title": "Bakery Brand Website",
+      "short": "Bakery Website",
+      "description": "Freelance: a custom, pixel-perfect marketing site for a bakery brand.",
+      "stack": [
+        "React",
+        "CSS",
+        "Webflow"
+      ]
+    },
+    {
+      "title": "Counseling & Healing Services",
+      "short": "Healing Services",
+      "description": "Freelance: a calm, accessible landing page for a therapy practice.",
+      "stack": [
+        "React",
+        "Node",
+        "Flask"
+      ]
+    }
+  ],
+  "stack": [
+    {
+      "name": "Front-end",
+      "items": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Three.js",
+        "HTML5",
+        "CSS3",
+        "Webflow"
+      ]
+    },
+    {
+      "name": "Back-end & cloud",
+      "items": [
+        "Python",
+        "Node.js",
+        "Flask",
+        "MongoDB",
+        "Netlify",
+        "Hostinger"
+      ]
+    },
+    {
+      "name": "AI / ML",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "OpenCV",
+        "YOLOv8",
+        "Twilio"
+      ]
+    },
+    {
+      "name": "Tools",
+      "items": [
+        "Git",
+        "Bitbucket",
+        "PyCharm",
+        "WordPress",
+        "LaTeX",
+        "Adobe CC"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "issuer": "Google",
+      "mark": "G",
+      "area": "Professional"
+    },
+    {
+      "issuer": "Oracle",
+      "mark": "OC",
+      "area": "Cloud"
+    },
+    {
+      "issuer": "Git",
+      "mark": "GIT",
+      "area": "Version control"
+    },
+    {
+      "issuer": "OPSWAT",
+      "mark": "OP",
+      "area": "Cybersecurity"
+    },
+    {
+      "issuer": "RapidMiner",
+      "mark": "RM",
+      "area": "Data science"
+    },
+    {
+      "issuer": "Forage",
+      "mark": "FG",
+      "area": "Job simulation"
+    },
+    {
+      "issuer": "Great Learning",
+      "mark": "GL",
+      "area": "Upskilling"
+    }
+  ]
+}

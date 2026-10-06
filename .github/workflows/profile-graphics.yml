@@ -11,6 +11,7 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
+      - "data/**"
       - ".github/workflows/profile-graphics.yml"
 
 env:
@@ -33,6 +34,14 @@ jobs:
         run: node scripts/iso-calendar.mjs ${{ github.repository_owner }} dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate language and numbers card
+        run: node scripts/github-stats.mjs ${{ github.repository_owner }} dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate section cards
+        run: node scripts/cards.mjs dist
 
       - name: Generate snake
         uses: Platane/snk/svg-only@v3

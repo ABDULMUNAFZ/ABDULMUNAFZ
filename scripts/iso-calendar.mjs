@@ -1,33 +1,7 @@
 // Renders the contribution calendar as an isometric 3D SVG (dark + light).
 // Usage: GITHUB_TOKEN=... node scripts/iso-calendar.mjs <login> <outDir>
 //        node scripts/iso-calendar.mjs --sample <outDir>   (offline preview)
-import { mkdir, writeFile } from "node:fs/promises";
-import { join } from "node:path";
-
-const THEMES = {
-  dark: {
-    bg: "#0B0D10",
-    panel: "#13161B",
-    line: "#23272E",
-    text: "#ECE7DD",
-    muted: "#8B8F98",
-    accent: "#FF7A3D",
-    empty: "#1A1D23",
-    emptyEdge: "#121418",
-    levels: ["#5A2A14", "#9A4421", "#E0662E", "#FFA066"],
-  },
-  light: {
-    bg: "#F6F3EE",
-    panel: "#FFFFFF",
-    line: "#E2DDD3",
-    text: "#1A1C20",
-    muted: "#6B6F78",
-    accent: "#D9551F",
-    empty: "#E7E2D9",
-    emptyEdge: "#D6D0C5",
-    levels: ["#F6C9A8", "#F09A62", "#DC6428", "#A9431A"],
-  },
-};
+import { THEMES, frame, graphql, hoverRules, iso, writeVariants } from "./lib/svg.mjs";
 
 const LEVEL_INDEX = {
   FIRST_QUARTILE: 0,
@@ -37,18 +11,9 @@ const LEVEL_INDEX = {
 };
 
 async function fetchCalendar(login) {
-  const token = process.env.GITHUB_TOKEN;
-  if (!token) throw new Error("GITHUB_TOKEN is required");
   const query = `query($login:String!){user(login:$login){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount contributionLevel}}}}}}`;
-  const res = await fetch("https://api.github.com/graphql", {
-    method: "POST",
-    headers: { Authorization: `bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ query, variables: { login } }),
-  });
-  if (!res.ok) throw new Error(`GraphQL HTTP ${res.status}: ${await res.text()}`);
-  const json = await res.json();
-  if (json.errors) throw new Error(JSON.stringify(json.errors));
-  const cal = json.data.user.contributionsCollection.contributionCalendar;
+  const data = await graphql({ query, variables: { login } });
+  const cal = data.user.contributionsCollection.contributionCalendar;
   return cal.weeks.map((w) =>
     w.contributionDays.map((d) => ({
       date: d.date,
@@ -110,14 +75,6 @@ function computeStats(weeks) {
   };
 }
 
-function shade(hex, factor) {
-  const n = parseInt(hex.slice(1), 16);
-  const ch = [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((c) =>
-    Math.max(0, Math.min(255, Math.round(c * factor))),
-  );
-  return `#${ch.map((c) => c.toString(16).padStart(2, "0")).join("")}`;
-}
-
 const fmtDate = (iso) =>
   new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", {
     day: "numeric",
@@ -140,13 +97,8 @@ function render({ weeks, stats, theme, login, fullPage = false }) {
   const W = 880;
   const H = 440;
   const size = 11;
-  const cx = size * Math.cos(Math.PI / 6);
-  const cy = size * Math.sin(Math.PI / 6);
   const maxBar = 64;
-  const ox = 40 + 7 * cx;
-  const oy = 30 + maxBar;
-  const pt = (i, j, h = 0) => [ox + (i - j) * cx, oy + (i + j) * cy - h];
-  const poly = (pts) => pts.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(" ");
+  const { pt, poly, box } = iso({ ox: 40 + 7 * size * Math.cos(Math.PI / 6), oy: 30 + maxBar, size });
   const maxCount = Math.max(1, ...weeks.flat().map((d) => d.count));
   const heightOf = (count) => (count === 0 ? 0 : 3 + Math.pow(count / maxCount, 0.55) * (maxBar - 3));
 
@@ -165,9 +117,7 @@ function render({ weeks, stats, theme, login, fullPage = false }) {
   // Cells stay flat siblings of #tips so `#dN:hover ~ #tips #tN` can reveal each day's details.
   const shapes = [];
   const tips = [];
-  const rules = [];
   for (const [n, c] of cells.entries()) {
-    rules.push(`#d${n}:hover~#tips #t${n}`);
     const plural = c.count === 1 ? "contribution" : "contributions";
     tips.push(
       `<g id="t${n}" class="tip"><text x="${tipX}" y="${tipY + 30}" class="val">${c.count}<tspan class="sub" dx="10">${plural}</tspan></text>` +
@@ -183,16 +133,9 @@ function render({ weeks, stats, theme, login, fullPage = false }) {
       );
       continue;
     }
-    const base = t.levels[Math.max(0, c.level)];
-    const top = poly([pt(i0, j0, h), pt(i1, j0, h), pt(i1, j1, h), pt(i0, j1, h)]);
-    const left = poly([pt(i0, j1, h), pt(i1, j1, h), pt(i1, j1), pt(i0, j1)]);
-    const right = poly([pt(i1, j0, h), pt(i1, j1, h), pt(i1, j1), pt(i1, j0)]);
     const delay = (c.i * 0.025 + c.j * 0.01).toFixed(3);
     shapes.push(
-      `<g id="d${n}" class="c b" style="animation-delay:${delay}s">` +
-        `<polygon points="${left}" fill="${shade(base, 0.72)}"/>` +
-        `<polygon points="${right}" fill="${shade(base, 0.52)}"/>` +
-        `<polygon points="${top}" fill="${shade(base, 1.08)}"/></g>`,
+      `<g id="d${n}" class="c b" style="animation-delay:${delay}s">${box({ i0, j0, i1, j1, h1: h, color: t.levels[Math.max(0, c.level)] })}</g>`,
     );
   }
 
@@ -204,27 +147,14 @@ function render({ weeks, stats, theme, login, fullPage = false }) {
     .map((c, k) => `<rect x="${92 + k * 16}" y="${H - 34}" width="11" height="11" rx="2" fill="${c}"/>`)
     .join("");
 
-  // Without fixed dimensions the SVG scales to fill the browser window when opened directly.
-  const dims = fullPage ? "" : ` width="${W}" height="${H}"`;
-  const pad = fullPage ? 24 : 0;
-  return `<svg xmlns="http://www.w3.org/2000/svg"${dims} viewBox="${-pad} ${-pad} ${W + 2 * pad} ${H + 2 * pad}" role="img" aria-label="${login}: ${stats.total} contributions in the last year">
-<style>
-${fullPage ? `  :root{background:${t.bg}}\n` : ""}  .b{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
+  const css = `  .b{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
   @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-  .lbl{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.12em;fill:${t.muted}}
-  .val{font:700 26px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:${t.text}}
-  .sub{font:500 13px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:${t.muted}}
-  .ttl{font:700 15px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:${t.text}}
-  .cap{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:${t.muted}}
   .c:hover{filter:brightness(1.35)}
   .e:hover{fill:${t.accent};stroke:${t.accent}}
   .tip{opacity:0}
   .c:hover~#tips #hint{opacity:0}
-  ${rules.join(",")}{opacity:1}
-  @media (prefers-reduced-motion:reduce){.b{animation:none}}
-</style>
-<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.bg}" stroke="${t.line}"/>
-${shapes.join("\n")}
+  ${hoverRules({ triggers: ["d"], panel: "tips", target: "t", count: cells.length })}`;
+  const body = `${shapes.join("\n")}
 <g id="tips"><text x="${tipX}" y="${tipY}" class="lbl">DAY DETAILS</text>
 <text id="hint" x="${tipX}" y="${tipY + 30}" class="sub">Hover any block</text>
 ${tips.join("\n")}</g>
@@ -238,24 +168,19 @@ ${stat(188, "PEAK DAY", stats.peak.count, stats.peak.date ? `on ${fmtDate(stats.
 <text x="${sx + 92}" y="262" class="lbl" style="fill:${t.text}">${stats.average.toFixed(2)}</text>
 <text x="40" y="${H - 54}" class="ttl">@${login}</text>
 <text x="40" y="${H - 25}" class="cap">less</text>${legend}<text x="${92 + 4 * 16 + 4}" y="${H - 25}" class="cap">more</text>
-<text x="${W - 24}" y="${H - 25}" class="cap" text-anchor="end">${fmtDate(stats.from)} → ${fmtDate(stats.to)}</text>
-</svg>
-`;
+<text x="${W - 24}" y="${H - 25}" class="cap" text-anchor="end">${fmtDate(stats.from)} → ${fmtDate(stats.to)}</text>`;
+  return frame({ W, H, theme, fullPage, aria: `${login}: ${stats.total} contributions in the last year`, css, body });
 }
 
 const args = process.argv.slice(2);
 const sample = args[0] === "--sample";
 const login = sample ? "ABDULMUNAFZ" : args[0];
-const outDir = (sample ? args[1] : args[1]) ?? "dist";
+const outDir = args[1] ?? "dist";
 if (!login) {
   console.error("usage: node scripts/iso-calendar.mjs <login> [outDir]");
   process.exit(1);
 }
 const weeks = sample ? sampleCalendar() : await fetchCalendar(login);
 const stats = computeStats(weeks);
-await mkdir(outDir, { recursive: true });
-for (const theme of Object.keys(THEMES)) {
-  await writeFile(join(outDir, `calendar-3d-${theme}.svg`), render({ weeks, stats, theme, login }));
-}
-await writeFile(join(outDir, "calendar-3d-full.svg"), render({ weeks, stats, theme: "dark", login, fullPage: true }));
+await writeVariants({ outDir, name: "calendar-3d", render: ({ theme, fullPage }) => render({ weeks, stats, theme, login, fullPage }) });
 console.log(`wrote calendar-3d-{dark,light,full}.svg to ${outDir}`, stats);
