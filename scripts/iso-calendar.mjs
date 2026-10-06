@@ -126,6 +126,15 @@ const fmtDate = (iso) =>
     timeZone: "UTC",
   });
 
+const fmtDay = (iso) =>
+  new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+
 function render({ weeks, stats, theme, login }) {
   const t = THEMES[theme];
   const W = 880;
@@ -141,6 +150,8 @@ function render({ weeks, stats, theme, login }) {
   const maxCount = Math.max(1, ...weeks.flat().map((d) => d.count));
   const heightOf = (count) => (count === 0 ? 0 : 3 + Math.pow(count / maxCount, 0.55) * (maxBar - 3));
 
+  const sx = 560;
+  const [tipX, tipY] = [40, 300];
   const cells = [];
   weeks.forEach((week, i) =>
     week.forEach((day, j) => {
@@ -151,16 +162,24 @@ function render({ weeks, stats, theme, login }) {
   cells.sort((a, b) => a.i + a.j - (b.i + b.j) || a.i - b.i);
 
   const g = 0.9; // inset so neighbouring tiles read as separate blocks
-  const tiles = [];
-  const bars = [];
-  for (const c of cells) {
+  // Cells stay flat siblings of #tips so `#dN:hover ~ #tips #tN` can reveal each day's details.
+  const shapes = [];
+  const tips = [];
+  const rules = [];
+  for (const [n, c] of cells.entries()) {
+    rules.push(`#d${n}:hover~#tips #t${n}`);
+    const plural = c.count === 1 ? "contribution" : "contributions";
+    tips.push(
+      `<g id="t${n}" class="tip"><text x="${tipX}" y="${tipY + 30}" class="val">${c.count}<tspan class="sub" dx="10">${plural}</tspan></text>` +
+        `<text x="${tipX}" y="${tipY + 50}" class="sub">${fmtDay(c.date)}</text></g>`,
+    );
     const i0 = c.i + (1 - g) / 2;
     const j0 = c.j + (1 - g) / 2;
     const [i1, j1] = [i0 + g, j0 + g];
     const h = heightOf(c.count);
     if (h === 0) {
-      tiles.push(
-        `<polygon points="${poly([pt(i0, j0), pt(i1, j0), pt(i1, j1), pt(i0, j1)])}" fill="${t.empty}" stroke="${t.emptyEdge}" stroke-width="0.6"/>`,
+      shapes.push(
+        `<polygon id="d${n}" class="c e" points="${poly([pt(i0, j0), pt(i1, j0), pt(i1, j1), pt(i0, j1)])}" fill="${t.empty}" stroke="${t.emptyEdge}" stroke-width="0.6"/>`,
       );
       continue;
     }
@@ -169,15 +188,14 @@ function render({ weeks, stats, theme, login }) {
     const left = poly([pt(i0, j1, h), pt(i1, j1, h), pt(i1, j1), pt(i0, j1)]);
     const right = poly([pt(i1, j0, h), pt(i1, j1, h), pt(i1, j1), pt(i1, j0)]);
     const delay = (c.i * 0.025 + c.j * 0.01).toFixed(3);
-    bars.push(
-      `<g class="b" style="animation-delay:${delay}s"><title>${c.count} on ${fmtDate(c.date)}</title>` +
+    shapes.push(
+      `<g id="d${n}" class="c b" style="animation-delay:${delay}s">` +
         `<polygon points="${left}" fill="${shade(base, 0.72)}"/>` +
         `<polygon points="${right}" fill="${shade(base, 0.52)}"/>` +
         `<polygon points="${top}" fill="${shade(base, 1.08)}"/></g>`,
     );
   }
 
-  const sx = 560;
   const stat = (y, label, value, sub) =>
     `<text x="${sx}" y="${y}" class="lbl">${label}</text>` +
     `<text x="${sx}" y="${y + 30}" class="val">${value}${sub ? `<tspan class="sub" dx="10">${sub}</tspan>` : ""}</text>`;
@@ -195,12 +213,19 @@ function render({ weeks, stats, theme, login }) {
   .sub{font:500 13px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:${t.muted}}
   .ttl{font:700 15px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:${t.text}}
   .cap{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:${t.muted}}
+  .c:hover{filter:brightness(1.35)}
+  .e:hover{fill:${t.accent};stroke:${t.accent}}
+  .tip{opacity:0}
+  .c:hover~#tips #hint{opacity:0}
+  ${rules.join(",")}{opacity:1}
   @media (prefers-reduced-motion:reduce){.b{animation:none}}
 </style>
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.bg}" stroke="${t.line}"/>
-<g>${tiles.join("")}</g>
-<g>${bars.join("")}</g>
-<line x1="${sx - 24}" y1="40" x2="${sx - 24}" y2="232" stroke="${t.line}"/>
+${shapes.join("\n")}
+<g id="tips"><text x="${tipX}" y="${tipY}" class="lbl">DAY DETAILS</text>
+<text id="hint" x="${tipX}" y="${tipY + 30}" class="sub">Hover any block</text>
+${tips.join("\n")}</g>
+<line x1="${sx - 24}" y1="40" x2="${sx - 24}" y2="270" stroke="${t.line}"/>
 <circle cx="${sx + 4}" cy="44" r="4" fill="${t.accent}"/>
 <text x="${sx + 16}" y="48" class="lbl" style="fill:${t.accent}">LAST 12 MONTHS</text>
 ${stat(72, "CONTRIBUTIONS", stats.total.toLocaleString("en-US"), `${stats.activeDays} active days`)}

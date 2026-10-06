@@ -1,9 +1,9 @@
-<a href="https://abdulmunaf.netlify.app/">
+<a href="https://www.abdulmunaf.in/">
   <img src="./assets/hero.svg" width="100%" alt="Abdul Munaf Z — front-end engineer building interfaces that see, think and speak" />
 </a>
 
 <p align="center">
-  <a href="https://abdulmunaf.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-abdulmunaf.netlify.app-1A1D23?style=flat-square&labelColor=FF7A3D" alt="Portfolio" /></a>
+  <a href="https://www.abdulmunaf.in/"><img src="https://img.shields.io/badge/Portfolio-abdulmunaf.in-1A1D23?style=flat-square&labelColor=FF7A3D" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/abdul-munaf-z-6380a8251"><img src="https://img.shields.io/badge/LinkedIn-Abdul_Munaf_Z-1A1D23?style=flat-square&labelColor=2B2F36" alt="LinkedIn" /></a>
   <a href="mailto:z.abdulmunaf@gmail.com"><img src="https://img.shields.io/badge/Email-z.abdulmunaf@gmail.com-1A1D23?style=flat-square&logo=gmail&logoColor=FF7A3D&labelColor=2B2F36" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=ABDULMUNAFZ&label=views&color=1A1D23&style=flat-square" alt="Profile views" />
@@ -12,11 +12,14 @@
 
 <br/>
 
+<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-light.svg" />
-  <img width="100%" alt="3D contribution calendar" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
+  <img width="100%" title="Click to explore each day" alt="3D contribution calendar" src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
 </picture>
+</a>
+<p align="center"><sub>Click the calendar, then hover any block for that day's contributions.</sub></p>
 
 <br/>
 
