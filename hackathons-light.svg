@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="460" viewBox="0 0 880 460" role="img" aria-label="2 hackathon wins, 5 podium finishes">
+<style>
+  .lbl{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.12em;fill:#6B6F78}
+  .val{font:700 26px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .sub{font:500 13px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#6B6F78}
+  .ttl{font:700 15px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .cap{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#6B6F78}
+  .txt{font:500 14px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .fade{transition:opacity .2s}
+
+  .rk{font:700 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#1A1C20;letter-spacing:.06em}
+  .p{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+  .lift{transition:transform .25s cubic-bezier(.2,.8,.2,1),filter .25s}
+  .p:hover .lift{transform:translateY(-14px);filter:brightness(1.2)}
+  .hl{fill:#FFFFFF;stroke:#E2DDD3;opacity:0;transition:opacity .15s}
+  .row:hover .hl{opacity:1}
+  #h0:hover~#r0 .hl,#h1:hover~#r1 .hl,#h2:hover~#r2 .hl,#h3:hover~#r3 .hl,#h4:hover~#r4 .hl{opacity:1}
+  .det{opacity:0;transition:opacity .15s}
+  .p:hover~#detail #dd,.row:hover~#detail #dd{opacity:0}
+  #h0:hover~#detail #d0,#r0:hover~#detail #d0,#h1:hover~#detail #d1,#r1:hover~#detail #d1,#h2:hover~#detail #d2,#r2:hover~#detail #d2,#h3:hover~#detail #d3,#r3:hover~#detail #d3,#h4:hover~#detail #d4,#r4:hover~#detail #d4{opacity:1}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="879" height="459" rx="16" fill="#F6F3EE" stroke="#E2DDD3"/>
+<circle cx="44" cy="44" r="4" fill="#D9551F"/><text x="56" y="48" class="lbl" style="fill:#D9551F">02 — HACKATHONS</text><text x="848" y="48" class="lbl" text-anchor="end">CLICK TO EXPLORE ↗</text>
+<polygon points="100.0,196.0 453.3,400.0 391.0,436.0 37.6,232.0" fill="#FFFFFF" stroke="#E2DDD3"/>
+<g id="h0" class="p" style="animation-delay:0.15s"><g class="lift"><polygon points="65.4,132.0 100.0,152.0 100.0,252.0 65.4,232.0" fill="#9e481d"/><polygon points="134.6,132.0 100.0,152.0 100.0,252.0 134.6,232.0" fill="#723415"/><polygon points="100.0,112.0 134.6,132.0 100.0,152.0 65.4,132.0" fill="#ee6c2b"/><g class="tag"><text x="100" y="82" text-anchor="middle" class="rk">2ND</text><text x="100" y="98" text-anchor="middle" class="cap">2023</text></g></g></g>
+<g id="h1" class="p" style="animation-delay:0.27s"><g class="lift"><polygon points="138.1,148.0 172.7,168.0 172.7,294.0 138.1,274.0" fill="#7a3013"/><polygon points="207.4,148.0 172.7,168.0 172.7,294.0 207.4,274.0" fill="#58230e"/><polygon points="172.7,128.0 207.4,148.0 172.7,168.0 138.1,148.0" fill="#b7481c"/><g class="tag"><text x="172.74613391789285" y="98" text-anchor="middle" class="rk">1ST</text><text x="172.74613391789285" y="114" text-anchor="middle" class="cap">2025</text></g></g></g>
+<g id="h2" class="p" style="animation-delay:0.39s"><g class="lift"><polygon points="210.9,190.0 245.5,210.0 245.5,336.0 210.9,316.0" fill="#7a3013"/><polygon points="280.1,190.0 245.5,210.0 245.5,336.0 280.1,316.0" fill="#58230e"/><polygon points="245.5,170.0 280.1,190.0 245.5,210.0 210.9,190.0" fill="#b7481c"/><g class="tag"><text x="245.49226783578573" y="140" text-anchor="middle" class="rk">1ST</text><text x="245.49226783578573" y="156" text-anchor="middle" class="cap">2025</text></g></g></g>
+<g id="h3" class="p" style="animation-delay:0.51s"><g class="lift"><polygon points="283.6,284.0 318.2,304.0 318.2,378.0 283.6,358.0" fill="#ad6f47"/><polygon points="352.9,284.0 318.2,304.0 318.2,378.0 352.9,358.0" fill="#7d5033"/><polygon points="318.2,264.0 352.9,284.0 318.2,304.0 283.6,284.0" fill="#ffa66a"/><g class="tag"><text x="318.23840175367854" y="234" text-anchor="middle" class="rk">3RD</text><text x="318.23840175367854" y="250" text-anchor="middle" class="cap">2026</text></g></g></g>
+<g id="h4" class="p" style="animation-delay:0.63s"><g class="lift"><polygon points="356.3,352.0 391.0,372.0 391.0,420.0 356.3,400.0" fill="#b19179"/><polygon points="425.6,352.0 391.0,372.0 391.0,420.0 425.6,400.0" fill="#806957"/><polygon points="391.0,332.0 425.6,352.0 391.0,372.0 356.3,352.0" fill="#ffd9b5"/><g class="tag"><text x="390.98453567157145" y="302" text-anchor="middle" class="rk">TOP 8</text><text x="390.98453567157145" y="318" text-anchor="middle" class="cap">2026</text></g></g></g>
+<line x1="460" y1="80" x2="460" y2="424" stroke="#E2DDD3"/>
+<g id="r0" class="row"><rect class="hl" x="470" y="84" width="378" height="50" rx="10"/><text x="484" y="106" class="rk" style="fill:#D9551F">2ND</text><text x="554" y="106" class="txt">New India Vibrant</text><text x="554" y="124" class="sub">Surat Municipal Corporation</text><text x="834" y="106" text-anchor="end" class="cap">2023</text></g>
+<g id="r1" class="row"><rect class="hl" x="470" y="140" width="378" height="50" rx="10"/><text x="484" y="162" class="rk" style="fill:#D9551F">1ST</text><text x="554" y="162" class="txt">HACKSTRONAUTS 24h</text><text x="554" y="180" class="sub">SRM University, Chennai</text><text x="834" y="162" text-anchor="end" class="cap">2025</text></g>
+<g id="r2" class="row"><rect class="hl" x="470" y="196" width="378" height="50" rx="10"/><text x="484" y="218" class="rk" style="fill:#D9551F">1ST</text><text x="554" y="218" class="txt">Mealzy Food Web</text><text x="554" y="236" class="sub">AIC Raise, Coimbatore</text><text x="834" y="218" text-anchor="end" class="cap">2025</text></g>
+<g id="r3" class="row"><rect class="hl" x="470" y="252" width="378" height="50" rx="10"/><text x="484" y="274" class="rk" style="fill:#D9551F">3RD</text><text x="554" y="274" class="txt">Sign Language AI</text><text x="554" y="292" class="sub">Sri Krishna College of Engineering</text><text x="834" y="274" text-anchor="end" class="cap">2026</text></g>
+<g id="r4" class="row"><rect class="hl" x="470" y="308" width="378" height="50" rx="10"/><text x="484" y="330" class="rk" style="fill:#D9551F">TOP 8</text><text x="554" y="330" class="txt">Bitathon SAS</text><text x="554" y="348" class="sub">Goa Institute of Management</text><text x="834" y="330" text-anchor="end" class="cap">2026</text></g>
+<g id="detail"><text x="484" y="386" class="lbl">FULL TITLE</text>
+<text id="dd" class="txt fade" x="484" y="408"><tspan style="fill:#D9551F;font-weight:700">2× winner</tspan> · 5 podium finishes</text>
+<text id="d0" class="det txt" x="484" y="408">New India Vibrant Hackathon — Urban Governance</text><text id="d1" class="det txt" x="484" y="408">HACKSTRONAUTS 24-hr Challenge — Exadata Club</text><text id="d2" class="det txt" x="484" y="408">Mealzy — Innovative Food Web Solutions</text><text id="d3" class="det txt" x="484" y="408">Indian Sign Language Detection System</text><text id="d4" class="det txt" x="484" y="408">Bitathon — SAS Analytics Model Pitch</text></g>
+</svg>

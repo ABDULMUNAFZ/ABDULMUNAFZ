@@ -1,0 +1,776 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" role="img" aria-label="ABDULMUNAFZ: 734 contributions in the last year">
+<style>
+  .lbl{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.12em;fill:#8B8F98}
+  .val{font:700 26px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ECE7DD}
+  .sub{font:500 13px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B8F98}
+  .ttl{font:700 15px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ECE7DD}
+  .cap{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#8B8F98}
+  .txt{font:500 14px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ECE7DD}
+  .fade{transition:opacity .2s}
+  .b{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .c:hover{filter:brightness(1.35)}
+  .e:hover{fill:#FF7A3D;stroke:#FF7A3D}
+  .tip{opacity:0}
+  .c:hover~#tips #hint{opacity:0}
+  #d0:hover~#tips #t0,#d1:hover~#tips #t1,#d2:hover~#tips #t2,#d3:hover~#tips #t3,#d4:hover~#tips #t4,#d5:hover~#tips #t5,#d6:hover~#tips #t6,#d7:hover~#tips #t7,#d8:hover~#tips #t8,#d9:hover~#tips #t9,#d10:hover~#tips #t10,#d11:hover~#tips #t11,#d12:hover~#tips #t12,#d13:hover~#tips #t13,#d14:hover~#tips #t14,#d15:hover~#tips #t15,#d16:hover~#tips #t16,#d17:hover~#tips #t17,#d18:hover~#tips #t18,#d19:hover~#tips #t19,#d20:hover~#tips #t20,#d21:hover~#tips #t21,#d22:hover~#tips #t22,#d23:hover~#tips #t23,#d24:hover~#tips #t24,#d25:hover~#tips #t25,#d26:hover~#tips #t26,#d27:hover~#tips #t27,#d28:hover~#tips #t28,#d29:hover~#tips #t29,#d30:hover~#tips #t30,#d31:hover~#tips #t31,#d32:hover~#tips #t32,#d33:hover~#tips #t33,#d34:hover~#tips #t34,#d35:hover~#tips #t35,#d36:hover~#tips #t36,#d37:hover~#tips #t37,#d38:hover~#tips #t38,#d39:hover~#tips #t39,#d40:hover~#tips #t40,#d41:hover~#tips #t41,#d42:hover~#tips #t42,#d43:hover~#tips #t43,#d44:hover~#tips #t44,#d45:hover~#tips #t45,#d46:hover~#tips #t46,#d47:hover~#tips #t47,#d48:hover~#tips #t48,#d49:hover~#tips #t49,#d50:hover~#tips #t50,#d51:hover~#tips #t51,#d52:hover~#tips #t52,#d53:hover~#tips #t53,#d54:hover~#tips #t54,#d55:hover~#tips #t55,#d56:hover~#tips #t56,#d57:hover~#tips #t57,#d58:hover~#tips #t58,#d59:hover~#tips #t59,#d60:hover~#tips #t60,#d61:hover~#tips #t61,#d62:hover~#tips #t62,#d63:hover~#tips #t63,#d64:hover~#tips #t64,#d65:hover~#tips #t65,#d66:hover~#tips #t66,#d67:hover~#tips #t67,#d68:hover~#tips #t68,#d69:hover~#tips #t69,#d70:hover~#tips #t70,#d71:hover~#tips #t71,#d72:hover~#tips #t72,#d73:hover~#tips #t73,#d74:hover~#tips #t74,#d75:hover~#tips #t75,#d76:hover~#tips #t76,#d77:hover~#tips #t77,#d78:hover~#tips #t78,#d79:hover~#tips #t79,#d80:hover~#tips #t80,#d81:hover~#tips #t81,#d82:hover~#tips #t82,#d83:hover~#tips #t83,#d84:hover~#tips #t84,#d85:hover~#tips #t85,#d86:hover~#tips #t86,#d87:hover~#tips #t87,#d88:hover~#tips #t88,#d89:hover~#tips #t89,#d90:hover~#tips #t90,#d91:hover~#tips #t91,#d92:hover~#tips #t92,#d93:hover~#tips #t93,#d94:hover~#tips #t94,#d95:hover~#tips #t95,#d96:hover~#tips #t96,#d97:hover~#tips #t97,#d98:hover~#tips #t98,#d99:hover~#tips #t99,#d100:hover~#tips #t100,#d101:hover~#tips #t101,#d102:hover~#tips #t102,#d103:hover~#tips #t103,#d104:hover~#tips #t104,#d105:hover~#tips #t105,#d106:hover~#tips #t106,#d107:hover~#tips #t107,#d108:hover~#tips #t108,#d109:hover~#tips #t109,#d110:hover~#tips #t110,#d111:hover~#tips #t111,#d112:hover~#tips #t112,#d113:hover~#tips #t113,#d114:hover~#tips #t114,#d115:hover~#tips #t115,#d116:hover~#tips #t116,#d117:hover~#tips #t117,#d118:hover~#tips #t118,#d119:hover~#tips #t119,#d120:hover~#tips #t120,#d121:hover~#tips #t121,#d122:hover~#tips #t122,#d123:hover~#tips #t123,#d124:hover~#tips #t124,#d125:hover~#tips #t125,#d126:hover~#tips #t126,#d127:hover~#tips #t127,#d128:hover~#tips #t128,#d129:hover~#tips #t129,#d130:hover~#tips #t130,#d131:hover~#tips #t131,#d132:hover~#tips #t132,#d133:hover~#tips #t133,#d134:hover~#tips #t134,#d135:hover~#tips #t135,#d136:hover~#tips #t136,#d137:hover~#tips #t137,#d138:hover~#tips #t138,#d139:hover~#tips #t139,#d140:hover~#tips #t140,#d141:hover~#tips #t141,#d142:hover~#tips #t142,#d143:hover~#tips #t143,#d144:hover~#tips #t144,#d145:hover~#tips #t145,#d146:hover~#tips #t146,#d147:hover~#tips #t147,#d148:hover~#tips #t148,#d149:hover~#tips #t149,#d150:hover~#tips #t150,#d151:hover~#tips #t151,#d152:hover~#tips #t152,#d153:hover~#tips #t153,#d154:hover~#tips #t154,#d155:hover~#tips #t155,#d156:hover~#tips #t156,#d157:hover~#tips #t157,#d158:hover~#tips #t158,#d159:hover~#tips #t159,#d160:hover~#tips #t160,#d161:hover~#tips #t161,#d162:hover~#tips #t162,#d163:hover~#tips #t163,#d164:hover~#tips #t164,#d165:hover~#tips #t165,#d166:hover~#tips #t166,#d167:hover~#tips #t167,#d168:hover~#tips #t168,#d169:hover~#tips #t169,#d170:hover~#tips #t170,#d171:hover~#tips #t171,#d172:hover~#tips #t172,#d173:hover~#tips #t173,#d174:hover~#tips #t174,#d175:hover~#tips #t175,#d176:hover~#tips #t176,#d177:hover~#tips #t177,#d178:hover~#tips #t178,#d179:hover~#tips #t179,#d180:hover~#tips #t180,#d181:hover~#tips #t181,#d182:hover~#tips #t182,#d183:hover~#tips #t183,#d184:hover~#tips #t184,#d185:hover~#tips #t185,#d186:hover~#tips #t186,#d187:hover~#tips #t187,#d188:hover~#tips #t188,#d189:hover~#tips #t189,#d190:hover~#tips #t190,#d191:hover~#tips #t191,#d192:hover~#tips #t192,#d193:hover~#tips #t193,#d194:hover~#tips #t194,#d195:hover~#tips #t195,#d196:hover~#tips #t196,#d197:hover~#tips #t197,#d198:hover~#tips #t198,#d199:hover~#tips #t199,#d200:hover~#tips #t200,#d201:hover~#tips #t201,#d202:hover~#tips #t202,#d203:hover~#tips #t203,#d204:hover~#tips #t204,#d205:hover~#tips #t205,#d206:hover~#tips #t206,#d207:hover~#tips #t207,#d208:hover~#tips #t208,#d209:hover~#tips #t209,#d210:hover~#tips #t210,#d211:hover~#tips #t211,#d212:hover~#tips #t212,#d213:hover~#tips #t213,#d214:hover~#tips #t214,#d215:hover~#tips #t215,#d216:hover~#tips #t216,#d217:hover~#tips #t217,#d218:hover~#tips #t218,#d219:hover~#tips #t219,#d220:hover~#tips #t220,#d221:hover~#tips #t221,#d222:hover~#tips #t222,#d223:hover~#tips #t223,#d224:hover~#tips #t224,#d225:hover~#tips #t225,#d226:hover~#tips #t226,#d227:hover~#tips #t227,#d228:hover~#tips #t228,#d229:hover~#tips #t229,#d230:hover~#tips #t230,#d231:hover~#tips #t231,#d232:hover~#tips #t232,#d233:hover~#tips #t233,#d234:hover~#tips #t234,#d235:hover~#tips #t235,#d236:hover~#tips #t236,#d237:hover~#tips #t237,#d238:hover~#tips #t238,#d239:hover~#tips #t239,#d240:hover~#tips #t240,#d241:hover~#tips #t241,#d242:hover~#tips #t242,#d243:hover~#tips #t243,#d244:hover~#tips #t244,#d245:hover~#tips #t245,#d246:hover~#tips #t246,#d247:hover~#tips #t247,#d248:hover~#tips #t248,#d249:hover~#tips #t249,#d250:hover~#tips #t250,#d251:hover~#tips #t251,#d252:hover~#tips #t252,#d253:hover~#tips #t253,#d254:hover~#tips #t254,#d255:hover~#tips #t255,#d256:hover~#tips #t256,#d257:hover~#tips #t257,#d258:hover~#tips #t258,#d259:hover~#tips #t259,#d260:hover~#tips #t260,#d261:hover~#tips #t261,#d262:hover~#tips #t262,#d263:hover~#tips #t263,#d264:hover~#tips #t264,#d265:hover~#tips #t265,#d266:hover~#tips #t266,#d267:hover~#tips #t267,#d268:hover~#tips #t268,#d269:hover~#tips #t269,#d270:hover~#tips #t270,#d271:hover~#tips #t271,#d272:hover~#tips #t272,#d273:hover~#tips #t273,#d274:hover~#tips #t274,#d275:hover~#tips #t275,#d276:hover~#tips #t276,#d277:hover~#tips #t277,#d278:hover~#tips #t278,#d279:hover~#tips #t279,#d280:hover~#tips #t280,#d281:hover~#tips #t281,#d282:hover~#tips #t282,#d283:hover~#tips #t283,#d284:hover~#tips #t284,#d285:hover~#tips #t285,#d286:hover~#tips #t286,#d287:hover~#tips #t287,#d288:hover~#tips #t288,#d289:hover~#tips #t289,#d290:hover~#tips #t290,#d291:hover~#tips #t291,#d292:hover~#tips #t292,#d293:hover~#tips #t293,#d294:hover~#tips #t294,#d295:hover~#tips #t295,#d296:hover~#tips #t296,#d297:hover~#tips #t297,#d298:hover~#tips #t298,#d299:hover~#tips #t299,#d300:hover~#tips #t300,#d301:hover~#tips #t301,#d302:hover~#tips #t302,#d303:hover~#tips #t303,#d304:hover~#tips #t304,#d305:hover~#tips #t305,#d306:hover~#tips #t306,#d307:hover~#tips #t307,#d308:hover~#tips #t308,#d309:hover~#tips #t309,#d310:hover~#tips #t310,#d311:hover~#tips #t311,#d312:hover~#tips #t312,#d313:hover~#tips #t313,#d314:hover~#tips #t314,#d315:hover~#tips #t315,#d316:hover~#tips #t316,#d317:hover~#tips #t317,#d318:hover~#tips #t318,#d319:hover~#tips #t319,#d320:hover~#tips #t320,#d321:hover~#tips #t321,#d322:hover~#tips #t322,#d323:hover~#tips #t323,#d324:hover~#tips #t324,#d325:hover~#tips #t325,#d326:hover~#tips #t326,#d327:hover~#tips #t327,#d328:hover~#tips #t328,#d329:hover~#tips #t329,#d330:hover~#tips #t330,#d331:hover~#tips #t331,#d332:hover~#tips #t332,#d333:hover~#tips #t333,#d334:hover~#tips #t334,#d335:hover~#tips #t335,#d336:hover~#tips #t336,#d337:hover~#tips #t337,#d338:hover~#tips #t338,#d339:hover~#tips #t339,#d340:hover~#tips #t340,#d341:hover~#tips #t341,#d342:hover~#tips #t342,#d343:hover~#tips #t343,#d344:hover~#tips #t344,#d345:hover~#tips #t345,#d346:hover~#tips #t346,#d347:hover~#tips #t347,#d348:hover~#tips #t348,#d349:hover~#tips #t349,#d350:hover~#tips #t350,#d351:hover~#tips #t351,#d352:hover~#tips #t352,#d353:hover~#tips #t353,#d354:hover~#tips #t354,#d355:hover~#tips #t355,#d356:hover~#tips #t356,#d357:hover~#tips #t357,#d358:hover~#tips #t358,#d359:hover~#tips #t359,#d360:hover~#tips #t360,#d361:hover~#tips #t361,#d362:hover~#tips #t362,#d363:hover~#tips #t363,#d364:hover~#tips #t364,#d365:hover~#tips #t365,#d366:hover~#tips #t366,#d367:hover~#tips #t367,#d368:hover~#tips #t368,#d369:hover~#tips #t369,#d370:hover~#tips #t370{opacity:1}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="879" height="439" rx="16" fill="#0B0D10" stroke="#23272E"/>
+
+<polygon id="d0" class="c e" points="106.7,94.5 115.3,99.5 106.7,104.5 98.1,99.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d1" class="c e" points="97.2,100.0 105.7,105.0 97.2,110.0 88.6,105.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d2" class="c e" points="116.2,100.0 124.8,105.0 116.2,110.0 107.6,105.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d3" class="c e" points="87.6,105.5 96.2,110.5 87.6,115.4 79.1,110.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d4" class="c e" points="106.7,105.5 115.3,110.5 106.7,115.5 98.1,110.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d5" class="c e" points="125.7,105.5 134.3,110.5 125.7,115.4 117.2,110.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d6" class="c e" points="78.1,111.0 86.7,116.0 78.1,120.9 69.5,116.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d7" class="c e" points="97.2,111.0 105.7,116.0 97.2,121.0 88.6,116.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d8" class="c e" points="116.2,111.0 124.8,116.0 116.2,121.0 107.6,116.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d9" class="c e" points="135.3,111.0 143.8,116.0 135.3,120.9 126.7,116.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d10" class="c e" points="68.6,116.5 77.2,121.5 68.6,126.4 60.0,121.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d11" class="c e" points="87.6,116.5 96.2,121.5 87.6,126.4 79.1,121.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d12" class="c e" points="106.7,116.5 115.3,121.5 106.7,126.4 98.1,121.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d13" class="c e" points="125.7,116.5 134.3,121.5 125.7,126.4 117.2,121.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d14" class="c e" points="144.8,116.5 153.4,121.5 144.8,126.4 136.2,121.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d15" class="c e" points="59.1,122.0 67.6,127.0 59.1,131.9 50.5,127.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d16" class="c e" points="78.1,122.0 86.7,127.0 78.1,131.9 69.5,127.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d17" class="c e" points="97.2,122.0 105.7,127.0 97.2,131.9 88.6,127.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d18" class="c e" points="116.2,122.0 124.8,127.0 116.2,131.9 107.6,127.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d19" class="c e" points="135.3,122.0 143.8,127.0 135.3,131.9 126.7,127.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d20" class="c e" points="154.3,122.0 162.9,127.0 154.3,131.9 145.7,127.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d21" class="c e" points="49.5,127.5 58.1,132.5 49.5,137.4 41.0,132.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d22" class="c e" points="68.6,127.5 77.2,132.5 68.6,137.4 60.0,132.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d23" class="c e" points="87.6,127.5 96.2,132.5 87.6,137.4 79.1,132.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d24" class="c e" points="106.7,127.5 115.3,132.5 106.7,137.4 98.1,132.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d25" class="c e" points="125.7,127.5 134.3,132.5 125.7,137.4 117.2,132.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d26" class="c e" points="144.8,127.5 153.4,132.5 144.8,137.4 136.2,132.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d27" class="c e" points="163.8,127.5 172.4,132.5 163.8,137.4 155.3,132.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d28" class="c e" points="59.1,133.0 67.6,138.0 59.1,142.9 50.5,138.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d29" class="c e" points="78.1,133.0 86.7,138.0 78.1,142.9 69.5,138.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d30" class="c e" points="97.2,133.0 105.7,138.0 97.2,142.9 88.6,138.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d31" class="c e" points="116.2,133.0 124.8,138.0 116.2,142.9 107.6,138.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d32" class="c e" points="135.3,133.0 143.8,138.0 135.3,142.9 126.7,138.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d33" class="c e" points="154.3,133.0 162.9,138.0 154.3,142.9 145.7,138.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d34" class="c e" points="173.4,133.0 181.9,138.0 173.4,142.9 164.8,138.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d35" class="c e" points="68.6,138.5 77.2,143.5 68.6,148.4 60.0,143.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d36" class="c e" points="87.6,138.5 96.2,143.5 87.6,148.4 79.1,143.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d37" class="c e" points="106.7,138.5 115.3,143.5 106.7,148.4 98.1,143.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d38" class="c b" style="animation-delay:0.155s"><polygon points="117.2,132.2 125.7,137.1 125.7,148.4 117.2,143.5" fill="#411e0e"/><polygon points="134.3,132.2 125.7,137.1 125.7,148.4 134.3,143.5" fill="#2f160a"/><polygon points="125.7,127.2 134.3,132.2 125.7,137.1 117.2,132.2" fill="#612d16"/></g>
+<polygon id="d39" class="c e" points="144.8,138.5 153.4,143.5 144.8,148.4 136.2,143.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d40" class="c e" points="163.8,138.5 172.4,143.5 163.8,148.4 155.3,143.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d41" class="c e" points="182.9,138.6 191.5,143.5 182.9,148.4 174.3,143.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d42" class="c e" points="78.1,144.0 86.7,149.0 78.1,153.9 69.5,149.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d43" class="c e" points="97.2,144.0 105.7,149.0 97.2,153.9 88.6,149.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d44" class="c e" points="116.2,144.0 124.8,149.0 116.2,153.9 107.6,149.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d45" class="c e" points="135.3,144.0 143.8,149.0 135.3,153.9 126.7,149.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d46" class="c e" points="154.3,144.0 162.9,149.0 154.3,153.9 145.7,149.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d47" class="c e" points="173.4,144.1 181.9,149.0 173.4,153.9 164.8,149.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d48" class="c b" style="animation-delay:0.225s"><polygon points="183.8,135.6 192.4,140.6 192.4,153.9 183.8,149.0" fill="#411e0e"/><polygon points="201.0,135.6 192.4,140.6 192.4,153.9 201.0,149.0" fill="#2f160a"/><polygon points="192.4,130.7 201.0,135.6 192.4,140.6 183.8,135.6" fill="#612d16"/></g>
+<polygon id="d49" class="c e" points="87.6,149.5 96.2,154.5 87.6,159.4 79.1,154.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d50" class="c e" points="106.7,149.5 115.3,154.5 106.7,159.4 98.1,154.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d51" class="c e" points="125.7,149.5 134.3,154.5 125.7,159.4 117.2,154.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d52" class="c e" points="144.8,149.5 153.4,154.5 144.8,159.4 136.2,154.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d53" class="c b" style="animation-delay:0.220s"><polygon points="155.3,145.8 163.8,150.8 163.8,159.4 155.3,154.5" fill="#411e0e"/><polygon points="172.4,145.8 163.8,150.8 163.8,159.4 172.4,154.5" fill="#2f160a"/><polygon points="163.8,140.9 172.4,145.8 163.8,150.8 155.3,145.8" fill="#612d16"/></g>
+<polygon id="d54" class="c e" points="182.9,149.6 191.5,154.5 182.9,159.4 174.3,154.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d55" class="c e" points="201.9,149.6 210.5,154.5 201.9,159.4 193.4,154.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d56" class="c e" points="97.2,155.0 105.7,160.0 97.2,164.9 88.6,160.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d57" class="c e" points="116.2,155.0 124.8,160.0 116.2,164.9 107.6,160.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d58" class="c e" points="135.3,155.0 143.8,160.0 135.3,164.9 126.7,160.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d59" class="c b" style="animation-delay:0.230s"><polygon points="145.7,151.3 154.3,156.3 154.3,164.9 145.7,160.0" fill="#411e0e"/><polygon points="162.9,151.3 154.3,156.3 154.3,164.9 162.9,160.0" fill="#2f160a"/><polygon points="154.3,146.4 162.9,151.3 154.3,156.3 145.7,151.3" fill="#612d16"/></g>
+<polygon id="d60" class="c e" points="173.4,155.1 181.9,160.0 173.4,164.9 164.8,160.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d61" class="c e" points="192.4,155.1 201.0,160.0 192.4,164.9 183.8,160.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d62" class="c e" points="211.5,155.1 220.0,160.0 211.5,164.9 202.9,160.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d63" class="c e" points="106.7,160.5 115.3,165.5 106.7,170.4 98.1,165.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d64" class="c e" points="125.7,160.5 134.3,165.5 125.7,170.4 117.2,165.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d65" class="c e" points="144.8,160.6 153.4,165.5 144.8,170.4 136.2,165.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d66" class="c e" points="163.8,160.6 172.4,165.5 163.8,170.4 155.3,165.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d67" class="c e" points="182.9,160.6 191.5,165.5 182.9,170.4 174.3,165.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d68" class="c b" style="animation-delay:0.285s"><polygon points="193.4,145.9 201.9,150.9 201.9,170.4 193.4,165.5" fill="#411e0e"/><polygon points="210.5,145.9 201.9,150.9 201.9,170.4 210.5,165.5" fill="#2f160a"/><polygon points="201.9,141.0 210.5,145.9 201.9,150.9 193.4,145.9" fill="#612d16"/></g>
+<polygon id="d69" class="c e" points="221.0,160.6 229.6,165.5 221.0,170.4 212.4,165.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d70" class="c e" points="116.2,166.0 124.8,171.0 116.2,175.9 107.6,171.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d71" class="c b" style="animation-delay:0.250s"><polygon points="126.7,162.3 135.3,167.3 135.3,175.9 126.7,171.0" fill="#411e0e"/><polygon points="143.8,162.3 135.3,167.3 135.3,175.9 143.8,171.0" fill="#2f160a"/><polygon points="135.3,157.4 143.8,162.3 135.3,167.3 126.7,162.3" fill="#612d16"/></g>
+<polygon id="d72" class="c e" points="154.3,166.1 162.9,171.0 154.3,175.9 145.7,171.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d73" class="c e" points="173.4,166.1 181.9,171.0 173.4,175.9 164.8,171.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d74" class="c b" style="animation-delay:0.295s"><polygon points="183.8,162.3 192.4,167.3 192.4,175.9 183.8,171.0" fill="#411e0e"/><polygon points="201.0,162.3 192.4,167.3 192.4,175.9 201.0,171.0" fill="#2f160a"/><polygon points="192.4,157.4 201.0,162.3 192.4,167.3 183.8,162.3" fill="#612d16"/></g>
+<polygon id="d75" class="c e" points="211.5,166.1 220.0,171.0 211.5,175.9 202.9,171.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d76" class="c b" style="animation-delay:0.325s"><polygon points="222.0,155.8 230.5,160.8 230.5,175.9 222.0,171.0" fill="#411e0e"/><polygon points="239.1,155.8 230.5,160.8 230.5,175.9 239.1,171.0" fill="#2f160a"/><polygon points="230.5,150.9 239.1,155.8 230.5,160.8 222.0,155.8" fill="#612d16"/></g>
+<g id="d77" class="c b" style="animation-delay:0.260s"><polygon points="117.2,153.4 125.7,158.3 125.7,181.4 117.2,176.5" fill="#411e0e"/><polygon points="134.3,153.4 125.7,158.3 125.7,181.4 134.3,176.5" fill="#2f160a"/><polygon points="125.7,148.4 134.3,153.4 125.7,158.3 117.2,153.4" fill="#612d16"/></g>
+<polygon id="d78" class="c e" points="144.8,171.6 153.4,176.5 144.8,181.4 136.2,176.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d79" class="c e" points="163.8,171.6 172.4,176.5 163.8,181.4 155.3,176.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d80" class="c b" style="animation-delay:0.305s"><polygon points="174.3,167.8 182.9,172.8 182.9,181.4 174.3,176.5" fill="#411e0e"/><polygon points="191.5,167.8 182.9,172.8 182.9,181.4 191.5,176.5" fill="#2f160a"/><polygon points="182.9,162.9 191.5,167.8 182.9,172.8 174.3,167.8" fill="#612d16"/></g>
+<polygon id="d81" class="c e" points="201.9,171.6 210.5,176.5 201.9,181.4 193.4,176.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d82" class="c e" points="221.0,171.6 229.6,176.5 221.0,181.4 212.4,176.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d83" class="c e" points="240.1,171.6 248.6,176.5 240.1,181.4 231.5,176.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d84" class="c e" points="135.3,177.1 143.8,182.0 135.3,186.9 126.7,182.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d85" class="c e" points="154.3,177.1 162.9,182.0 154.3,186.9 145.7,182.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d86" class="c e" points="173.4,177.1 181.9,182.0 173.4,186.9 164.8,182.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d87" class="c e" points="192.4,177.1 201.0,182.0 192.4,186.9 183.8,182.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d88" class="c e" points="211.5,177.1 220.0,182.0 211.5,186.9 202.9,182.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d89" class="c e" points="230.5,177.1 239.1,182.0 230.5,186.9 222.0,182.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d90" class="c e" points="249.6,177.1 258.2,182.0 249.6,186.9 241.0,182.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d91" class="c e" points="144.8,182.6 153.4,187.5 144.8,192.4 136.2,187.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d92" class="c e" points="163.8,182.6 172.4,187.5 163.8,192.4 155.3,187.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d93" class="c b" style="animation-delay:0.340s"><polygon points="174.3,178.8 182.9,183.8 182.9,192.4 174.3,187.5" fill="#411e0e"/><polygon points="191.5,178.8 182.9,183.8 182.9,192.4 191.5,187.5" fill="#2f160a"/><polygon points="182.9,173.9 191.5,178.8 182.9,183.8 174.3,178.8" fill="#612d16"/></g>
+<polygon id="d94" class="c e" points="201.9,182.6 210.5,187.5 201.9,192.4 193.4,187.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d95" class="c b" style="animation-delay:0.370s"><polygon points="212.4,176.2 221.0,181.1 221.0,192.4 212.4,187.5" fill="#411e0e"/><polygon points="229.6,176.2 221.0,181.1 221.0,192.4 229.6,187.5" fill="#2f160a"/><polygon points="221.0,171.2 229.6,176.2 221.0,181.1 212.4,176.2" fill="#612d16"/></g>
+<polygon id="d96" class="c e" points="240.1,182.6 248.6,187.5 240.1,192.4 231.5,187.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d97" class="c e" points="259.1,182.6 267.7,187.5 259.1,192.4 250.5,187.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d98" class="c e" points="154.3,188.1 162.9,193.0 154.3,197.9 145.7,193.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d99" class="c e" points="173.4,188.1 181.9,193.0 173.4,197.9 164.8,193.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d100" class="c b" style="animation-delay:0.365s"><polygon points="183.8,184.3 192.4,189.3 192.4,197.9 183.8,193.0" fill="#411e0e"/><polygon points="201.0,184.3 192.4,189.3 192.4,197.9 201.0,193.0" fill="#2f160a"/><polygon points="192.4,179.4 201.0,184.3 192.4,189.3 183.8,184.3" fill="#612d16"/></g>
+<polygon id="d101" class="c e" points="211.5,188.1 220.0,193.0 211.5,197.9 202.9,193.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d102" class="c e" points="230.5,188.1 239.1,193.0 230.5,197.9 222.0,193.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d103" class="c e" points="249.6,188.1 258.2,193.0 249.6,197.9 241.0,193.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d104" class="c e" points="268.6,188.1 277.2,193.0 268.6,197.9 260.1,193.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d105" class="c e" points="163.8,193.6 172.4,198.5 163.8,203.4 155.3,198.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d106" class="c e" points="182.9,193.6 191.5,198.5 182.9,203.4 174.3,198.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d107" class="c e" points="201.9,193.6 210.5,198.5 201.9,203.4 193.4,198.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d108" class="c e" points="221.0,193.6 229.6,198.5 221.0,203.4 212.4,198.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d109" class="c e" points="240.1,193.6 248.6,198.5 240.1,203.4 231.5,198.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d110" class="c b" style="animation-delay:0.435s"><polygon points="250.5,189.8 259.1,194.8 259.1,203.4 250.5,198.5" fill="#411e0e"/><polygon points="267.7,189.8 259.1,194.8 259.1,203.4 267.7,198.5" fill="#2f160a"/><polygon points="259.1,184.9 267.7,189.8 259.1,194.8 250.5,189.8" fill="#612d16"/></g>
+<g id="d111" class="c b" style="animation-delay:0.450s"><polygon points="269.6,178.9 278.2,183.9 278.2,203.4 269.6,198.5" fill="#411e0e"/><polygon points="286.7,178.9 278.2,183.9 278.2,203.4 286.7,198.5" fill="#2f160a"/><polygon points="278.2,174.0 286.7,178.9 278.2,183.9 269.6,178.9" fill="#612d16"/></g>
+<polygon id="d112" class="c e" points="173.4,199.1 181.9,204.0 173.4,208.9 164.8,204.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d113" class="c e" points="192.4,199.1 201.0,204.0 192.4,208.9 183.8,204.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d114" class="c e" points="211.5,199.1 220.0,204.0 211.5,208.9 202.9,204.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d115" class="c e" points="230.5,199.1 239.1,204.0 230.5,208.9 222.0,204.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d116" class="c e" points="249.6,199.1 258.2,204.0 249.6,208.9 241.0,204.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d117" class="c e" points="268.6,199.1 277.2,204.0 268.6,208.9 260.1,204.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d118" class="c e" points="287.7,199.1 296.3,204.0 287.7,208.9 279.1,204.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d119" class="c e" points="182.9,204.5 191.5,209.5 182.9,214.4 174.3,209.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d120" class="c e" points="201.9,204.5 210.5,209.5 201.9,214.4 193.4,209.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d121" class="c e" points="221.0,204.5 229.6,209.5 221.0,214.4 212.4,209.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d122" class="c e" points="240.1,204.5 248.6,209.5 240.1,214.4 231.5,209.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d123" class="c b" style="animation-delay:0.470s"><polygon points="250.5,198.2 259.1,203.1 259.1,214.4 250.5,209.5" fill="#411e0e"/><polygon points="267.7,198.2 259.1,203.1 259.1,214.4 267.7,209.5" fill="#2f160a"/><polygon points="259.1,193.2 267.7,198.2 259.1,203.1 250.5,198.2" fill="#612d16"/></g>
+<polygon id="d124" class="c e" points="278.2,204.5 286.7,209.5 278.2,214.4 269.6,209.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d125" class="c b" style="animation-delay:0.500s"><polygon points="288.6,200.8 297.2,205.8 297.2,214.4 288.6,209.5" fill="#411e0e"/><polygon points="305.8,200.8 297.2,205.8 297.2,214.4 305.8,209.5" fill="#2f160a"/><polygon points="297.2,195.9 305.8,200.8 297.2,205.8 288.6,200.8" fill="#612d16"/></g>
+<polygon id="d126" class="c e" points="192.4,210.0 201.0,215.0 192.4,219.9 183.8,215.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d127" class="c e" points="211.5,210.0 220.0,215.0 211.5,219.9 202.9,215.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d128" class="c e" points="230.5,210.0 239.1,215.0 230.5,219.9 222.0,215.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d129" class="c b" style="animation-delay:0.480s"><polygon points="241.0,173.8 249.6,178.8 249.6,219.9 241.0,215.0" fill="#a14921"/><polygon points="258.2,173.8 249.6,178.8 249.6,219.9 258.2,215.0" fill="#743518"/><polygon points="249.6,168.9 258.2,173.8 249.6,178.8 241.0,173.8" fill="#f26e32"/></g>
+<polygon id="d130" class="c e" points="268.6,210.0 277.2,215.0 268.6,219.9 260.1,215.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d131" class="c e" points="287.7,210.0 296.3,215.0 287.7,219.9 279.1,215.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d132" class="c b" style="animation-delay:0.525s"><polygon points="298.2,199.8 306.7,204.8 306.7,219.9 298.2,215.0" fill="#411e0e"/><polygon points="315.3,199.8 306.7,204.8 306.7,219.9 315.3,215.0" fill="#2f160a"/><polygon points="306.7,194.9 315.3,199.8 306.7,204.8 298.2,199.8" fill="#612d16"/></g>
+<polygon id="d133" class="c e" points="201.9,215.5 210.5,220.5 201.9,225.4 193.4,220.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d134" class="c e" points="221.0,215.5 229.6,220.5 221.0,225.4 212.4,220.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d135" class="c e" points="240.1,215.5 248.6,220.5 240.1,225.4 231.5,220.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d136" class="c e" points="259.1,215.5 267.7,220.5 259.1,225.4 250.5,220.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d137" class="c e" points="278.2,215.5 286.7,220.5 278.2,225.4 269.6,220.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d138" class="c e" points="297.2,215.5 305.8,220.5 297.2,225.4 288.6,220.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d139" class="c b" style="animation-delay:0.550s"><polygon points="307.7,205.3 316.3,210.3 316.3,225.4 307.7,220.5" fill="#411e0e"/><polygon points="324.8,205.3 316.3,210.3 316.3,225.4 324.8,220.5" fill="#2f160a"/><polygon points="316.3,200.4 324.8,205.3 316.3,210.3 307.7,205.3" fill="#612d16"/></g>
+<g id="d140" class="c b" style="animation-delay:0.485s"><polygon points="202.9,217.3 211.5,222.3 211.5,230.9 202.9,226.0" fill="#411e0e"/><polygon points="220.0,217.3 211.5,222.3 211.5,230.9 220.0,226.0" fill="#2f160a"/><polygon points="211.5,212.4 220.0,217.3 211.5,222.3 202.9,217.3" fill="#612d16"/></g>
+<polygon id="d141" class="c e" points="230.5,221.0 239.1,226.0 230.5,230.9 222.0,226.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d142" class="c e" points="249.6,221.0 258.2,226.0 249.6,230.9 241.0,226.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d143" class="c e" points="268.6,221.0 277.2,226.0 268.6,230.9 260.1,226.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d144" class="c b" style="animation-delay:0.545s"><polygon points="279.1,210.8 287.7,215.8 287.7,230.9 279.1,226.0" fill="#411e0e"/><polygon points="296.3,210.8 287.7,215.8 287.7,230.9 296.3,226.0" fill="#2f160a"/><polygon points="287.7,205.9 296.3,210.8 287.7,215.8 279.1,210.8" fill="#612d16"/></g>
+<g id="d145" class="c b" style="animation-delay:0.560s"><polygon points="298.2,207.8 306.7,212.7 306.7,230.9 298.2,226.0" fill="#411e0e"/><polygon points="315.3,207.8 306.7,212.7 306.7,230.9 315.3,226.0" fill="#2f160a"/><polygon points="306.7,202.8 315.3,207.8 306.7,212.7 298.2,207.8" fill="#612d16"/></g>
+<polygon id="d146" class="c e" points="325.8,221.0 334.4,226.0 325.8,230.9 317.2,226.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d147" class="c e" points="221.0,226.5 229.6,231.5 221.0,236.4 212.4,231.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d148" class="c e" points="240.1,226.5 248.6,231.5 240.1,236.4 231.5,231.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d149" class="c e" points="259.1,226.5 267.7,231.5 259.1,236.4 250.5,231.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d150" class="c e" points="278.2,226.5 286.7,231.5 278.2,236.4 269.6,231.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d151" class="c e" points="297.2,226.5 305.8,231.5 297.2,236.4 288.6,231.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d152" class="c e" points="316.3,226.5 324.8,231.5 316.3,236.4 307.7,231.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d153" class="c e" points="335.3,226.5 343.9,231.5 335.3,236.4 326.7,231.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d154" class="c e" points="230.5,232.0 239.1,237.0 230.5,241.9 222.0,237.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d155" class="c b" style="animation-delay:0.550s"><polygon points="241.0,225.7 249.6,230.6 249.6,241.9 241.0,237.0" fill="#411e0e"/><polygon points="258.2,225.7 249.6,230.6 249.6,241.9 258.2,237.0" fill="#2f160a"/><polygon points="249.6,220.7 258.2,225.7 249.6,230.6 241.0,225.7" fill="#612d16"/></g>
+<polygon id="d156" class="c e" points="268.6,232.0 277.2,237.0 268.6,241.9 260.1,237.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d157" class="c e" points="287.7,232.0 296.3,237.0 287.7,241.9 279.1,237.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d158" class="c e" points="306.7,232.0 315.3,237.0 306.7,241.9 298.2,237.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d159" class="c e" points="325.8,232.0 334.4,237.0 325.8,241.9 317.2,237.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d160" class="c e" points="344.8,232.0 353.4,237.0 344.8,241.9 336.3,237.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d161" class="c e" points="240.1,237.5 248.6,242.5 240.1,247.4 231.5,242.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d162" class="c e" points="259.1,237.5 267.7,242.5 259.1,247.4 250.5,242.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d163" class="c e" points="278.2,237.5 286.7,242.5 278.2,247.4 269.6,242.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d164" class="c e" points="297.2,237.5 305.8,242.5 297.2,247.4 288.6,242.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d165" class="c e" points="316.3,237.5 324.8,242.5 316.3,247.4 307.7,242.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d166" class="c e" points="335.3,237.5 343.9,242.5 335.3,247.4 326.7,242.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d167" class="c e" points="354.4,237.5 362.9,242.5 354.4,247.4 345.8,242.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d168" class="c e" points="249.6,243.0 258.2,248.0 249.6,252.9 241.0,248.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d169" class="c e" points="268.6,243.0 277.2,248.0 268.6,252.9 260.1,248.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d170" class="c b" style="animation-delay:0.615s"><polygon points="279.1,231.2 287.7,236.2 287.7,252.9 279.1,248.0" fill="#411e0e"/><polygon points="296.3,231.2 287.7,236.2 287.7,252.9 296.3,248.0" fill="#2f160a"/><polygon points="287.7,226.3 296.3,231.2 287.7,236.2 279.1,231.2" fill="#612d16"/></g>
+<polygon id="d171" class="c e" points="306.7,243.0 315.3,248.0 306.7,252.9 298.2,248.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d172" class="c e" points="325.8,243.0 334.4,248.0 325.8,252.9 317.2,248.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d173" class="c e" points="344.8,243.0 353.4,248.0 344.8,252.9 336.3,248.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d174" class="c e" points="363.9,243.0 372.5,248.0 363.9,252.9 355.3,248.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d175" class="c e" points="259.1,248.5 267.7,253.5 259.1,258.4 250.5,253.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d176" class="c b" style="animation-delay:0.625s"><polygon points="269.6,244.8 278.2,249.8 278.2,258.4 269.6,253.5" fill="#411e0e"/><polygon points="286.7,244.8 278.2,249.8 278.2,258.4 286.7,253.5" fill="#2f160a"/><polygon points="278.2,239.9 286.7,244.8 278.2,249.8 269.6,244.8" fill="#612d16"/></g>
+<polygon id="d177" class="c e" points="297.2,248.5 305.8,253.5 297.2,258.4 288.6,253.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d178" class="c e" points="316.3,248.5 324.8,253.5 316.3,258.4 307.7,253.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d179" class="c e" points="335.3,248.5 343.9,253.5 335.3,258.4 326.7,253.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d180" class="c e" points="354.4,248.5 362.9,253.5 354.4,258.4 345.8,253.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d181" class="c e" points="373.4,248.5 382.0,253.5 373.4,258.4 364.8,253.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d182" class="c e" points="268.6,254.0 277.2,259.0 268.6,263.9 260.1,259.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d183" class="c b" style="animation-delay:0.650s"><polygon points="279.1,242.2 287.7,247.2 287.7,263.9 279.1,259.0" fill="#411e0e"/><polygon points="296.3,242.2 287.7,247.2 287.7,263.9 296.3,259.0" fill="#2f160a"/><polygon points="287.7,237.3 296.3,242.2 287.7,247.2 279.1,242.2" fill="#612d16"/></g>
+<g id="d184" class="c b" style="animation-delay:0.665s"><polygon points="298.2,221.2 306.7,226.2 306.7,263.9 298.2,259.0" fill="#a14921"/><polygon points="315.3,221.2 306.7,226.2 306.7,263.9 315.3,259.0" fill="#743518"/><polygon points="306.7,216.3 315.3,221.2 306.7,226.2 298.2,221.2" fill="#f26e32"/></g>
+<g id="d185" class="c b" style="animation-delay:0.680s"><polygon points="317.2,250.3 325.8,255.3 325.8,263.9 317.2,259.0" fill="#411e0e"/><polygon points="334.4,250.3 325.8,255.3 325.8,263.9 334.4,259.0" fill="#2f160a"/><polygon points="325.8,245.4 334.4,250.3 325.8,255.3 317.2,250.3" fill="#612d16"/></g>
+<polygon id="d186" class="c e" points="344.8,254.0 353.4,259.0 344.8,263.9 336.3,259.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d187" class="c e" points="363.9,254.0 372.5,259.0 363.9,263.9 355.3,259.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d188" class="c b" style="animation-delay:0.725s"><polygon points="374.4,250.3 382.9,255.3 382.9,263.9 374.4,259.0" fill="#411e0e"/><polygon points="391.5,250.3 382.9,255.3 382.9,263.9 391.5,259.0" fill="#2f160a"/><polygon points="382.9,245.4 391.5,250.3 382.9,255.3 374.4,250.3" fill="#612d16"/></g>
+<polygon id="d189" class="c e" points="278.2,259.5 286.7,264.5 278.2,269.4 269.6,264.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d190" class="c b" style="animation-delay:0.675s"><polygon points="288.6,251.1 297.2,256.1 297.2,269.4 288.6,264.5" fill="#411e0e"/><polygon points="305.8,251.1 297.2,256.1 297.2,269.4 305.8,264.5" fill="#2f160a"/><polygon points="297.2,246.2 305.8,251.1 297.2,256.1 288.6,251.1" fill="#612d16"/></g>
+<g id="d191" class="c b" style="animation-delay:0.690s"><polygon points="307.7,241.4 316.3,246.3 316.3,269.4 307.7,264.5" fill="#411e0e"/><polygon points="324.8,241.4 316.3,246.3 316.3,269.4 324.8,264.5" fill="#2f160a"/><polygon points="316.3,236.4 324.8,241.4 316.3,246.3 307.7,241.4" fill="#612d16"/></g>
+<g id="d192" class="c b" style="animation-delay:0.705s"><polygon points="326.7,229.7 335.3,234.6 335.3,269.4 326.7,264.5" fill="#6f3118"/><polygon points="343.9,229.7 335.3,234.6 335.3,269.4 343.9,264.5" fill="#502311"/><polygon points="335.3,224.7 343.9,229.7 335.3,234.6 326.7,229.7" fill="#a64924"/></g>
+<g id="d193" class="c b" style="animation-delay:0.720s"><polygon points="345.8,231.2 354.4,236.2 354.4,269.4 345.8,264.5" fill="#6f3118"/><polygon points="362.9,231.2 354.4,236.2 354.4,269.4 362.9,264.5" fill="#502311"/><polygon points="354.4,226.3 362.9,231.2 354.4,236.2 345.8,231.2" fill="#a64924"/></g>
+<g id="d194" class="c b" style="animation-delay:0.735s"><polygon points="364.8,246.3 373.4,251.2 373.4,269.4 364.8,264.5" fill="#411e0e"/><polygon points="382.0,246.3 373.4,251.2 373.4,269.4 382.0,264.5" fill="#2f160a"/><polygon points="373.4,241.3 382.0,246.3 373.4,251.2 364.8,246.3" fill="#612d16"/></g>
+<polygon id="d195" class="c e" points="392.5,259.5 401.0,264.5 392.5,269.4 383.9,264.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d196" class="c e" points="287.7,265.0 296.3,270.0 287.7,274.9 279.1,270.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d197" class="c e" points="306.7,265.0 315.3,270.0 306.7,274.9 298.2,270.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d198" class="c e" points="325.8,265.0 334.4,270.0 325.8,274.9 317.2,270.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d199" class="c b" style="animation-delay:0.730s"><polygon points="336.3,249.2 344.8,254.1 344.8,274.9 336.3,270.0" fill="#411e0e"/><polygon points="353.4,249.2 344.8,254.1 344.8,274.9 353.4,270.0" fill="#2f160a"/><polygon points="344.8,244.2 353.4,249.2 344.8,254.1 336.3,249.2" fill="#612d16"/></g>
+<polygon id="d200" class="c e" points="363.9,265.0 372.5,270.0 363.9,274.9 355.3,270.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d201" class="c e" points="382.9,265.0 391.5,270.0 382.9,274.9 374.4,270.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d202" class="c e" points="402.0,265.0 410.6,270.0 402.0,274.9 393.4,270.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d203" class="c e" points="297.2,270.5 305.8,275.5 297.2,280.4 288.6,275.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d204" class="c b" style="animation-delay:0.725s"><polygon points="307.7,239.9 316.3,244.9 316.3,280.4 307.7,275.5" fill="#6f3118"/><polygon points="324.8,239.9 316.3,244.9 316.3,280.4 324.8,275.5" fill="#502311"/><polygon points="316.3,235.0 324.8,239.9 316.3,244.9 307.7,239.9" fill="#a64924"/></g>
+<g id="d205" class="c b" style="animation-delay:0.740s"><polygon points="326.7,257.3 335.3,262.2 335.3,280.4 326.7,275.5" fill="#411e0e"/><polygon points="343.9,257.3 335.3,262.2 335.3,280.4 343.9,275.5" fill="#2f160a"/><polygon points="335.3,252.3 343.9,257.3 335.3,262.2 326.7,257.3" fill="#612d16"/></g>
+<polygon id="d206" class="c e" points="354.4,270.5 362.9,275.5 354.4,280.4 345.8,275.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d207" class="c e" points="373.4,270.5 382.0,275.5 373.4,280.4 364.8,275.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d208" class="c e" points="392.5,270.5 401.0,275.5 392.5,280.4 383.9,275.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d209" class="c e" points="411.5,270.5 420.1,275.5 411.5,280.4 403.0,275.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d210" class="c e" points="306.7,276.0 315.3,281.0 306.7,285.9 298.2,281.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d211" class="c b" style="animation-delay:0.750s"><polygon points="317.2,259.0 325.8,263.9 325.8,285.9 317.2,281.0" fill="#411e0e"/><polygon points="334.4,259.0 325.8,263.9 325.8,285.9 334.4,281.0" fill="#2f160a"/><polygon points="325.8,254.0 334.4,259.0 325.8,263.9 317.2,259.0" fill="#612d16"/></g>
+<g id="d212" class="c b" style="animation-delay:0.765s"><polygon points="336.3,272.3 344.8,277.3 344.8,285.9 336.3,281.0" fill="#411e0e"/><polygon points="353.4,272.3 344.8,277.3 344.8,285.9 353.4,281.0" fill="#2f160a"/><polygon points="344.8,267.4 353.4,272.3 344.8,277.3 336.3,272.3" fill="#612d16"/></g>
+<g id="d213" class="c b" style="animation-delay:0.780s"><polygon points="355.3,254.7 363.9,259.7 363.9,285.9 355.3,281.0" fill="#6f3118"/><polygon points="372.5,254.7 363.9,259.7 363.9,285.9 372.5,281.0" fill="#502311"/><polygon points="363.9,249.8 372.5,254.7 363.9,259.7 355.3,254.7" fill="#a64924"/></g>
+<polygon id="d214" class="c e" points="382.9,276.0 391.5,281.0 382.9,285.9 374.4,281.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d215" class="c e" points="402.0,276.0 410.6,281.0 402.0,285.9 393.4,281.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d216" class="c e" points="421.1,276.0 429.6,281.0 421.1,285.9 412.5,281.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d217" class="c b" style="animation-delay:0.760s"><polygon points="307.7,266.9 316.3,271.9 316.3,291.4 307.7,286.5" fill="#411e0e"/><polygon points="324.8,266.9 316.3,271.9 316.3,291.4 324.8,286.5" fill="#2f160a"/><polygon points="316.3,262.0 324.8,266.9 316.3,271.9 307.7,266.9" fill="#612d16"/></g>
+<polygon id="d218" class="c e" points="335.3,281.5 343.9,286.5 335.3,291.4 326.7,286.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d219" class="c e" points="354.4,281.5 362.9,286.5 354.4,291.4 345.8,286.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d220" class="c e" points="373.4,281.5 382.0,286.5 373.4,291.4 364.8,286.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d221" class="c e" points="392.5,281.5 401.0,286.5 392.5,291.4 383.9,286.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d222" class="c e" points="411.5,281.5 420.1,286.5 411.5,291.4 403.0,286.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d223" class="c e" points="430.6,281.5 439.2,286.5 430.6,291.4 422.0,286.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d224" class="c e" points="325.8,287.0 334.4,292.0 325.8,296.9 317.2,292.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d225" class="c e" points="344.8,287.0 353.4,292.0 344.8,296.9 336.3,292.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d226" class="c e" points="363.9,287.0 372.5,292.0 363.9,296.9 355.3,292.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d227" class="c e" points="382.9,287.0 391.5,292.0 382.9,296.9 374.4,292.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d228" class="c e" points="402.0,287.0 410.6,292.0 402.0,296.9 393.4,292.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d229" class="c b" style="animation-delay:0.860s"><polygon points="412.5,266.7 421.1,271.7 421.1,296.9 412.5,292.0" fill="#411e0e"/><polygon points="429.6,266.7 421.1,271.7 421.1,296.9 429.6,292.0" fill="#2f160a"/><polygon points="421.1,261.8 429.6,266.7 421.1,271.7 412.5,266.7" fill="#612d16"/></g>
+<polygon id="d230" class="c e" points="440.1,287.0 448.7,292.0 440.1,296.9 431.5,292.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d231" class="c e" points="335.3,292.5 343.9,297.5 335.3,302.4 326.7,297.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d232" class="c e" points="354.4,292.5 362.9,297.5 354.4,302.4 345.8,297.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d233" class="c e" points="373.4,292.5 382.0,297.5 373.4,302.4 364.8,297.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d234" class="c e" points="392.5,292.5 401.0,297.5 392.5,302.4 383.9,297.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d235" class="c e" points="411.5,292.5 420.1,297.5 411.5,302.4 403.0,297.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d236" class="c b" style="animation-delay:0.885s"><polygon points="422.0,288.8 430.6,293.8 430.6,302.4 422.0,297.5" fill="#411e0e"/><polygon points="439.2,288.8 430.6,293.8 430.6,302.4 439.2,297.5" fill="#2f160a"/><polygon points="430.6,283.9 439.2,288.8 430.6,293.8 422.0,288.8" fill="#612d16"/></g>
+<polygon id="d237" class="c e" points="449.6,292.5 458.2,297.5 449.6,302.4 441.1,297.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d238" class="c e" points="344.8,298.0 353.4,303.0 344.8,307.9 336.3,303.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d239" class="c e" points="363.9,298.0 372.5,303.0 363.9,307.9 355.3,303.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d240" class="c e" points="382.9,298.0 391.5,303.0 382.9,307.9 374.4,303.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d241" class="c b" style="animation-delay:0.880s"><polygon points="393.4,275.8 402.0,280.7 402.0,307.9 393.4,303.0" fill="#6f3118"/><polygon points="410.6,275.8 402.0,280.7 402.0,307.9 410.6,303.0" fill="#502311"/><polygon points="402.0,270.8 410.6,275.8 402.0,280.7 393.4,275.8" fill="#a64924"/></g>
+<g id="d242" class="c b" style="animation-delay:0.895s"><polygon points="412.5,294.3 421.1,299.3 421.1,307.9 412.5,303.0" fill="#411e0e"/><polygon points="429.6,294.3 421.1,299.3 421.1,307.9 429.6,303.0" fill="#2f160a"/><polygon points="421.1,289.4 429.6,294.3 421.1,299.3 412.5,294.3" fill="#612d16"/></g>
+<g id="d243" class="c b" style="animation-delay:0.910s"><polygon points="431.5,239.0 440.1,243.9 440.1,307.9 431.5,303.0" fill="#b87349"/><polygon points="448.7,239.0 440.1,243.9 440.1,307.9 448.7,303.0" fill="#855335"/><polygon points="440.1,234.0 448.7,239.0 440.1,243.9 431.5,239.0" fill="#ffad6e"/></g>
+<polygon id="d244" class="c e" points="459.2,298.0 467.7,303.0 459.2,307.9 450.6,303.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d245" class="c e" points="354.4,303.5 362.9,308.5 354.4,313.4 345.8,308.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d246" class="c e" points="373.4,303.5 382.0,308.5 373.4,313.4 364.8,308.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d247" class="c b" style="animation-delay:0.890s"><polygon points="383.9,280.3 392.5,285.3 392.5,313.4 383.9,308.5" fill="#6f3118"/><polygon points="401.0,280.3 392.5,285.3 392.5,313.4 401.0,308.5" fill="#502311"/><polygon points="392.5,275.4 401.0,280.3 392.5,285.3 383.9,280.3" fill="#a64924"/></g>
+<g id="d248" class="c b" style="animation-delay:0.905s"><polygon points="403.0,297.2 411.5,302.1 411.5,313.4 403.0,308.5" fill="#411e0e"/><polygon points="420.1,297.2 411.5,302.1 411.5,313.4 420.1,308.5" fill="#2f160a"/><polygon points="411.5,292.2 420.1,297.2 411.5,302.1 403.0,297.2" fill="#612d16"/></g>
+<polygon id="d249" class="c e" points="430.6,303.5 439.2,308.5 430.6,313.4 422.0,308.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d250" class="c e" points="449.6,303.5 458.2,308.5 449.6,313.4 441.1,308.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d251" class="c e" points="468.7,303.5 477.3,308.5 468.7,313.4 460.1,308.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d252" class="c e" points="363.9,309.0 372.5,314.0 363.9,318.9 355.3,314.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d253" class="c b" style="animation-delay:0.900s"><polygon points="374.4,298.8 382.9,303.8 382.9,318.9 374.4,314.0" fill="#411e0e"/><polygon points="391.5,298.8 382.9,303.8 382.9,318.9 391.5,314.0" fill="#2f160a"/><polygon points="382.9,293.9 391.5,298.8 382.9,303.8 374.4,298.8" fill="#612d16"/></g>
+<g id="d254" class="c b" style="animation-delay:0.915s"><polygon points="393.4,305.3 402.0,310.3 402.0,318.9 393.4,314.0" fill="#411e0e"/><polygon points="410.6,305.3 402.0,310.3 402.0,318.9 410.6,314.0" fill="#2f160a"/><polygon points="402.0,300.4 410.6,305.3 402.0,310.3 393.4,305.3" fill="#612d16"/></g>
+<g id="d255" class="c b" style="animation-delay:0.930s"><polygon points="412.5,305.3 421.1,310.3 421.1,318.9 412.5,314.0" fill="#411e0e"/><polygon points="429.6,305.3 421.1,310.3 421.1,318.9 429.6,314.0" fill="#2f160a"/><polygon points="421.1,300.4 429.6,305.3 421.1,310.3 412.5,305.3" fill="#612d16"/></g>
+<g id="d256" class="c b" style="animation-delay:0.945s"><polygon points="431.5,305.3 440.1,310.3 440.1,318.9 431.5,314.0" fill="#411e0e"/><polygon points="448.7,305.3 440.1,310.3 440.1,318.9 448.7,314.0" fill="#2f160a"/><polygon points="440.1,300.4 448.7,305.3 440.1,310.3 431.5,305.3" fill="#612d16"/></g>
+<polygon id="d257" class="c e" points="459.2,309.0 467.7,314.0 459.2,318.9 450.6,314.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d258" class="c e" points="478.2,309.0 486.8,314.0 478.2,318.9 469.6,314.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d259" class="c b" style="animation-delay:0.910s"><polygon points="364.8,296.4 373.4,301.3 373.4,324.4 364.8,319.5" fill="#411e0e"/><polygon points="382.0,296.4 373.4,301.3 373.4,324.4 382.0,319.5" fill="#2f160a"/><polygon points="373.4,291.4 382.0,296.4 373.4,301.3 364.8,296.4" fill="#612d16"/></g>
+<g id="d260" class="c b" style="animation-delay:0.925s"><polygon points="383.9,304.3 392.5,309.3 392.5,324.4 383.9,319.5" fill="#411e0e"/><polygon points="401.0,304.3 392.5,309.3 392.5,324.4 401.0,319.5" fill="#2f160a"/><polygon points="392.5,299.4 401.0,304.3 392.5,309.3 383.9,304.3" fill="#612d16"/></g>
+<g id="d261" class="c b" style="animation-delay:0.940s"><polygon points="403.0,298.7 411.5,303.6 411.5,324.4 403.0,319.5" fill="#411e0e"/><polygon points="420.1,298.7 411.5,303.6 411.5,324.4 420.1,319.5" fill="#2f160a"/><polygon points="411.5,293.7 420.1,298.7 411.5,303.6 403.0,298.7" fill="#612d16"/></g>
+<g id="d262" class="c b" style="animation-delay:0.955s"><polygon points="422.0,301.3 430.6,306.2 430.6,324.4 422.0,319.5" fill="#411e0e"/><polygon points="439.2,301.3 430.6,306.2 430.6,324.4 439.2,319.5" fill="#2f160a"/><polygon points="430.6,296.3 439.2,301.3 430.6,306.2 422.0,301.3" fill="#612d16"/></g>
+<polygon id="d263" class="c e" points="449.6,314.5 458.2,319.5 449.6,324.4 441.1,319.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d264" class="c e" points="468.7,314.5 477.3,319.5 468.7,324.4 460.1,319.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d265" class="c e" points="487.7,314.5 496.3,319.5 487.7,324.4 479.2,319.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d266" class="c b" style="animation-delay:0.935s"><polygon points="374.4,311.6 382.9,316.6 382.9,329.9 374.4,325.0" fill="#411e0e"/><polygon points="391.5,311.6 382.9,316.6 382.9,329.9 391.5,325.0" fill="#2f160a"/><polygon points="382.9,306.7 391.5,311.6 382.9,316.6 374.4,311.6" fill="#612d16"/></g>
+<g id="d267" class="c b" style="animation-delay:0.950s"><polygon points="393.4,308.2 402.0,313.2 402.0,329.9 393.4,325.0" fill="#411e0e"/><polygon points="410.6,308.2 402.0,313.2 402.0,329.9 410.6,325.0" fill="#2f160a"/><polygon points="402.0,303.3 410.6,308.2 402.0,313.2 393.4,308.2" fill="#612d16"/></g>
+<g id="d268" class="c b" style="animation-delay:0.965s"><polygon points="412.5,313.7 421.1,318.6 421.1,329.9 412.5,325.0" fill="#411e0e"/><polygon points="429.6,313.7 421.1,318.6 421.1,329.9 429.6,325.0" fill="#2f160a"/><polygon points="421.1,308.7 429.6,313.7 421.1,318.6 412.5,313.7" fill="#612d16"/></g>
+<polygon id="d269" class="c e" points="440.1,320.0 448.7,325.0 440.1,329.9 431.5,325.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d270" class="c b" style="animation-delay:0.995s"><polygon points="450.6,311.6 459.2,316.6 459.2,329.9 450.6,325.0" fill="#411e0e"/><polygon points="467.7,311.6 459.2,316.6 459.2,329.9 467.7,325.0" fill="#2f160a"/><polygon points="459.2,306.7 467.7,311.6 459.2,316.6 450.6,311.6" fill="#612d16"/></g>
+<polygon id="d271" class="c e" points="478.2,320.0 486.8,325.0 478.2,329.9 469.6,325.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d272" class="c e" points="497.3,320.0 505.8,325.0 497.3,329.9 488.7,325.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d273" class="c b" style="animation-delay:0.960s"><polygon points="383.9,315.3 392.5,320.3 392.5,335.4 383.9,330.5" fill="#411e0e"/><polygon points="401.0,315.3 392.5,320.3 392.5,335.4 401.0,330.5" fill="#2f160a"/><polygon points="392.5,310.4 401.0,315.3 392.5,320.3 383.9,315.3" fill="#612d16"/></g>
+<polygon id="d274" class="c e" points="411.5,325.5 420.1,330.5 411.5,335.4 403.0,330.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d275" class="c e" points="430.6,325.5 439.2,330.5 430.6,335.4 422.0,330.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d276" class="c e" points="449.6,325.5 458.2,330.5 449.6,335.4 441.1,330.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d277" class="c b" style="animation-delay:1.020s"><polygon points="460.1,315.3 468.7,320.3 468.7,335.4 460.1,330.5" fill="#411e0e"/><polygon points="477.3,315.3 468.7,320.3 468.7,335.4 477.3,330.5" fill="#2f160a"/><polygon points="468.7,310.4 477.3,315.3 468.7,320.3 460.1,315.3" fill="#612d16"/></g>
+<g id="d278" class="c b" style="animation-delay:1.035s"><polygon points="479.2,321.8 487.7,326.8 487.7,335.4 479.2,330.5" fill="#411e0e"/><polygon points="496.3,321.8 487.7,326.8 487.7,335.4 496.3,330.5" fill="#2f160a"/><polygon points="487.7,316.9 496.3,321.8 487.7,326.8 479.2,321.8" fill="#612d16"/></g>
+<polygon id="d279" class="c e" points="506.8,325.5 515.4,330.5 506.8,335.4 498.2,330.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d280" class="c e" points="402.0,331.0 410.6,336.0 402.0,340.9 393.4,336.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d281" class="c e" points="421.1,331.0 429.6,336.0 421.1,340.9 412.5,336.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d282" class="c e" points="440.1,331.0 448.7,336.0 440.1,340.9 431.5,336.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d283" class="c e" points="459.2,331.0 467.7,336.0 459.2,340.9 450.6,336.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d284" class="c b" style="animation-delay:1.045s"><polygon points="469.6,317.8 478.2,322.7 478.2,340.9 469.6,336.0" fill="#411e0e"/><polygon points="486.8,317.8 478.2,322.7 478.2,340.9 486.8,336.0" fill="#2f160a"/><polygon points="478.2,312.8 486.8,317.8 478.2,322.7 469.6,317.8" fill="#612d16"/></g>
+<g id="d285" class="c b" style="animation-delay:1.060s"><polygon points="488.7,327.3 497.3,332.3 497.3,340.9 488.7,336.0" fill="#411e0e"/><polygon points="505.8,327.3 497.3,332.3 497.3,340.9 505.8,336.0" fill="#2f160a"/><polygon points="497.3,322.4 505.8,327.3 497.3,332.3 488.7,327.3" fill="#612d16"/></g>
+<polygon id="d286" class="c e" points="516.3,331.0 524.9,336.0 516.3,340.9 507.7,336.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d287" class="c e" points="411.5,336.5 420.1,341.5 411.5,346.4 403.0,341.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d288" class="c b" style="animation-delay:1.025s"><polygon points="422.0,311.5 430.6,316.5 430.6,346.4 422.0,341.5" fill="#6f3118"/><polygon points="439.2,311.5 430.6,316.5 430.6,346.4 439.2,341.5" fill="#502311"/><polygon points="430.6,306.6 439.2,311.5 430.6,316.5 422.0,311.5" fill="#a64924"/></g>
+<g id="d289" class="c b" style="animation-delay:1.040s"><polygon points="441.1,332.8 449.6,337.8 449.6,346.4 441.1,341.5" fill="#411e0e"/><polygon points="458.2,332.8 449.6,337.8 449.6,346.4 458.2,341.5" fill="#2f160a"/><polygon points="449.6,327.9 458.2,332.8 449.6,337.8 441.1,332.8" fill="#612d16"/></g>
+<polygon id="d290" class="c e" points="468.7,336.5 477.3,341.5 468.7,346.4 460.1,341.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d291" class="c e" points="487.7,336.5 496.3,341.5 487.7,346.4 479.2,341.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d292" class="c e" points="506.8,336.5 515.4,341.5 506.8,346.4 498.2,341.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d293" class="c e" points="525.8,336.5 534.4,341.5 525.8,346.4 517.3,341.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d294" class="c b" style="animation-delay:1.035s"><polygon points="412.5,327.4 421.1,332.4 421.1,351.9 412.5,347.0" fill="#411e0e"/><polygon points="429.6,327.4 421.1,332.4 421.1,351.9 429.6,347.0" fill="#2f160a"/><polygon points="421.1,322.5 429.6,327.4 421.1,332.4 412.5,327.4" fill="#612d16"/></g>
+<polygon id="d295" class="c e" points="440.1,342.0 448.7,347.0 440.1,351.9 431.5,347.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d296" class="c e" points="459.2,342.0 467.7,347.0 459.2,351.9 450.6,347.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d297" class="c b" style="animation-delay:1.080s"><polygon points="469.6,338.3 478.2,343.3 478.2,351.9 469.6,347.0" fill="#411e0e"/><polygon points="486.8,338.3 478.2,343.3 478.2,351.9 486.8,347.0" fill="#2f160a"/><polygon points="478.2,333.4 486.8,338.3 478.2,343.3 469.6,338.3" fill="#612d16"/></g>
+<g id="d298" class="c b" style="animation-delay:1.095s"><polygon points="488.7,307.1 497.3,312.1 497.3,351.9 488.7,347.0" fill="#a14921"/><polygon points="505.8,307.1 497.3,312.1 497.3,351.9 505.8,347.0" fill="#743518"/><polygon points="497.3,302.2 505.8,307.1 497.3,312.1 488.7,307.1" fill="#f26e32"/></g>
+<g id="d299" class="c b" style="animation-delay:1.110s"><polygon points="507.7,333.6 516.3,338.6 516.3,351.9 507.7,347.0" fill="#411e0e"/><polygon points="524.9,333.6 516.3,338.6 516.3,351.9 524.9,347.0" fill="#2f160a"/><polygon points="516.3,328.7 524.9,333.6 516.3,338.6 507.7,333.6" fill="#612d16"/></g>
+<g id="d300" class="c b" style="animation-delay:1.125s"><polygon points="526.8,335.7 535.4,340.6 535.4,351.9 526.8,347.0" fill="#411e0e"/><polygon points="543.9,335.7 535.4,340.6 535.4,351.9 543.9,347.0" fill="#2f160a"/><polygon points="535.4,330.7 543.9,335.7 535.4,340.6 526.8,335.7" fill="#612d16"/></g>
+<g id="d301" class="c b" style="animation-delay:1.060s"><polygon points="422.0,335.7 430.6,340.7 430.6,357.4 422.0,352.5" fill="#411e0e"/><polygon points="439.2,335.7 430.6,340.7 430.6,357.4 439.2,352.5" fill="#2f160a"/><polygon points="430.6,330.8 439.2,335.7 430.6,340.7 422.0,335.7" fill="#612d16"/></g>
+<g id="d302" class="c b" style="animation-delay:1.075s"><polygon points="441.1,324.3 449.6,329.3 449.6,357.4 441.1,352.5" fill="#6f3118"/><polygon points="458.2,324.3 449.6,329.3 449.6,357.4 458.2,352.5" fill="#502311"/><polygon points="449.6,319.4 458.2,324.3 449.6,329.3 441.1,324.3" fill="#a64924"/></g>
+<g id="d303" class="c b" style="animation-delay:1.090s"><polygon points="460.1,339.1 468.7,344.1 468.7,357.4 460.1,352.5" fill="#411e0e"/><polygon points="477.3,339.1 468.7,344.1 468.7,357.4 477.3,352.5" fill="#2f160a"/><polygon points="468.7,334.2 477.3,339.1 468.7,344.1 460.1,339.1" fill="#612d16"/></g>
+<g id="d304" class="c b" style="animation-delay:1.105s"><polygon points="479.2,331.7 487.7,336.6 487.7,357.4 479.2,352.5" fill="#411e0e"/><polygon points="496.3,331.7 487.7,336.6 487.7,357.4 496.3,352.5" fill="#2f160a"/><polygon points="487.7,326.7 496.3,331.7 487.7,336.6 479.2,331.7" fill="#612d16"/></g>
+<g id="d305" class="c b" style="animation-delay:1.120s"><polygon points="498.2,326.2 506.8,331.2 506.8,357.4 498.2,352.5" fill="#6f3118"/><polygon points="515.4,326.2 506.8,331.2 506.8,357.4 515.4,352.5" fill="#502311"/><polygon points="506.8,321.3 515.4,326.2 506.8,331.2 498.2,326.2" fill="#a64924"/></g>
+<polygon id="d306" class="c e" points="525.8,347.5 534.4,352.5 525.8,357.4 517.3,352.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d307" class="c e" points="544.9,347.5 553.5,352.5 544.9,357.4 536.3,352.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d308" class="c b" style="animation-delay:1.085s"><polygon points="431.5,346.7 440.1,351.6 440.1,362.9 431.5,358.0" fill="#411e0e"/><polygon points="448.7,346.7 440.1,351.6 440.1,362.9 448.7,358.0" fill="#2f160a"/><polygon points="440.1,341.7 448.7,346.7 440.1,351.6 431.5,346.7" fill="#612d16"/></g>
+<g id="d309" class="c b" style="animation-delay:1.100s"><polygon points="450.6,336.0 459.2,340.9 459.2,362.9 450.6,358.0" fill="#411e0e"/><polygon points="467.7,336.0 459.2,340.9 459.2,362.9 467.7,358.0" fill="#2f160a"/><polygon points="459.2,331.0 467.7,336.0 459.2,340.9 450.6,336.0" fill="#612d16"/></g>
+<polygon id="d310" class="c e" points="478.2,353.0 486.8,358.0 478.2,362.9 469.6,358.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d311" class="c b" style="animation-delay:1.130s"><polygon points="488.7,349.3 497.3,354.3 497.3,362.9 488.7,358.0" fill="#411e0e"/><polygon points="505.8,349.3 497.3,354.3 497.3,362.9 505.8,358.0" fill="#2f160a"/><polygon points="497.3,344.4 505.8,349.3 497.3,354.3 488.7,349.3" fill="#612d16"/></g>
+<polygon id="d312" class="c e" points="516.3,353.0 524.9,358.0 516.3,362.9 507.7,358.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d313" class="c e" points="535.4,353.0 543.9,358.0 535.4,362.9 526.8,358.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d314" class="c e" points="554.4,353.0 563.0,358.0 554.4,362.9 545.8,358.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d315" class="c e" points="449.6,358.5 458.2,363.5 449.6,368.4 441.1,363.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d316" class="c e" points="468.7,358.5 477.3,363.5 468.7,368.4 460.1,363.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d317" class="c b" style="animation-delay:1.140s"><polygon points="479.2,337.2 487.7,342.2 487.7,368.4 479.2,363.5" fill="#6f3118"/><polygon points="496.3,337.2 487.7,342.2 487.7,368.4 496.3,363.5" fill="#502311"/><polygon points="487.7,332.3 496.3,337.2 487.7,342.2 479.2,337.2" fill="#a64924"/></g>
+<polygon id="d318" class="c e" points="506.8,358.5 515.4,363.5 506.8,368.4 498.2,363.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d319" class="c e" points="525.8,358.5 534.4,363.5 525.8,368.4 517.3,363.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d320" class="c e" points="544.9,358.5 553.5,363.5 544.9,368.4 536.3,363.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d321" class="c e" points="563.9,358.5 572.5,363.5 563.9,368.4 555.4,363.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d322" class="c e" points="459.2,364.0 467.7,369.0 459.2,373.9 450.6,369.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d323" class="c b" style="animation-delay:1.150s"><polygon points="469.6,360.3 478.2,365.3 478.2,373.9 469.6,369.0" fill="#411e0e"/><polygon points="486.8,360.3 478.2,365.3 478.2,373.9 486.8,369.0" fill="#2f160a"/><polygon points="478.2,355.4 486.8,360.3 478.2,365.3 469.6,360.3" fill="#612d16"/></g>
+<polygon id="d324" class="c e" points="497.3,364.0 505.8,369.0 497.3,373.9 488.7,369.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d325" class="c e" points="516.3,364.0 524.9,369.0 516.3,373.9 507.7,369.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d326" class="c e" points="535.4,364.0 543.9,369.0 535.4,373.9 526.8,369.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d327" class="c e" points="554.4,364.0 563.0,369.0 554.4,373.9 545.8,369.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d328" class="c e" points="573.5,364.0 582.0,369.0 573.5,373.9 564.9,369.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d329" class="c e" points="468.7,369.5 477.3,374.5 468.7,379.4 460.1,374.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d330" class="c e" points="487.7,369.5 496.3,374.5 487.7,379.4 479.2,374.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d331" class="c e" points="506.8,369.5 515.4,374.5 506.8,379.4 498.2,374.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d332" class="c e" points="525.8,369.5 534.4,374.5 525.8,379.4 517.3,374.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d333" class="c e" points="544.9,369.5 553.5,374.5 544.9,379.4 536.3,374.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d334" class="c e" points="563.9,369.5 572.5,374.5 563.9,379.4 555.4,374.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d335" class="c b" style="animation-delay:1.250s"><polygon points="574.4,323.2 583.0,328.2 583.0,379.4 574.4,374.5" fill="#b87349"/><polygon points="591.6,323.2 583.0,328.2 583.0,379.4 591.6,374.5" fill="#855335"/><polygon points="583.0,318.3 591.6,323.2 583.0,328.2 574.4,323.2" fill="#ffad6e"/></g>
+<g id="d336" class="c b" style="animation-delay:1.185s"><polygon points="469.6,342.2 478.2,347.2 478.2,384.9 469.6,380.0" fill="#a14921"/><polygon points="486.8,342.2 478.2,347.2 478.2,384.9 486.8,380.0" fill="#743518"/><polygon points="478.2,337.3 486.8,342.2 478.2,347.2 469.6,342.2" fill="#f26e32"/></g>
+<polygon id="d337" class="c e" points="497.3,375.0 505.8,380.0 497.3,384.9 488.7,380.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d338" class="c e" points="516.3,375.0 524.9,380.0 516.3,384.9 507.7,380.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d339" class="c e" points="535.4,375.0 543.9,380.0 535.4,384.9 526.8,380.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d340" class="c e" points="554.4,375.0 563.0,380.0 554.4,384.9 545.8,380.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d341" class="c e" points="573.5,375.0 582.0,380.0 573.5,384.9 564.9,380.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d342" class="c e" points="592.5,375.0 601.1,380.0 592.5,384.9 584.0,380.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d343" class="c e" points="487.7,380.5 496.3,385.5 487.7,390.4 479.2,385.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d344" class="c e" points="506.8,380.5 515.4,385.5 506.8,390.4 498.2,385.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d345" class="c b" style="animation-delay:1.240s"><polygon points="517.3,367.3 525.8,372.2 525.8,390.4 517.3,385.5" fill="#411e0e"/><polygon points="534.4,367.3 525.8,372.2 525.8,390.4 534.4,385.5" fill="#2f160a"/><polygon points="525.8,362.3 534.4,367.3 525.8,372.2 517.3,367.3" fill="#612d16"/></g>
+<g id="d346" class="c b" style="animation-delay:1.255s"><polygon points="536.3,376.8 544.9,381.8 544.9,390.4 536.3,385.5" fill="#411e0e"/><polygon points="553.5,376.8 544.9,381.8 544.9,390.4 553.5,385.5" fill="#2f160a"/><polygon points="544.9,371.9 553.5,376.8 544.9,381.8 536.3,376.8" fill="#612d16"/></g>
+<g id="d347" class="c b" style="animation-delay:1.270s"><polygon points="555.4,376.8 563.9,381.8 563.9,390.4 555.4,385.5" fill="#411e0e"/><polygon points="572.5,376.8 563.9,381.8 563.9,390.4 572.5,385.5" fill="#2f160a"/><polygon points="563.9,371.9 572.5,376.8 563.9,381.8 555.4,376.8" fill="#612d16"/></g>
+<polygon id="d348" class="c e" points="583.0,380.5 591.6,385.5 583.0,390.4 574.4,385.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d349" class="c e" points="602.1,380.5 610.6,385.5 602.1,390.4 593.5,385.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d350" class="c e" points="497.3,386.0 505.8,391.0 497.3,395.9 488.7,391.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d351" class="c b" style="animation-delay:1.250s"><polygon points="507.7,382.3 516.3,387.3 516.3,395.9 507.7,391.0" fill="#411e0e"/><polygon points="524.9,382.3 516.3,387.3 516.3,395.9 524.9,391.0" fill="#2f160a"/><polygon points="516.3,377.4 524.9,382.3 516.3,387.3 507.7,382.3" fill="#612d16"/></g>
+<g id="d352" class="c b" style="animation-delay:1.265s"><polygon points="526.8,382.3 535.4,387.3 535.4,395.9 526.8,391.0" fill="#411e0e"/><polygon points="543.9,382.3 535.4,387.3 535.4,395.9 543.9,391.0" fill="#2f160a"/><polygon points="535.4,377.4 543.9,382.3 535.4,387.3 526.8,382.3" fill="#612d16"/></g>
+<g id="d353" class="c b" style="animation-delay:1.280s"><polygon points="545.8,372.8 554.4,377.7 554.4,395.9 545.8,391.0" fill="#411e0e"/><polygon points="563.0,372.8 554.4,377.7 554.4,395.9 563.0,391.0" fill="#2f160a"/><polygon points="554.4,367.8 563.0,372.8 554.4,377.7 545.8,372.8" fill="#612d16"/></g>
+<g id="d354" class="c b" style="animation-delay:1.295s"><polygon points="564.9,382.3 573.5,387.3 573.5,395.9 564.9,391.0" fill="#411e0e"/><polygon points="582.0,382.3 573.5,387.3 573.5,395.9 582.0,391.0" fill="#2f160a"/><polygon points="573.5,377.4 582.0,382.3 573.5,387.3 564.9,382.3" fill="#612d16"/></g>
+<g id="d355" class="c b" style="animation-delay:1.310s"><polygon points="584.0,379.7 592.5,384.6 592.5,395.9 584.0,391.0" fill="#411e0e"/><polygon points="601.1,379.7 592.5,384.6 592.5,395.9 601.1,391.0" fill="#2f160a"/><polygon points="592.5,374.7 601.1,379.7 592.5,384.6 584.0,379.7" fill="#612d16"/></g>
+<polygon id="d356" class="c e" points="506.8,391.5 515.4,396.5 506.8,401.4 498.2,396.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d357" class="c e" points="525.8,391.5 534.4,396.5 525.8,401.4 517.3,396.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d358" class="c e" points="544.9,391.5 553.5,396.5 544.9,401.4 536.3,396.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d359" class="c b" style="animation-delay:1.305s"><polygon points="555.4,374.5 563.9,379.4 563.9,401.4 555.4,396.5" fill="#411e0e"/><polygon points="572.5,374.5 563.9,379.4 563.9,401.4 572.5,396.5" fill="#2f160a"/><polygon points="563.9,369.5 572.5,374.5 563.9,379.4 555.4,374.5" fill="#612d16"/></g>
+<g id="d360" class="c b" style="animation-delay:1.320s"><polygon points="574.4,376.9 583.0,381.9 583.0,401.4 574.4,396.5" fill="#411e0e"/><polygon points="591.6,376.9 583.0,381.9 583.0,401.4 591.6,396.5" fill="#2f160a"/><polygon points="583.0,372.0 591.6,376.9 583.0,381.9 574.4,376.9" fill="#612d16"/></g>
+<polygon id="d361" class="c e" points="516.3,397.0 524.9,402.0 516.3,406.9 507.7,402.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d362" class="c e" points="535.4,397.0 543.9,402.0 535.4,406.9 526.8,402.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d363" class="c b" style="animation-delay:1.315s"><polygon points="545.8,390.7 554.4,395.6 554.4,406.9 545.8,402.0" fill="#411e0e"/><polygon points="563.0,390.7 554.4,395.6 554.4,406.9 563.0,402.0" fill="#2f160a"/><polygon points="554.4,385.7 563.0,390.7 554.4,395.6 545.8,390.7" fill="#612d16"/></g>
+<g id="d364" class="c b" style="animation-delay:1.330s"><polygon points="564.9,377.8 573.5,382.7 573.5,406.9 564.9,402.0" fill="#411e0e"/><polygon points="582.0,377.8 573.5,382.7 573.5,406.9 582.0,402.0" fill="#2f160a"/><polygon points="573.5,372.8 582.0,377.8 573.5,382.7 564.9,377.8" fill="#612d16"/></g>
+<g id="d365" class="c b" style="animation-delay:1.310s"><polygon points="517.3,383.3 525.8,388.2 525.8,412.4 517.3,407.5" fill="#411e0e"/><polygon points="534.4,383.3 525.8,388.2 525.8,412.4 534.4,407.5" fill="#2f160a"/><polygon points="525.8,378.3 534.4,383.3 525.8,388.2 517.3,383.3" fill="#612d16"/></g>
+<polygon id="d366" class="c e" points="544.9,402.5 553.5,407.5 544.9,412.4 536.3,407.5" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d367" class="c b" style="animation-delay:1.340s"><polygon points="555.4,390.7 563.9,395.7 563.9,412.4 555.4,407.5" fill="#411e0e"/><polygon points="572.5,390.7 563.9,395.7 563.9,412.4 572.5,407.5" fill="#2f160a"/><polygon points="563.9,385.8 572.5,390.7 563.9,395.7 555.4,390.7" fill="#612d16"/></g>
+<polygon id="d368" class="c e" points="535.4,408.0 543.9,413.0 535.4,417.9 526.8,413.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<polygon id="d369" class="c e" points="554.4,408.0 563.0,413.0 554.4,417.9 545.8,413.0" fill="#1A1D23" stroke="#121418" stroke-width="0.6"/>
+<g id="d370" class="c b" style="animation-delay:1.360s"><polygon points="536.3,396.5 544.9,401.4 544.9,423.4 536.3,418.5" fill="#411e0e"/><polygon points="553.5,396.5 544.9,401.4 544.9,423.4 553.5,418.5" fill="#2f160a"/><polygon points="544.9,391.5 553.5,396.5 544.9,401.4 536.3,396.5" fill="#612d16"/></g>
+<g id="tips"><text x="40" y="300" class="lbl">DAY DETAILS</text>
+<text id="hint" x="40" y="330" class="sub">Hover any block</text>
+<g id="t0" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 5 Oct 2025</text></g>
+<g id="t1" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 6 Oct 2025</text></g>
+<g id="t2" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 12 Oct 2025</text></g>
+<g id="t3" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 7 Oct 2025</text></g>
+<g id="t4" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 13 Oct 2025</text></g>
+<g id="t5" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 19 Oct 2025</text></g>
+<g id="t6" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 8 Oct 2025</text></g>
+<g id="t7" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 14 Oct 2025</text></g>
+<g id="t8" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 20 Oct 2025</text></g>
+<g id="t9" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 26 Oct 2025</text></g>
+<g id="t10" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 9 Oct 2025</text></g>
+<g id="t11" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 15 Oct 2025</text></g>
+<g id="t12" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 21 Oct 2025</text></g>
+<g id="t13" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 27 Oct 2025</text></g>
+<g id="t14" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 2 Nov 2025</text></g>
+<g id="t15" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 10 Oct 2025</text></g>
+<g id="t16" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 16 Oct 2025</text></g>
+<g id="t17" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 22 Oct 2025</text></g>
+<g id="t18" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 28 Oct 2025</text></g>
+<g id="t19" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 3 Nov 2025</text></g>
+<g id="t20" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 9 Nov 2025</text></g>
+<g id="t21" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 11 Oct 2025</text></g>
+<g id="t22" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 17 Oct 2025</text></g>
+<g id="t23" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 23 Oct 2025</text></g>
+<g id="t24" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 29 Oct 2025</text></g>
+<g id="t25" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 4 Nov 2025</text></g>
+<g id="t26" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 10 Nov 2025</text></g>
+<g id="t27" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 16 Nov 2025</text></g>
+<g id="t28" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 18 Oct 2025</text></g>
+<g id="t29" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 24 Oct 2025</text></g>
+<g id="t30" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 30 Oct 2025</text></g>
+<g id="t31" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 5 Nov 2025</text></g>
+<g id="t32" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 11 Nov 2025</text></g>
+<g id="t33" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 17 Nov 2025</text></g>
+<g id="t34" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 23 Nov 2025</text></g>
+<g id="t35" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 25 Oct 2025</text></g>
+<g id="t36" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 31 Oct 2025</text></g>
+<g id="t37" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 6 Nov 2025</text></g>
+<g id="t38" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 12 Nov 2025</text></g>
+<g id="t39" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 18 Nov 2025</text></g>
+<g id="t40" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 24 Nov 2025</text></g>
+<g id="t41" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 30 Nov 2025</text></g>
+<g id="t42" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 1 Nov 2025</text></g>
+<g id="t43" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 7 Nov 2025</text></g>
+<g id="t44" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 13 Nov 2025</text></g>
+<g id="t45" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 19 Nov 2025</text></g>
+<g id="t46" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 25 Nov 2025</text></g>
+<g id="t47" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 1 Dec 2025</text></g>
+<g id="t48" class="tip"><text x="40" y="330" class="val">3<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 7 Dec 2025</text></g>
+<g id="t49" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 8 Nov 2025</text></g>
+<g id="t50" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 14 Nov 2025</text></g>
+<g id="t51" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 20 Nov 2025</text></g>
+<g id="t52" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 26 Nov 2025</text></g>
+<g id="t53" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Tue, 2 Dec 2025</text></g>
+<g id="t54" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 8 Dec 2025</text></g>
+<g id="t55" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 14 Dec 2025</text></g>
+<g id="t56" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 15 Nov 2025</text></g>
+<g id="t57" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 21 Nov 2025</text></g>
+<g id="t58" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 27 Nov 2025</text></g>
+<g id="t59" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Wed, 3 Dec 2025</text></g>
+<g id="t60" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 9 Dec 2025</text></g>
+<g id="t61" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 15 Dec 2025</text></g>
+<g id="t62" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 21 Dec 2025</text></g>
+<g id="t63" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 22 Nov 2025</text></g>
+<g id="t64" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 28 Nov 2025</text></g>
+<g id="t65" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 4 Dec 2025</text></g>
+<g id="t66" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 10 Dec 2025</text></g>
+<g id="t67" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 16 Dec 2025</text></g>
+<g id="t68" class="tip"><text x="40" y="330" class="val">7<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 22 Dec 2025</text></g>
+<g id="t69" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 28 Dec 2025</text></g>
+<g id="t70" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 29 Nov 2025</text></g>
+<g id="t71" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Fri, 5 Dec 2025</text></g>
+<g id="t72" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 11 Dec 2025</text></g>
+<g id="t73" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 17 Dec 2025</text></g>
+<g id="t74" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Tue, 23 Dec 2025</text></g>
+<g id="t75" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 29 Dec 2025</text></g>
+<g id="t76" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 4 Jan 2026</text></g>
+<g id="t77" class="tip"><text x="40" y="330" class="val">10<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 6 Dec 2025</text></g>
+<g id="t78" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 12 Dec 2025</text></g>
+<g id="t79" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 18 Dec 2025</text></g>
+<g id="t80" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Wed, 24 Dec 2025</text></g>
+<g id="t81" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 30 Dec 2025</text></g>
+<g id="t82" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 5 Jan 2026</text></g>
+<g id="t83" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 11 Jan 2026</text></g>
+<g id="t84" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 13 Dec 2025</text></g>
+<g id="t85" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 19 Dec 2025</text></g>
+<g id="t86" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 25 Dec 2025</text></g>
+<g id="t87" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 31 Dec 2025</text></g>
+<g id="t88" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 6 Jan 2026</text></g>
+<g id="t89" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 12 Jan 2026</text></g>
+<g id="t90" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 18 Jan 2026</text></g>
+<g id="t91" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 20 Dec 2025</text></g>
+<g id="t92" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 26 Dec 2025</text></g>
+<g id="t93" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Thu, 1 Jan 2026</text></g>
+<g id="t94" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 7 Jan 2026</text></g>
+<g id="t95" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 13 Jan 2026</text></g>
+<g id="t96" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 19 Jan 2026</text></g>
+<g id="t97" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 25 Jan 2026</text></g>
+<g id="t98" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 27 Dec 2025</text></g>
+<g id="t99" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 2 Jan 2026</text></g>
+<g id="t100" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Thu, 8 Jan 2026</text></g>
+<g id="t101" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 14 Jan 2026</text></g>
+<g id="t102" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 20 Jan 2026</text></g>
+<g id="t103" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 26 Jan 2026</text></g>
+<g id="t104" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 1 Feb 2026</text></g>
+<g id="t105" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 3 Jan 2026</text></g>
+<g id="t106" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 9 Jan 2026</text></g>
+<g id="t107" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 15 Jan 2026</text></g>
+<g id="t108" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 21 Jan 2026</text></g>
+<g id="t109" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 27 Jan 2026</text></g>
+<g id="t110" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Mon, 2 Feb 2026</text></g>
+<g id="t111" class="tip"><text x="40" y="330" class="val">7<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 8 Feb 2026</text></g>
+<g id="t112" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 10 Jan 2026</text></g>
+<g id="t113" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 16 Jan 2026</text></g>
+<g id="t114" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 22 Jan 2026</text></g>
+<g id="t115" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 28 Jan 2026</text></g>
+<g id="t116" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 3 Feb 2026</text></g>
+<g id="t117" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 9 Feb 2026</text></g>
+<g id="t118" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 15 Feb 2026</text></g>
+<g id="t119" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 17 Jan 2026</text></g>
+<g id="t120" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 23 Jan 2026</text></g>
+<g id="t121" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 29 Jan 2026</text></g>
+<g id="t122" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 4 Feb 2026</text></g>
+<g id="t123" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 10 Feb 2026</text></g>
+<g id="t124" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 16 Feb 2026</text></g>
+<g id="t125" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Sun, 22 Feb 2026</text></g>
+<g id="t126" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 24 Jan 2026</text></g>
+<g id="t127" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 30 Jan 2026</text></g>
+<g id="t128" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 5 Feb 2026</text></g>
+<g id="t129" class="tip"><text x="40" y="330" class="val">32<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 11 Feb 2026</text></g>
+<g id="t130" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 17 Feb 2026</text></g>
+<g id="t131" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 23 Feb 2026</text></g>
+<g id="t132" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 1 Mar 2026</text></g>
+<g id="t133" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 31 Jan 2026</text></g>
+<g id="t134" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 6 Feb 2026</text></g>
+<g id="t135" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 12 Feb 2026</text></g>
+<g id="t136" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 18 Feb 2026</text></g>
+<g id="t137" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 24 Feb 2026</text></g>
+<g id="t138" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 2 Mar 2026</text></g>
+<g id="t139" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 8 Mar 2026</text></g>
+<g id="t140" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Sat, 7 Feb 2026</text></g>
+<g id="t141" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 13 Feb 2026</text></g>
+<g id="t142" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 19 Feb 2026</text></g>
+<g id="t143" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 25 Feb 2026</text></g>
+<g id="t144" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 3 Mar 2026</text></g>
+<g id="t145" class="tip"><text x="40" y="330" class="val">6<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 9 Mar 2026</text></g>
+<g id="t146" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 15 Mar 2026</text></g>
+<g id="t147" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 14 Feb 2026</text></g>
+<g id="t148" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 20 Feb 2026</text></g>
+<g id="t149" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 26 Feb 2026</text></g>
+<g id="t150" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 4 Mar 2026</text></g>
+<g id="t151" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 10 Mar 2026</text></g>
+<g id="t152" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 16 Mar 2026</text></g>
+<g id="t153" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 22 Mar 2026</text></g>
+<g id="t154" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 21 Feb 2026</text></g>
+<g id="t155" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 27 Feb 2026</text></g>
+<g id="t156" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 5 Mar 2026</text></g>
+<g id="t157" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 11 Mar 2026</text></g>
+<g id="t158" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 17 Mar 2026</text></g>
+<g id="t159" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 23 Mar 2026</text></g>
+<g id="t160" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 29 Mar 2026</text></g>
+<g id="t161" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 28 Feb 2026</text></g>
+<g id="t162" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 6 Mar 2026</text></g>
+<g id="t163" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 12 Mar 2026</text></g>
+<g id="t164" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 18 Mar 2026</text></g>
+<g id="t165" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 24 Mar 2026</text></g>
+<g id="t166" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 30 Mar 2026</text></g>
+<g id="t167" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 5 Apr 2026</text></g>
+<g id="t168" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 7 Mar 2026</text></g>
+<g id="t169" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 13 Mar 2026</text></g>
+<g id="t170" class="tip"><text x="40" y="330" class="val">5<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 19 Mar 2026</text></g>
+<g id="t171" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 25 Mar 2026</text></g>
+<g id="t172" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 31 Mar 2026</text></g>
+<g id="t173" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 6 Apr 2026</text></g>
+<g id="t174" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 12 Apr 2026</text></g>
+<g id="t175" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 14 Mar 2026</text></g>
+<g id="t176" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Fri, 20 Mar 2026</text></g>
+<g id="t177" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 26 Mar 2026</text></g>
+<g id="t178" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 1 Apr 2026</text></g>
+<g id="t179" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 7 Apr 2026</text></g>
+<g id="t180" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 13 Apr 2026</text></g>
+<g id="t181" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 19 Apr 2026</text></g>
+<g id="t182" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 21 Mar 2026</text></g>
+<g id="t183" class="tip"><text x="40" y="330" class="val">5<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 27 Mar 2026</text></g>
+<g id="t184" class="tip"><text x="40" y="330" class="val">27<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 2 Apr 2026</text></g>
+<g id="t185" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Wed, 8 Apr 2026</text></g>
+<g id="t186" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 14 Apr 2026</text></g>
+<g id="t187" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 20 Apr 2026</text></g>
+<g id="t188" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Sun, 26 Apr 2026</text></g>
+<g id="t189" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 28 Mar 2026</text></g>
+<g id="t190" class="tip"><text x="40" y="330" class="val">3<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 3 Apr 2026</text></g>
+<g id="t191" class="tip"><text x="40" y="330" class="val">10<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 9 Apr 2026</text></g>
+<g id="t192" class="tip"><text x="40" y="330" class="val">23<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 15 Apr 2026</text></g>
+<g id="t193" class="tip"><text x="40" y="330" class="val">21<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 21 Apr 2026</text></g>
+<g id="t194" class="tip"><text x="40" y="330" class="val">6<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 27 Apr 2026</text></g>
+<g id="t195" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 3 May 2026</text></g>
+<g id="t196" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 4 Apr 2026</text></g>
+<g id="t197" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 10 Apr 2026</text></g>
+<g id="t198" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 16 Apr 2026</text></g>
+<g id="t199" class="tip"><text x="40" y="330" class="val">8<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 22 Apr 2026</text></g>
+<g id="t200" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 28 Apr 2026</text></g>
+<g id="t201" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 4 May 2026</text></g>
+<g id="t202" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 10 May 2026</text></g>
+<g id="t203" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 11 Apr 2026</text></g>
+<g id="t204" class="tip"><text x="40" y="330" class="val">24<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 17 Apr 2026</text></g>
+<g id="t205" class="tip"><text x="40" y="330" class="val">6<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 23 Apr 2026</text></g>
+<g id="t206" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 29 Apr 2026</text></g>
+<g id="t207" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 5 May 2026</text></g>
+<g id="t208" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 11 May 2026</text></g>
+<g id="t209" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 17 May 2026</text></g>
+<g id="t210" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 18 Apr 2026</text></g>
+<g id="t211" class="tip"><text x="40" y="330" class="val">9<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 24 Apr 2026</text></g>
+<g id="t212" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Thu, 30 Apr 2026</text></g>
+<g id="t213" class="tip"><text x="40" y="330" class="val">13<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 6 May 2026</text></g>
+<g id="t214" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 12 May 2026</text></g>
+<g id="t215" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 18 May 2026</text></g>
+<g id="t216" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 24 May 2026</text></g>
+<g id="t217" class="tip"><text x="40" y="330" class="val">7<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 25 Apr 2026</text></g>
+<g id="t218" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 1 May 2026</text></g>
+<g id="t219" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 7 May 2026</text></g>
+<g id="t220" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 13 May 2026</text></g>
+<g id="t221" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 19 May 2026</text></g>
+<g id="t222" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 25 May 2026</text></g>
+<g id="t223" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 31 May 2026</text></g>
+<g id="t224" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 2 May 2026</text></g>
+<g id="t225" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 8 May 2026</text></g>
+<g id="t226" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 14 May 2026</text></g>
+<g id="t227" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 20 May 2026</text></g>
+<g id="t228" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 26 May 2026</text></g>
+<g id="t229" class="tip"><text x="40" y="330" class="val">12<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 1 Jun 2026</text></g>
+<g id="t230" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 7 Jun 2026</text></g>
+<g id="t231" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 9 May 2026</text></g>
+<g id="t232" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 15 May 2026</text></g>
+<g id="t233" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 21 May 2026</text></g>
+<g id="t234" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 27 May 2026</text></g>
+<g id="t235" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 2 Jun 2026</text></g>
+<g id="t236" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Mon, 8 Jun 2026</text></g>
+<g id="t237" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 14 Jun 2026</text></g>
+<g id="t238" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 16 May 2026</text></g>
+<g id="t239" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 22 May 2026</text></g>
+<g id="t240" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 28 May 2026</text></g>
+<g id="t241" class="tip"><text x="40" y="330" class="val">14<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 3 Jun 2026</text></g>
+<g id="t242" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Tue, 9 Jun 2026</text></g>
+<g id="t243" class="tip"><text x="40" y="330" class="val">75<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 15 Jun 2026</text></g>
+<g id="t244" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 21 Jun 2026</text></g>
+<g id="t245" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 23 May 2026</text></g>
+<g id="t246" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 29 May 2026</text></g>
+<g id="t247" class="tip"><text x="40" y="330" class="val">15<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 4 Jun 2026</text></g>
+<g id="t248" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 10 Jun 2026</text></g>
+<g id="t249" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 16 Jun 2026</text></g>
+<g id="t250" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 22 Jun 2026</text></g>
+<g id="t251" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 28 Jun 2026</text></g>
+<g id="t252" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 30 May 2026</text></g>
+<g id="t253" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 5 Jun 2026</text></g>
+<g id="t254" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Thu, 11 Jun 2026</text></g>
+<g id="t255" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Wed, 17 Jun 2026</text></g>
+<g id="t256" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Tue, 23 Jun 2026</text></g>
+<g id="t257" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 29 Jun 2026</text></g>
+<g id="t258" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 5 Jul 2026</text></g>
+<g id="t259" class="tip"><text x="40" y="330" class="val">10<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 6 Jun 2026</text></g>
+<g id="t260" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 12 Jun 2026</text></g>
+<g id="t261" class="tip"><text x="40" y="330" class="val">8<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 18 Jun 2026</text></g>
+<g id="t262" class="tip"><text x="40" y="330" class="val">6<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 24 Jun 2026</text></g>
+<g id="t263" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 30 Jun 2026</text></g>
+<g id="t264" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 6 Jul 2026</text></g>
+<g id="t265" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 12 Jul 2026</text></g>
+<g id="t266" class="tip"><text x="40" y="330" class="val">3<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 13 Jun 2026</text></g>
+<g id="t267" class="tip"><text x="40" y="330" class="val">5<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 19 Jun 2026</text></g>
+<g id="t268" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 25 Jun 2026</text></g>
+<g id="t269" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 1 Jul 2026</text></g>
+<g id="t270" class="tip"><text x="40" y="330" class="val">3<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 7 Jul 2026</text></g>
+<g id="t271" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 13 Jul 2026</text></g>
+<g id="t272" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 19 Jul 2026</text></g>
+<g id="t273" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 20 Jun 2026</text></g>
+<g id="t274" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 26 Jun 2026</text></g>
+<g id="t275" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 2 Jul 2026</text></g>
+<g id="t276" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 8 Jul 2026</text></g>
+<g id="t277" class="tip"><text x="40" y="330" class="val">4<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 14 Jul 2026</text></g>
+<g id="t278" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Mon, 20 Jul 2026</text></g>
+<g id="t279" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 26 Jul 2026</text></g>
+<g id="t280" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 27 Jun 2026</text></g>
+<g id="t281" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 3 Jul 2026</text></g>
+<g id="t282" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 9 Jul 2026</text></g>
+<g id="t283" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 15 Jul 2026</text></g>
+<g id="t284" class="tip"><text x="40" y="330" class="val">6<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 21 Jul 2026</text></g>
+<g id="t285" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Mon, 27 Jul 2026</text></g>
+<g id="t286" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 2 Aug 2026</text></g>
+<g id="t287" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 4 Jul 2026</text></g>
+<g id="t288" class="tip"><text x="40" y="330" class="val">17<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 10 Jul 2026</text></g>
+<g id="t289" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Thu, 16 Jul 2026</text></g>
+<g id="t290" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 22 Jul 2026</text></g>
+<g id="t291" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 28 Jul 2026</text></g>
+<g id="t292" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 3 Aug 2026</text></g>
+<g id="t293" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 9 Aug 2026</text></g>
+<g id="t294" class="tip"><text x="40" y="330" class="val">7<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 11 Jul 2026</text></g>
+<g id="t295" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 17 Jul 2026</text></g>
+<g id="t296" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 23 Jul 2026</text></g>
+<g id="t297" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Wed, 29 Jul 2026</text></g>
+<g id="t298" class="tip"><text x="40" y="330" class="val">30<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 4 Aug 2026</text></g>
+<g id="t299" class="tip"><text x="40" y="330" class="val">3<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 10 Aug 2026</text></g>
+<g id="t300" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 16 Aug 2026</text></g>
+<g id="t301" class="tip"><text x="40" y="330" class="val">5<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 18 Jul 2026</text></g>
+<g id="t302" class="tip"><text x="40" y="330" class="val">15<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 24 Jul 2026</text></g>
+<g id="t303" class="tip"><text x="40" y="330" class="val">3<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 30 Jul 2026</text></g>
+<g id="t304" class="tip"><text x="40" y="330" class="val">8<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 5 Aug 2026</text></g>
+<g id="t305" class="tip"><text x="40" y="330" class="val">13<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 11 Aug 2026</text></g>
+<g id="t306" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 17 Aug 2026</text></g>
+<g id="t307" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 23 Aug 2026</text></g>
+<g id="t308" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 25 Jul 2026</text></g>
+<g id="t309" class="tip"><text x="40" y="330" class="val">9<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 31 Jul 2026</text></g>
+<g id="t310" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 6 Aug 2026</text></g>
+<g id="t311" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Wed, 12 Aug 2026</text></g>
+<g id="t312" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 18 Aug 2026</text></g>
+<g id="t313" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 24 Aug 2026</text></g>
+<g id="t314" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 30 Aug 2026</text></g>
+<g id="t315" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 1 Aug 2026</text></g>
+<g id="t316" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 7 Aug 2026</text></g>
+<g id="t317" class="tip"><text x="40" y="330" class="val">13<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 13 Aug 2026</text></g>
+<g id="t318" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 19 Aug 2026</text></g>
+<g id="t319" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 25 Aug 2026</text></g>
+<g id="t320" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 31 Aug 2026</text></g>
+<g id="t321" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 6 Sept 2026</text></g>
+<g id="t322" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 8 Aug 2026</text></g>
+<g id="t323" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Fri, 14 Aug 2026</text></g>
+<g id="t324" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 20 Aug 2026</text></g>
+<g id="t325" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 26 Aug 2026</text></g>
+<g id="t326" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 1 Sept 2026</text></g>
+<g id="t327" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 7 Sept 2026</text></g>
+<g id="t328" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 13 Sept 2026</text></g>
+<g id="t329" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 15 Aug 2026</text></g>
+<g id="t330" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 21 Aug 2026</text></g>
+<g id="t331" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 27 Aug 2026</text></g>
+<g id="t332" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 2 Sept 2026</text></g>
+<g id="t333" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 8 Sept 2026</text></g>
+<g id="t334" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 14 Sept 2026</text></g>
+<g id="t335" class="tip"><text x="40" y="330" class="val">49<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 20 Sept 2026</text></g>
+<g id="t336" class="tip"><text x="40" y="330" class="val">27<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 22 Aug 2026</text></g>
+<g id="t337" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 28 Aug 2026</text></g>
+<g id="t338" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 3 Sept 2026</text></g>
+<g id="t339" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 9 Sept 2026</text></g>
+<g id="t340" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 15 Sept 2026</text></g>
+<g id="t341" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 21 Sept 2026</text></g>
+<g id="t342" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 27 Sept 2026</text></g>
+<g id="t343" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 29 Aug 2026</text></g>
+<g id="t344" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 4 Sept 2026</text></g>
+<g id="t345" class="tip"><text x="40" y="330" class="val">6<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 10 Sept 2026</text></g>
+<g id="t346" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Wed, 16 Sept 2026</text></g>
+<g id="t347" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Tue, 22 Sept 2026</text></g>
+<g id="t348" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 28 Sept 2026</text></g>
+<g id="t349" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sun, 4 Oct 2026</text></g>
+<g id="t350" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 5 Sept 2026</text></g>
+<g id="t351" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Fri, 11 Sept 2026</text></g>
+<g id="t352" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Thu, 17 Sept 2026</text></g>
+<g id="t353" class="tip"><text x="40" y="330" class="val">6<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 23 Sept 2026</text></g>
+<g id="t354" class="tip"><text x="40" y="330" class="val">1<tspan class="sub" dx="10">contribution</tspan></text><text x="40" y="350" class="sub">Tue, 29 Sept 2026</text></g>
+<g id="t355" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Mon, 5 Oct 2026</text></g>
+<g id="t356" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 12 Sept 2026</text></g>
+<g id="t357" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 18 Sept 2026</text></g>
+<g id="t358" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 24 Sept 2026</text></g>
+<g id="t359" class="tip"><text x="40" y="330" class="val">9<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 30 Sept 2026</text></g>
+<g id="t360" class="tip"><text x="40" y="330" class="val">7<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Tue, 6 Oct 2026</text></g>
+<g id="t361" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 19 Sept 2026</text></g>
+<g id="t362" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 25 Sept 2026</text></g>
+<g id="t363" class="tip"><text x="40" y="330" class="val">2<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 1 Oct 2026</text></g>
+<g id="t364" class="tip"><text x="40" y="330" class="val">11<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Wed, 7 Oct 2026</text></g>
+<g id="t365" class="tip"><text x="40" y="330" class="val">11<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 26 Sept 2026</text></g>
+<g id="t366" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 2 Oct 2026</text></g>
+<g id="t367" class="tip"><text x="40" y="330" class="val">5<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Thu, 8 Oct 2026</text></g>
+<g id="t368" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 3 Oct 2026</text></g>
+<g id="t369" class="tip"><text x="40" y="330" class="val">0<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Fri, 9 Oct 2026</text></g>
+<g id="t370" class="tip"><text x="40" y="330" class="val">9<tspan class="sub" dx="10">contributions</tspan></text><text x="40" y="350" class="sub">Sat, 10 Oct 2026</text></g></g>
+<line x1="536" y1="40" x2="536" y2="270" stroke="#23272E"/>
+<circle cx="564" cy="44" r="4" fill="#FF7A3D"/>
+<text x="576" y="48" class="lbl" style="fill:#FF7A3D">LAST 12 MONTHS</text>
+<text x="560" y="72" class="lbl">CONTRIBUTIONS</text><text x="560" y="102" class="val">734<tspan class="sub" dx="10">100 active days</tspan></text>
+<text x="560" y="130" class="lbl">STREAK  CURRENT / BEST</text><text x="560" y="160" class="val">1 / 7<tspan class="sub" dx="10">days</tspan></text>
+<text x="560" y="188" class="lbl">PEAK DAY</text><text x="560" y="218" class="val">75<tspan class="sub" dx="10">on 15 Jun 2026</tspan></text>
+<text x="560" y="262" class="lbl">AVG / DAY</text>
+<text x="652" y="262" class="lbl" style="fill:#ECE7DD">1.98</text>
+<text x="40" y="386" class="ttl">@ABDULMUNAFZ</text>
+<text x="40" y="415" class="cap">less</text><rect x="92" y="406" width="11" height="11" rx="2" fill="#5A2A14"/><rect x="108" y="406" width="11" height="11" rx="2" fill="#9A4421"/><rect x="124" y="406" width="11" height="11" rx="2" fill="#E0662E"/><rect x="140" y="406" width="11" height="11" rx="2" fill="#FFA066"/><text x="160" y="415" class="cap">more</text>
+<text x="856" y="415" class="cap" text-anchor="end">5 Oct 2025 → 10 Oct 2026</text>
+</svg>

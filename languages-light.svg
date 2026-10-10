@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="424" viewBox="0 0 880 424" role="img" aria-label="Languages: TypeScript 70%, Python 18%, JavaScript 5.4%, HTML 4.1%, CSS 1.5%, Shell 0.2%, Go Template 0.2%, Other 0.3%">
+<style>
+  .lbl{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.12em;fill:#6B6F78}
+  .val{font:700 26px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .sub{font:500 13px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#6B6F78}
+  .ttl{font:700 15px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .cap{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#6B6F78}
+  .txt{font:500 14px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .fade{transition:opacity .2s}
+
+  .seg{transition:transform .2s cubic-bezier(.2,.8,.2,1),filter .2s;animation:grow .7s cubic-bezier(.2,.8,.2,1) both;transform-box:view-box}
+  @keyframes grow{from{opacity:0}to{opacity:1}}
+  .seg:hover{filter:brightness(1.2)}
+  #g0:hover{transform:translate(8.1px,5.9px)}
+  #g1:hover{transform:translate(-9.6px,-2.6px)}
+  #g2:hover{transform:translate(-5.3px,-8.5px)}
+  #g3:hover{transform:translate(-2.6px,-9.6px)}
+  #g4:hover{transform:translate(-0.9px,-10.0px)}
+  #g5:hover{transform:translate(-0.3px,-10.0px)}
+  #g6:hover{transform:translate(-0.2px,-10.0px)}
+  #g7:hover{transform:translate(-0.1px,-10.0px)}
+  .num{font:600 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#6B6F78}
+  .pct{font:800 34px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20;letter-spacing:-1px}
+  .hl{fill:#FFFFFF;opacity:0;transition:opacity .15s}
+  #g0:hover~#l0 .hl,#g1:hover~#l1 .hl,#g2:hover~#l2 .hl,#g3:hover~#l3 .hl,#g4:hover~#l4 .hl,#g5:hover~#l5 .hl,#g6:hover~#l6 .hl,#g7:hover~#l7 .hl{opacity:1}
+  .lg:hover .hl{opacity:1}
+  .cc{opacity:0;transition:opacity .15s}
+  .seg:hover~#center #cdef{opacity:0}
+  #g0:hover~#center #c0,#g1:hover~#center #c1,#g2:hover~#center #c2,#g3:hover~#center #c3,#g4:hover~#center #c4,#g5:hover~#center #c5,#g6:hover~#center #c6,#g7:hover~#center #c7{opacity:1}
+  .tile rect{fill:#FFFFFF;stroke:#E2DDD3;transition:stroke .2s}
+  .tile:hover rect{stroke:#D9551F}
+  .tv{font:700 22px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .tl{font:600 9.5px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.1em;fill:#6B6F78}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="879" height="423" rx="16" fill="#F6F3EE" stroke="#E2DDD3"/>
+<circle cx="44" cy="44" r="4" fill="#D9551F"/><text x="56" y="48" class="lbl" style="fill:#D9551F">06 — LANGUAGES</text><text x="848" y="48" class="lbl" text-anchor="end">CLICK TO EXPLORE ↗</text>
+<circle cx="196" cy="236" r="146" fill="none" stroke="#E2DDD3" stroke-dasharray="2 6"/>
+<path id="g0" class="seg" style="animation-delay:0.10s" fill="#d9551f" d="M197.32,104.01 A132,132 0 1 1 70.51,276.93 L118.04,261.43 A82,82 0 1 0 196.82,154.00 Z"/>
+<path id="g1" class="seg" style="animation-delay:0.18s" fill="#da6534" d="M69.71,274.41 A132,132 0 0 1 106.72,138.77 L140.54,175.60 A82,82 0 0 0 117.55,259.86 Z"/>
+<path id="g2" class="seg" style="animation-delay:0.26s" fill="#db7549" d="M108.69,137.00 A132,132 0 0 1 144.02,114.67 L163.71,160.63 A82,82 0 0 0 141.76,174.50 Z"/>
+<path id="g3" class="seg" style="animation-delay:0.34s" fill="#dc855e" d="M146.45,113.65 A132,132 0 0 1 176.45,105.46 L183.85,154.90 A82,82 0 0 0 165.22,160.00 Z"/>
+<path id="g4" class="seg" style="animation-delay:0.42s" fill="#dd9573" d="M179.06,105.09 A132,132 0 0 1 188.70,104.20 L191.46,154.13 A82,82 0 0 0 185.48,154.68 Z"/>
+<path id="g5" class="seg" style="animation-delay:0.50s" fill="#dea588" d="M191.33,104.08 A132,132 0 0 1 191.46,104.08 L193.18,154.05 A82,82 0 0 0 193.10,154.05 Z"/>
+<path id="g6" class="seg" style="animation-delay:0.58s" fill="#dfb59e" d="M193.35,104.03 A132,132 0 0 1 193.48,104.02 L194.44,154.01 A82,82 0 0 0 194.36,154.02 Z"/>
+<path id="g7" class="seg" style="animation-delay:0.66s" fill="#e0c5b3" d="M195.05,104.00 A132,132 0 0 1 195.19,104.00 L195.49,154.00 A82,82 0 0 0 195.41,154.00 Z"/>
+<g id="l0" class="lg"><rect class="hl" x="390" y="79" width="458" height="24" rx="6"/><rect x="400" y="86" width="10" height="10" rx="2" fill="#d9551f"/><text x="422" y="96" class="txt">TypeScript</text><rect x="590" y="89" width="180" height="4" rx="2" fill="#d9551f"/><text x="840" y="96" text-anchor="end" class="num">70%</text></g>
+<g id="l1" class="lg"><rect class="hl" x="390" y="103" width="458" height="24" rx="6"/><rect x="400" y="110" width="10" height="10" rx="2" fill="#da6534"/><text x="422" y="120" class="txt">Python</text><rect x="590" y="113" width="46.69697251349821" height="4" rx="2" fill="#da6534"/><text x="840" y="120" text-anchor="end" class="num">18%</text></g>
+<g id="l2" class="lg"><rect class="hl" x="390" y="127" width="458" height="24" rx="6"/><rect x="400" y="134" width="10" height="10" rx="2" fill="#db7549"/><text x="422" y="144" class="txt">JavaScript</text><rect x="590" y="137" width="13.803966947000198" height="4" rx="2" fill="#db7549"/><text x="840" y="144" text-anchor="end" class="num">5.4%</text></g>
+<g id="l3" class="lg"><rect class="hl" x="390" y="151" width="458" height="24" rx="6"/><rect x="400" y="158" width="10" height="10" rx="2" fill="#dc855e"/><text x="422" y="168" class="txt">HTML</text><rect x="590" y="161" width="10.460588687072267" height="4" rx="2" fill="#dc855e"/><text x="840" y="168" text-anchor="end" class="num">4.1%</text></g>
+<g id="l4" class="lg"><rect class="hl" x="390" y="175" width="458" height="24" rx="6"/><rect x="400" y="182" width="10" height="10" rx="2" fill="#dd9573"/><text x="422" y="192" class="txt">CSS</text><rect x="590" y="185" width="3.810862698237283" height="4" rx="2" fill="#dd9573"/><text x="840" y="192" text-anchor="end" class="num">1.5%</text></g>
+<g id="l5" class="lg"><rect class="hl" x="390" y="199" width="458" height="24" rx="6"/><rect x="400" y="206" width="10" height="10" rx="2" fill="#dea588"/><text x="422" y="216" class="txt">Shell</text><rect x="590" y="209" width="0.6253244752029123" height="4" rx="2" fill="#dea588"/><text x="840" y="216" text-anchor="end" class="num">0.2%</text></g>
+<g id="l6" class="lg"><rect class="hl" x="390" y="223" width="458" height="24" rx="6"/><rect x="400" y="230" width="10" height="10" rx="2" fill="#dfb59e"/><text x="422" y="240" class="txt">Go Template</text><rect x="590" y="233" width="0.5267685093730363" height="4" rx="2" fill="#dfb59e"/><text x="840" y="240" text-anchor="end" class="num">0.2%</text></g>
+<g id="l7" class="lg"><rect class="hl" x="390" y="247" width="458" height="24" rx="6"/><rect x="400" y="254" width="10" height="10" rx="2" fill="#e0c5b3"/><text x="422" y="264" class="txt">Other</text><rect x="590" y="257" width="0.7009064626432705" height="4" rx="2" fill="#e0c5b3"/><text x="840" y="264" text-anchor="end" class="num">0.3%</text></g>
+<g id="center"><g id="cdef" class="fade"><text x="196" y="238" text-anchor="middle" class="pct">11</text>
+<text x="196" y="260" text-anchor="middle" class="sub">languages</text></g><g id="c0" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">70%</text><text x="196" y="260" text-anchor="middle" class="sub">TypeScript</text></g><g id="c1" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">18%</text><text x="196" y="260" text-anchor="middle" class="sub">Python</text></g><g id="c2" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">5.4%</text><text x="196" y="260" text-anchor="middle" class="sub">JavaScript</text></g><g id="c3" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">4.1%</text><text x="196" y="260" text-anchor="middle" class="sub">HTML</text></g><g id="c4" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">1.5%</text><text x="196" y="260" text-anchor="middle" class="sub">CSS</text></g><g id="c5" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">0.2%</text><text x="196" y="260" text-anchor="middle" class="sub">Shell</text></g><g id="c6" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">0.2%</text><text x="196" y="260" text-anchor="middle" class="sub">Go Template</text></g><g id="c7" class="cc"><text x="196" y="238" text-anchor="middle" class="pct">0.3%</text><text x="196" y="260" text-anchor="middle" class="sub">Other</text></g></g>
+<text x="390" y="300" class="lbl">BY THE NUMBERS · @ABDULMUNAFZ</text>
+<g class="tile" transform="translate(390 312)"><rect width="102" height="72" rx="10"/><text x="14" y="38" class="tv">37</text><text x="14" y="58" class="tl">PUBLIC REPOS</text></g><g class="tile" transform="translate(502 312)"><rect width="102" height="72" rx="10"/><text x="14" y="38" class="tv">64</text><text x="14" y="58" class="tl">STARS</text></g><g class="tile" transform="translate(614 312)"><rect width="102" height="72" rx="10"/><text x="14" y="38" class="tv">26</text><text x="14" y="58" class="tl">FOLLOWERS</text></g><g class="tile" transform="translate(726 312)"><rect width="102" height="72" rx="10"/><text x="14" y="38" class="tv">11</text><text x="14" y="58" class="tl">PULL REQUESTS</text></g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340" role="img" aria-label="Certifications: Google, Oracle, Git, OPSWAT, RapidMiner, Forage, Great Learning">
+<style>
+  .lbl{font:600 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.12em;fill:#6B6F78}
+  .val{font:700 26px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .sub{font:500 13px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#6B6F78}
+  .ttl{font:700 15px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .cap{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#6B6F78}
+  .txt{font:500 14px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20}
+  .fade{transition:opacity .2s}
+
+  .mark{font:700 20px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#D9551F}
+  .hf{fill:#FFFFFF;stroke:#E2DDD3}
+  .bk{font:700 14px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#F6F3EE}
+  .bks{font:600 9.5px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:.1em;fill:#F6F3EE}
+  .front,.back,.hx{transform-box:fill-box;transform-origin:center}
+  .front,.back{transition:transform .18s ease-in}
+  .back{transform:scaleX(0)}
+  .hx:hover .front{transform:scaleX(0)}
+  .hx:hover .back{transform:scaleX(1);transition-delay:.18s;transition-timing-function:ease-out}
+  .hx{animation:pop .5s cubic-bezier(.3,1.4,.5,1) both}
+  @keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+  .huge{font:800 72px -apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#1A1C20;letter-spacing:-2px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="879" height="339" rx="16" fill="#F6F3EE" stroke="#E2DDD3"/>
+<circle cx="44" cy="44" r="4" fill="#D9551F"/><text x="56" y="48" class="lbl" style="fill:#D9551F">05 — CERTIFICATIONS</text><text x="848" y="48" class="lbl" text-anchor="end">CLICK TO EXPLORE ↗</text>
+<defs><linearGradient id="shine" x1="0" x2="1" y1="0" y2="0.3">
+<stop offset="0.35" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="0.65" stop-color="#FFFFFF" stop-opacity="0"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;1 0" keyTimes="0;0.6;1" dur="5s" repeatCount="indefinite"/></linearGradient>
+<clipPath id="hexes"><polygon points="96.0,94.0 146.2,123.0 146.2,181.0 96.0,210.0 45.8,181.0 45.8,123.0"/><polygon points="203.5,94.0 253.7,123.0 253.7,181.0 203.5,210.0 153.2,181.0 153.2,123.0"/><polygon points="310.9,94.0 361.1,123.0 361.1,181.0 310.9,210.0 260.7,181.0 260.7,123.0"/><polygon points="418.4,94.0 468.6,123.0 468.6,181.0 418.4,210.0 368.1,181.0 368.1,123.0"/><polygon points="149.7,188.0 200.0,217.0 200.0,275.0 149.7,304.0 99.5,275.0 99.5,217.0"/><polygon points="257.2,188.0 307.4,217.0 307.4,275.0 257.2,304.0 207.0,275.0 207.0,217.0"/><polygon points="364.6,188.0 414.9,217.0 414.9,275.0 364.6,304.0 314.4,275.0 314.4,217.0"/></clipPath></defs>
+<g class="hx" style="animation-delay:0.10s"><g class="front"><polygon points="96.0,94.0 146.2,123.0 146.2,181.0 96.0,210.0 45.8,181.0 45.8,123.0" class="hf"/><text x="96" y="146" text-anchor="middle" class="mark">G</text><text x="96" y="170" text-anchor="middle" class="cap">Google</text></g><g class="back"><polygon points="96.0,94.0 146.2,123.0 146.2,181.0 96.0,210.0 45.8,181.0 45.8,123.0" fill="#D9551F"/><text x="96" y="144" text-anchor="middle" class="bk">Google</text><text x="96" y="166" text-anchor="middle" class="bks">PROFESSIONAL</text></g></g>
+<g class="hx" style="animation-delay:0.18s"><g class="front"><polygon points="203.5,94.0 253.7,123.0 253.7,181.0 203.5,210.0 153.2,181.0 153.2,123.0" class="hf"/><text x="203.45894683899488" y="146" text-anchor="middle" class="mark">OC</text><text x="203.45894683899488" y="170" text-anchor="middle" class="cap">Oracle</text></g><g class="back"><polygon points="203.5,94.0 253.7,123.0 253.7,181.0 203.5,210.0 153.2,181.0 153.2,123.0" fill="#D9551F"/><text x="203.45894683899488" y="144" text-anchor="middle" class="bk">Oracle</text><text x="203.45894683899488" y="166" text-anchor="middle" class="bks">CLOUD</text></g></g>
+<g class="hx" style="animation-delay:0.26s"><g class="front"><polygon points="310.9,94.0 361.1,123.0 361.1,181.0 310.9,210.0 260.7,181.0 260.7,123.0" class="hf"/><text x="310.91789367798975" y="146" text-anchor="middle" class="mark">GIT</text><text x="310.91789367798975" y="170" text-anchor="middle" class="cap">Git</text></g><g class="back"><polygon points="310.9,94.0 361.1,123.0 361.1,181.0 310.9,210.0 260.7,181.0 260.7,123.0" fill="#D9551F"/><text x="310.91789367798975" y="144" text-anchor="middle" class="bk">Git</text><text x="310.91789367798975" y="166" text-anchor="middle" class="bks">VERSION</text><text x="310.91789367798975" y="178" text-anchor="middle" class="bks">CONTROL</text></g></g>
+<g class="hx" style="animation-delay:0.34s"><g class="front"><polygon points="418.4,94.0 468.6,123.0 468.6,181.0 418.4,210.0 368.1,181.0 368.1,123.0" class="hf"/><text x="418.37684051698466" y="146" text-anchor="middle" class="mark">OP</text><text x="418.37684051698466" y="170" text-anchor="middle" class="cap">OPSWAT</text></g><g class="back"><polygon points="418.4,94.0 468.6,123.0 468.6,181.0 418.4,210.0 368.1,181.0 368.1,123.0" fill="#D9551F"/><text x="418.37684051698466" y="144" text-anchor="middle" class="bk">OPSWAT</text><text x="418.37684051698466" y="166" text-anchor="middle" class="bks">CYBERSECURITY</text></g></g>
+<g class="hx" style="animation-delay:0.42s"><g class="front"><polygon points="149.7,188.0 200.0,217.0 200.0,275.0 149.7,304.0 99.5,275.0 99.5,217.0" class="hf"/><text x="149.72947341949742" y="240" text-anchor="middle" class="mark">RM</text><text x="149.72947341949742" y="264" text-anchor="middle" class="cap">RapidMiner</text></g><g class="back"><polygon points="149.7,188.0 200.0,217.0 200.0,275.0 149.7,304.0 99.5,275.0 99.5,217.0" fill="#D9551F"/><text x="149.72947341949742" y="238" text-anchor="middle" class="bk">RapidMiner</text><text x="149.72947341949742" y="260" text-anchor="middle" class="bks">DATA</text><text x="149.72947341949742" y="272" text-anchor="middle" class="bks">SCIENCE</text></g></g>
+<g class="hx" style="animation-delay:0.50s"><g class="front"><polygon points="257.2,188.0 307.4,217.0 307.4,275.0 257.2,304.0 207.0,275.0 207.0,217.0" class="hf"/><text x="257.18842025849233" y="240" text-anchor="middle" class="mark">FG</text><text x="257.18842025849233" y="264" text-anchor="middle" class="cap">Forage</text></g><g class="back"><polygon points="257.2,188.0 307.4,217.0 307.4,275.0 257.2,304.0 207.0,275.0 207.0,217.0" fill="#D9551F"/><text x="257.18842025849233" y="238" text-anchor="middle" class="bk">Forage</text><text x="257.18842025849233" y="260" text-anchor="middle" class="bks">JOB</text><text x="257.18842025849233" y="272" text-anchor="middle" class="bks">SIMULATION</text></g></g>
+<g class="hx" style="animation-delay:0.58s"><g class="front"><polygon points="364.6,188.0 414.9,217.0 414.9,275.0 364.6,304.0 314.4,275.0 314.4,217.0" class="hf"/><text x="364.6473670974872" y="240" text-anchor="middle" class="mark">GL</text><text x="364.6473670974872" y="264" text-anchor="middle" class="cap">Great</text><text x="364.6473670974872" y="279" text-anchor="middle" class="cap">Learning</text></g><g class="back"><polygon points="364.6,188.0 414.9,217.0 414.9,275.0 364.6,304.0 314.4,275.0 314.4,217.0" fill="#D9551F"/><text x="364.6473670974872" y="231" text-anchor="middle" class="bk">Great</text><text x="364.6473670974872" y="246" text-anchor="middle" class="bk">Learning</text><text x="364.6473670974872" y="267" text-anchor="middle" class="bks">UPSKILLING</text></g></g>
+<rect x="0" y="0" width="520" height="340" fill="url(#shine)" clip-path="url(#hexes)" pointer-events="none"/>
+<line x1="536" y1="80" x2="536" y2="304" stroke="#E2DDD3"/>
+<text x="560" y="174" class="huge">07</text>
+<text x="560" y="204" class="ttl">certifications</text>
+<text x="560" y="232" class="sub">professional · cloud · version</text><text x="560" y="252" class="sub">control · cybersecurity · data</text><text x="560" y="272" class="sub">science · job simulation ·</text><text x="560" y="292" class="sub">upskilling</text>
+</svg>
