@@ -3,6 +3,12 @@ name: Generate profile graphics
 permissions:
   contents: write
 
+# A manual run, scheduled run, and push can overlap. Serialize deployments so
+# an older generation cannot overwrite newer output or race README commits.
+concurrency:
+  group: profile-graphics-${{ github.repository }}
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: "0 */12 * * *"
