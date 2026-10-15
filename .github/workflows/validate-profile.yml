@@ -1,0 +1,32 @@
+name: Validate profile
+
+on:
+  pull_request:
+    paths: ["scripts/**", "data/**", "README.md", ".github/workflows/validate-profile.yml"]
+  push:
+    branches: [main]
+    paths: ["scripts/**", "data/**", "README.md", ".github/workflows/validate-profile.yml"]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run regression tests
+        run: node --test scripts/lib/*.test.mjs
+      - name: Generate offline previews
+        run: |
+          node scripts/iso-calendar.mjs --sample dist
+          node scripts/github-stats.mjs --sample dist
+          node scripts/cards.mjs dist
+      - name: Check README matches profile data
+        run: |
+          node scripts/readme.mjs
+          git diff --exit-code -- README.md
