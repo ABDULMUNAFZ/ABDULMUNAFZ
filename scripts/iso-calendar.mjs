@@ -46,34 +46,7 @@ function sampleCalendar() {
   return weeks;
 }
 
-function computeStats(weeks) {
-  const days = weeks.flat();
-  const today = new Date().toISOString().slice(0, 10);
-  const past = days.filter((d) => d.date <= today);
-  let best = 0;
-  let run = 0;
-  for (const d of past) {
-    run = d.count > 0 ? run + 1 : 0;
-    best = Math.max(best, run);
-  }
-  // A streak stays "current" until a full day passes without a contribution.
-  let current = 0;
-  let i = past.length - 1;
-  if (i >= 0 && past[i].count === 0) i--;
-  for (; i >= 0 && past[i].count > 0; i--) current++;
-  const total = past.reduce((s, d) => s + d.count, 0);
-  const peak = past.reduce((m, d) => (d.count > m.count ? d : m), { count: 0, date: "" });
-  return {
-    total,
-    best,
-    current,
-    peak,
-    average: past.length ? total / past.length : 0,
-    activeDays: past.filter((d) => d.count > 0).length,
-    from: days[0]?.date ?? "",
-    to: past.at(-1)?.date ?? "",
-  };
-}
+import { computeStats } from "./lib/calendar-stats.mjs";
 
 const fmtDate = (iso) =>
   new Date(`${iso}T00:00:00Z`).toLocaleDateString("en-GB", {
