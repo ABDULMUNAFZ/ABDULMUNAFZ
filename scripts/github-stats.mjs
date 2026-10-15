@@ -67,7 +67,7 @@ function render({ stats, login, theme, fullPage }) {
   const legend = parts
     .map(
       (p, k) =>
-        `<g id="l${k}" class="lg"><rect class="hl" x="${lx - 10}" y="${rowY(k) - 17}" width="${W - lx - 22}" height="24" rx="6"/>` +
+        `<g id="l${k}" class="lg"${fullPage ? ` tabindex="0" role="img" aria-label="${esc(p.name)} ${pct(p.share)}"` : ""}><rect class="hl" x="${lx - 10}" y="${rowY(k) - 17}" width="${W - lx - 22}" height="24" rx="6"/>` +
         `<rect x="${lx}" y="${rowY(k) - 10}" width="10" height="10" rx="2" fill="${colorOf(k)}"/>` +
         `<text x="${lx + 22}" y="${rowY(k)}" class="txt">${esc(p.name)}</text>` +
         `<rect x="${lx + 190}" y="${rowY(k) - 7}" width="${(W - lx - 300) * (p.share / parts[0].share)}" height="4" rx="2" fill="${colorOf(k)}"/>` +
@@ -101,10 +101,13 @@ function render({ stats, login, theme, fullPage }) {
   .pct{font:800 34px ${SANS};fill:${t.text};letter-spacing:-1px}
   .hl{fill:${t.raised};opacity:0;transition:opacity .15s}
   ${parts.map((_, k) => `#g${k}:hover~#l${k} .hl`).join(",")}{opacity:1}
-  .lg:hover .hl{opacity:1}
+  .lg:is(:hover,:focus-visible) .hl{opacity:1}
+  .lg:focus-visible{outline:2px solid ${t.accent};outline-offset:3px}
   .cc{opacity:0;transition:opacity .15s}
-  .seg:hover~#center #cdef{opacity:0}
-  ${hoverRules({ triggers: ["g"], panel: "center", target: "c", count: parts.length })}
+  .seg:hover~#center #cdef,.lg:is(:hover,:focus-visible)~#center #cdef{opacity:0}
+  ${hoverRules({ triggers: ["g", "l"], panel: "center", target: "c", count: parts.length })}
+  svg:has(.lg:focus-visible) #center .cc{opacity:0!important}
+  ${hoverRules({ triggers: ["l"], panel: "center", target: "c", count: parts.length, states: ["focus-visible"], css: "opacity:1!important" })}
   .tile rect{fill:${t.panel};stroke:${t.line};transition:stroke .2s}
   .tile:hover rect{stroke:${t.accent}}
   .tv{font:700 22px ${SANS};fill:${t.text}}

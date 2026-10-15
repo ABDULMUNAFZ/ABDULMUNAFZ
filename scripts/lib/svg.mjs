@@ -79,10 +79,10 @@ export function iso({ ox, oy, size }) {
 }
 
 // Reveals `#<panel> #<target>N` while `#<trigger>N` is hovered; triggers must precede the panel as siblings.
-export const hoverRules = ({ triggers, panel, target, count, css = "opacity:1" }) =>
+export const hoverRules = ({ triggers, panel, target, count, css = "opacity:1", states = ["hover"] }) =>
   count === 0
     ? ""
-    : `${Array.from({ length: count }, (_, n) => triggers.map((tr) => `#${tr}${n}:hover~#${panel} #${target}${n}`).join(",")).join(",")}{${css}}`;
+    : `${Array.from({ length: count }, (_, n) => triggers.flatMap((tr) => states.map(state => `#${tr}${n}:${state}~#${panel} #${target}${n}`)).join(",")).join(",")}{${css}}`;
 
 /**
  * Wraps a card body in the shared frame. `fullPage` drops fixed dimensions so the SVG fills the
