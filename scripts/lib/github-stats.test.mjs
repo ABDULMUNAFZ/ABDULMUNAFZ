@@ -43,3 +43,23 @@ test("an empty account completes in one request", async () => {
 test("a broken cursor fails instead of requesting pages indefinitely", async () => {
   await assert.rejects(fetchStats("example", async () => page([], true, null)), /did not advance/);
 });
+
+test("language pagination includes the eleventh language without recounting stars", async () => {
+  const first = repo(5, "JavaScript", 100);
+  first.languages.edges.push(...Array.from({length: 9}, (_, i) => ({size: 1, node: {name: `Language${i}`}})));
+  first.id = "repository-id";
+  first.languages.pageInfo = {hasNextPage: true, endCursor: "remaining-languages"};
+  const requests = [];
+  const result = await fetchStats("example", async ({variables}) => {
+    requests.push(variables);
+    if (variables.id) return {node: {languages: {
+      edges: [{size: 20, node: {name: "Python"}}],
+      pageInfo: {hasNextPage: false, endCursor: "last-language"},
+    }}};
+    return page([first], false, null);
+  });
+  assert.deepEqual(requests[1], {id: "repository-id", after: "remaining-languages"});
+  assert.equal(result.languages.length, 11);
+  assert.deepEqual(result.languages.at(-1), {name: "Python", size: 20});
+  assert.equal(result.numbers[1].value, 5);
+});
