@@ -1,31 +1,11 @@
 // Renders language share and headline GitHub numbers as an interactive donut card.
 // Usage: GITHUB_TOKEN=... node scripts/github-stats.mjs <login> [outDir]
 //        node scripts/github-stats.mjs --sample [outDir]   (offline preview)
-import { MONO, SANS, THEMES, esc, frame, graphql, hoverRules, mix, writeVariants } from "./lib/svg.mjs";
+import { MONO, SANS, THEMES, esc, frame, hoverRules, mix, writeVariants } from "./lib/svg.mjs";
 
 const MAX_SLICES = 7;
 
-async function fetchStats(login) {
-  const query = `query($login:String!){user(login:$login){
-    followers{totalCount}
-    pullRequests{totalCount}
-    repositories(first:100,ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC){totalCount nodes{stargazerCount
-      languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}}}`;
-  const { user } = await graphql({ query, variables: { login } });
-  const bytes = new Map();
-  for (const repo of user.repositories.nodes) {
-    for (const { size, node } of repo.languages.edges) bytes.set(node.name, (bytes.get(node.name) ?? 0) + size);
-  }
-  return {
-    languages: [...bytes].map(([name, size]) => ({ name, size })),
-    numbers: [
-      { label: "PUBLIC REPOS", value: user.repositories.totalCount },
-      { label: "STARS", value: user.repositories.nodes.reduce((s, r) => s + r.stargazerCount, 0) },
-      { label: "FOLLOWERS", value: user.followers.totalCount },
-      { label: "PULL REQUESTS", value: user.pullRequests.totalCount },
-    ],
-  };
-}
+import { fetchStats } from "./lib/github-stats.mjs";
 
 const sampleStats = () => ({
   languages: [
