@@ -1,0 +1,40 @@
+name: Update profile koi
+
+on:
+  schedule:
+    # After the UTC day closes, draw the koi from the latest public activity.
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/koi.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-koi
+  cancel-in-progress: false
+
+jobs:
+  koi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: yalongwastaken/git-koi@v1
+        with:
+          # The profile-repository owner is used by default: ABDULMUNAFZ.
+          body: asagi
+          output-dir: koi
+      - name: Commit refreshed koi
+        shell: bash
+        run: |
+          git add koi/koi.gif koi/koi.png koi/preview.html
+          if git diff --cached --quiet; then
+            echo "The koi is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "chore: refresh profile koi"
+          git push --quiet
