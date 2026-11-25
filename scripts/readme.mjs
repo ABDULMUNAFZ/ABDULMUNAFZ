@@ -15,11 +15,7 @@ function card({ name, alt, tooltip, detail }) {
   const title = attr([...tooltip.filter(Boolean), "Click to expand this section here."].join("\n"));
   return `<details>
 <summary>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/${name}-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg" />
-  <img width="100%" alt="${attr(alt)}" title="${title}" src="${RAW}/${name}-dark.svg" />
-</picture>
+<img width="100%" alt="${attr(alt)}" title="${title}" src="${RAW}/${name}-dark.svg" />
 </summary>
 
 ${detail}

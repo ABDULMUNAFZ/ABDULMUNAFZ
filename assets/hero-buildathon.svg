@@ -2,6 +2,8 @@
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7A5333"/><stop offset=".24" stop-color="#3A2A1F"/><stop offset=".62" stop-color="#171717"/><stop offset="1" stop-color="#161616"/></linearGradient>
     <linearGradient id="stripe" x1="0" x2="1"><stop stop-color="#FF4A1C"/><stop offset="1" stop-color="#FF7651"/></linearGradient>
+    <pattern id="ivory-dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="2.15" fill="#ECE6E0"/></pattern>
+    <pattern id="orange-dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="2.15" fill="#FF4A1C"/></pattern>
     <filter id="glow"><feGaussianBlur stdDeviation="24"/></filter>
   </defs>
   <rect width="1200" height="390" rx="26" fill="#161616"/>
@@ -18,12 +20,12 @@
   </g>
   <circle cx="58" cy="62" r="5" fill="#FF4A1C"/>
   <text x="75" y="67" fill="#D9C9BB" font-family="ui-monospace,monospace" font-size="12" font-weight="700" letter-spacing="2.4">PROFILE / 2026</text>
-  <text x="58" y="153" fill="#ECE6E0" font-family="Inter Tight,Arial,sans-serif" font-size="65" font-weight="700" letter-spacing="-2">Abdul Munaf Z</text>
+  <text x="58" y="153" fill="url(#ivory-dots)" font-family="ui-monospace,monospace" font-size="58" font-weight="700" letter-spacing="1">ABDUL MUNAF Z</text>
   <text x="60" y="201" fill="#D9C9BB" font-family="Inter Tight,Arial,sans-serif" font-size="24">Front-end engineer building interfaces that see, think &amp; speak.</text>
   <g font-family="ui-monospace,monospace" font-size="12" font-weight="700" letter-spacing="1.3">
     <rect x="60" y="245" width="104" height="34" rx="17" fill="#2A2725" stroke="#625850"/><text x="112" y="267" text-anchor="middle" fill="#ECE6E0">REACT</text>
     <rect x="174" y="245" width="144" height="34" rx="17" fill="#2A2725" stroke="#625850"/><text x="246" y="267" text-anchor="middle" fill="#ECE6E0">TYPESCRIPT</text>
     <rect x="328" y="245" width="105" height="34" rx="17" fill="#2A2725" stroke="#625850"/><text x="380" y="267" text-anchor="middle" fill="#ECE6E0">PYTHON</text>
   </g>
-  <text x="60" y="329" fill="#9C948C" font-family="ui-monospace,monospace" font-size="12" letter-spacing="1.5">COIMBATORE, IN  ·  M.SC COMPUTER TECHNOLOGY</text>
+  <text x="60" y="329" fill="url(#orange-dots)" font-family="ui-monospace,monospace" font-size="13" font-weight="700" letter-spacing="1.5">COIMBATORE, IN  ·  M.SC COMPUTER TECHNOLOGY</text>
 </svg>

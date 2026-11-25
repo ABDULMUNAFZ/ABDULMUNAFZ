@@ -93,12 +93,13 @@ export function frame({ W, H, theme, fullPage, label, aria, css = "", body }) {
   const pad = fullPage ? 24 : 0;
   const dims = fullPage ? "" : ` width="${W}" height="${H}"`;
   const header = label
-    ? `<circle cx="48" cy="48" r="4" fill="${t.accent}"/><text x="60" y="52" class="lbl" style="fill:${t.text}">${esc(label)}</text>` +
+    ? `<circle cx="48" cy="48" r="4" fill="${t.accent}"/><text x="60" y="52" class="lbl dots">${esc(label)}</text>` +
       `<text x="${W - 44}" y="52" class="lbl" text-anchor="end">${fullPage ? "HOVER TO EXPLORE" : "EXPAND BELOW ↓"}</text>`
     : "";
   return `<svg xmlns="http://www.w3.org/2000/svg"${dims} viewBox="${-pad} ${-pad} ${W + 2 * pad} ${H + 2 * pad}" role="img" aria-label="${esc(aria)}">
 <style>
 ${fullPage ? `  :root{background:${t.bg}}\n` : ""}  .lbl{font:600 11px ${MONO};letter-spacing:.12em;fill:${t.muted}}
+  .dots{fill:url(#dots)}
   .val{font:700 26px ${SANS};fill:${t.text}}
   .sub{font:500 13px ${SANS};fill:${t.muted}}
   .ttl{font:700 15px ${SANS};fill:${t.text}}
@@ -111,6 +112,7 @@ ${css}
 <defs>
   <linearGradient id="shell" x1="0" x2="1" y1="0" y2="1"><stop stop-color="${t.panel}"/><stop offset="1" stop-color="${t.bg}"/></linearGradient>
   <radialGradient id="halo" cx="92%" cy="0%" r="70%"><stop stop-color="${t.accent}" stop-opacity=".16"/><stop offset="1" stop-color="${t.accent}" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="3.5" cy="3.5" r="1.65" fill="${t.text}"/></pattern>
 </defs>
 <rect x="0" y="0" width="${W}" height="${H}" rx="24" fill="${t.bg}"/>
 <rect x="12" y="12" width="${W - 24}" height="${H - 24}" rx="20" fill="url(#shell)" stroke="${t.line}"/>
