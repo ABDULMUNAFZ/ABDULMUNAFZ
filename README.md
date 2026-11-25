@@ -1,5 +1,5 @@
 <a href="https://www.abdulmunaf.in/">
-  <img src="./assets/hero.svg" width="100%" alt="Abdul Munaf Z — front-end engineer building interfaces that see, think and speak" />
+  <img src="./assets/hero-buildathon.svg" width="100%" alt="Abdul Munaf Z — front-end engineer building interfaces that see, think and speak" />
 </a>
 
 <p align="center">

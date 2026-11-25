@@ -93,8 +93,8 @@ export function frame({ W, H, theme, fullPage, label, aria, css = "", body }) {
   const pad = fullPage ? 24 : 0;
   const dims = fullPage ? "" : ` width="${W}" height="${H}"`;
   const header = label
-    ? `<circle cx="44" cy="44" r="4" fill="${t.accent}"/><text x="56" y="48" class="lbl" style="fill:${t.accent}">${esc(label)}</text>` +
-      `<text x="${W - 32}" y="48" class="lbl" text-anchor="end">${fullPage ? "HOVER TO EXPLORE" : "CLICK TO EXPLORE ↗"}</text>`
+    ? `<circle cx="48" cy="48" r="4" fill="${t.accent}"/><text x="60" y="52" class="lbl" style="fill:${t.text}">${esc(label)}</text>` +
+      `<text x="${W - 44}" y="52" class="lbl" text-anchor="end">${fullPage ? "HOVER TO EXPLORE" : "OPEN CARD ↗"}</text>`
     : "";
   return `<svg xmlns="http://www.w3.org/2000/svg"${dims} viewBox="${-pad} ${-pad} ${W + 2 * pad} ${H + 2 * pad}" role="img" aria-label="${esc(aria)}">
 <style>
@@ -108,7 +108,14 @@ ${fullPage ? `  :root{background:${t.bg}}\n` : ""}  .lbl{font:600 11px ${MONO};l
 ${css}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
-<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.bg}" stroke="${t.line}"/>
+<defs>
+  <linearGradient id="shell" x1="0" x2="1" y1="0" y2="1"><stop stop-color="${t.panel}"/><stop offset="1" stop-color="${t.bg}"/></linearGradient>
+  <radialGradient id="halo" cx="92%" cy="0%" r="70%"><stop stop-color="${t.accent}" stop-opacity=".16"/><stop offset="1" stop-color="${t.accent}" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="0" y="0" width="${W}" height="${H}" rx="24" fill="${t.bg}"/>
+<rect x="12" y="12" width="${W - 24}" height="${H - 24}" rx="20" fill="url(#shell)" stroke="${t.line}"/>
+<rect x="12" y="12" width="${W - 24}" height="${H - 24}" rx="20" fill="url(#halo)"/>
+<line x1="36" y1="70" x2="${W - 36}" y2="70" stroke="${t.line}"/>
 ${header}
 ${body}
 </svg>
