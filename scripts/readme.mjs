@@ -9,16 +9,21 @@ const RAW = "https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output";
 
 const attr = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-function card({ name, alt, tooltip, caption }) {
-  // A blank line would end the Markdown HTML block mid-attribute, so tooltip lines are never empty.
-  const title = attr([...tooltip.filter(Boolean), "↗ Click to open the interactive version."].join("\n"));
-  return `<a href="${RAW}/${name}-full.svg">
+function card({ name, alt, tooltip, detail }) {
+  // GitHub blocks scripts in profile READMEs. Native <details> keeps every card
+  // interactive in the profile itself instead of sending visitors to another page.
+  const title = attr([...tooltip.filter(Boolean), "Click to expand this section here."].join("\n"));
+  return `<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="${RAW}/${name}-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg" />
   <img width="100%" alt="${attr(alt)}" title="${title}" src="${RAW}/${name}-dark.svg" />
 </picture>
-</a>${caption ? `\n<p align="center"><sub>${caption}</sub></p>` : ""}
+</summary>
+
+${detail}
+</details>
 
 <br/>
 `;
@@ -32,44 +37,47 @@ const cards = [
     name: "calendar-3d",
     alt: "3D contribution calendar for the last 12 months",
     tooltip: ["CONTRIBUTIONS · LAST 12 MONTHS", "Taller, brighter blocks = busier days."],
-    caption: "Hover any card for its details · click to open it full-screen and explore.",
+    detail: "<p><strong>Contribution calendar.</strong> Taller and brighter blocks mark busier days. This section refreshes from live GitHub data every 12 hours.</p>",
   }),
   card({
     name: "about",
     alt: `About: ${about.whoami}`,
     tooltip: ["ABOUT", about.whoami, ...about.rows.map((r) => `${r.key}: ${r.value} (${r.note})`)],
+    detail: `<p><strong>${attr(about.whoami)}</strong></p><ul>${about.rows.map((r) => `<li><code>${attr(r.key)}</code> — ${attr(r.value)} <em>(${attr(r.note)})</em></li>`).join("")}</ul>`,
   }),
   card({
     name: "hackathons",
     alt: `Hackathons: ${hackathons.map((h) => `${h.result} ${h.short} (${h.year})`).join(", ")}`,
     tooltip: ["HACKATHONS", ...hackathons.map((h) => `${h.result} · ${h.event} — ${h.venue}, ${h.year}`)],
+    detail: `<ul>${hackathons.map((h) => `<li><strong>${attr(h.result)}</strong> · ${attr(h.event)} — ${attr(h.venue)} (${h.year})</li>`).join("")}</ul>`,
   }),
   card({
     name: "work",
     alt: `Selected work: ${projects.map((p) => p.title).join(", ")}`,
     tooltip: ["SELECTED WORK", ...projects.flatMap((p, k) => [`${String(k + 1).padStart(2, "0")} ${p.title} — ${p.description}`, `    ${p.stack.join(" · ")}`])],
-    caption: linked.map((p) => `<a href="${p.url}">${p.title}</a>`).join(" · "),
+    detail: `<ul>${projects.map((p) => `<li><strong>${attr(p.title)}</strong> — ${attr(p.description)}<br/><code>${attr(p.stack.join(" · "))}</code></li>`).join("")}</ul>`,
   }),
   card({
     name: "stack",
     alt: `Tech stack: ${stack.map((g) => g.items.join(", ")).join(", ")}`,
     tooltip: ["STACK", ...stack.map((g) => `${g.name}: ${g.items.join(", ")}`)],
+    detail: `<ul>${stack.map((g) => `<li><strong>${attr(g.name)}</strong> — ${attr(g.items.join(" · "))}</li>`).join("")}</ul>`,
   }),
   card({
     name: "certifications",
     alt: `Certifications: ${certifications.map((c) => c.issuer).join(", ")}`,
     tooltip: ["CERTIFICATIONS", ...certifications.map((c) => `${c.issuer} — ${c.area}`)],
+    detail: `<ul>${certifications.map((c) => `<li><strong>${attr(c.issuer)}</strong> — ${attr(c.area)}</li>`).join("")}</ul>`,
   }),
   card({
     name: "languages",
     alt: "Languages by code share, plus public repos, stars, followers and pull requests",
     tooltip: ["LANGUAGES & NUMBERS", "Code share across public repos, refreshed every 12 hours."],
+    detail: "<p><strong>Languages &amp; numbers.</strong> The visual is refreshed every 12 hours from public GitHub data, including code share and profile activity.</p>",
   }),
 ];
 
-const readme = `<a href="https://www.abdulmunaf.in/">
-  <img src="./assets/hero-buildathon.svg" width="100%" alt="Abdul Munaf Z — front-end engineer building interfaces that see, think and speak" />
-</a>
+const readme = `<img src="./assets/hero-buildathon.svg" width="100%" alt="Abdul Munaf Z — front-end engineer building interfaces that see, think and speak" />
 
 <p align="center">
   <img src="./koi/koi.gif" width="256" alt="A koi generated from Abdul Munaf Z's public GitHub activity" />

@@ -1,6 +1,4 @@
-<a href="https://www.abdulmunaf.in/">
-  <img src="./assets/hero-buildathon.svg" width="100%" alt="Abdul Munaf Z — front-end engineer building interfaces that see, think and speak" />
-</a>
+<img src="./assets/hero-buildathon.svg" width="100%" alt="Abdul Munaf Z — front-end engineer building interfaces that see, think and speak" />
 
 <p align="center">
   <img src="./koi/koi.gif" width="256" alt="A koi generated from Abdul Munaf Z's public GitHub activity" />
@@ -17,20 +15,24 @@
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-full.svg">
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-light.svg" />
   <img width="100%" alt="3D contribution calendar for the last 12 months" title="CONTRIBUTIONS · LAST 12 MONTHS
 Taller, brighter blocks = busier days.
-↗ Click to open the interactive version." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
+Click to expand this section here." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/calendar-3d-dark.svg" />
 </picture>
-</a>
-<p align="center"><sub>Hover any card for its details · click to open it full-screen and explore.</sub></p>
+</summary>
+
+<p><strong>Contribution calendar.</strong> Taller and brighter blocks mark busier days. This section refreshes from live GitHub data every 12 hours.</p>
+</details>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-full.svg">
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-light.svg" />
@@ -43,13 +45,17 @@ works_with: React · TypeScript · Python · PyTorch (plus OpenCV for real-time 
 building: AI-powered full-stack web apps (real-time ML in the browser loop)
 talk_to_me: front-end, computer vision, hackathons (z.abdulmunaf@gmail.com)
 speaks: English · Tamil · Hindi · Urdu (Urdu: spoken only)
-↗ Click to open the interactive version." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-dark.svg" />
+Click to expand this section here." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/about-dark.svg" />
 </picture>
-</a>
+</summary>
+
+<p><strong>Abdul Munaf Z — front-end engineer &amp; ML builder</strong></p><ul><li><code>based_in</code> — Coimbatore, Tamil Nadu <em>(India · IST (UTC+5:30))</em></li><li><code>studying</code> — M.Sc. Computer Technology <em>(Sri Krishna Arts &amp; Science College)</em></li><li><code>previously</code> — B.Sc. AI &amp; Machine Learning <em>(Rathinam College)</em></li><li><code>works_with</code> — React · TypeScript · Python · PyTorch <em>(plus OpenCV for real-time vision)</em></li><li><code>building</code> — AI-powered full-stack web apps <em>(real-time ML in the browser loop)</em></li><li><code>talk_to_me</code> — front-end, computer vision, hackathons <em>(z.abdulmunaf@gmail.com)</em></li><li><code>speaks</code> — English · Tamil · Hindi · Urdu <em>(Urdu: spoken only)</em></li></ul>
+</details>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-full.svg">
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-light.svg" />
@@ -59,13 +65,17 @@ speaks: English · Tamil · Hindi · Urdu (Urdu: spoken only)
 1ST · Mealzy — Innovative Food Web Solutions — AIC Raise, Coimbatore, 2025
 3RD · Indian Sign Language Detection System — Sri Krishna College of Engineering, 2026
 TOP 8 · Bitathon — SAS Analytics Model Pitch — Goa Institute of Management, 2026
-↗ Click to open the interactive version." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-dark.svg" />
+Click to expand this section here." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/hackathons-dark.svg" />
 </picture>
-</a>
+</summary>
+
+<ul><li><strong>2ND</strong> · New India Vibrant Hackathon — Urban Governance — Surat Municipal Corporation (2023)</li><li><strong>1ST</strong> · HACKSTRONAUTS 24-hr Challenge — Exadata Club — SRM University, Chennai (2025)</li><li><strong>1ST</strong> · Mealzy — Innovative Food Web Solutions — AIC Raise, Coimbatore (2025)</li><li><strong>3RD</strong> · Indian Sign Language Detection System — Sri Krishna College of Engineering (2026)</li><li><strong>TOP 8</strong> · Bitathon — SAS Analytics Model Pitch — Goa Institute of Management (2026)</li></ul>
+</details>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-full.svg">
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-light.svg" />
@@ -80,14 +90,17 @@ TOP 8 · Bitathon — SAS Analytics Model Pitch — Goa Institute of Management,
     Python · YOLOv8 · PyTorch
 05 Indian Sign Language Recognition — Continuous sentence formation from signs with multi-language text-to-speech, built accessibility-first.
     OpenCV · PyTorch · Python
-↗ Click to open the interactive version." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-dark.svg" />
+Click to expand this section here." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/work-dark.svg" />
 </picture>
-</a>
-<p align="center"><sub><a href="https://github.com/ABDULMUNAFZ/Hyperlocal-Intelligence-for-Flash-Flood-Prediction-Risk--Response">FloodGuard</a> · <a href="https://github.com/ABDULMUNAFZ/Knowra-Evidence-First-Intelligent-Knowledge-Assistant">Knowra</a> · <a href="https://full-stack-chatting-website.onrender.com">Full-Stack Chat + Sentiment AI</a> · <a href="https://github.com/ABDULMUNAFZ/Duality-AI-Offroad-Semantic-Segmentation-Challenge">GreenSight AI</a> · <a href="https://github.com/ABDULMUNAFZ/Indian-Sign-Language-Recognition-System">Indian Sign Language Recognition</a></sub></p>
+</summary>
+
+<ul><li><strong>FloodGuard</strong> — Hyperlocal flash-flood prediction, risk and rescue for Wayanad, Kerala: a 3D command map for responders and a citizen PWA. Smart India Hackathon 2026.<br/><code>React · TypeScript · FastAPI · PostGIS · XGBoost</code></li><li><strong>Knowra</strong> — Evidence-first knowledge assistant: hybrid pgvector + BM25 search with reranking, every answer traced to a cited source passage.<br/><code>React · TypeScript · pgvector · Supabase</code></li><li><strong>Full-Stack Chat + Sentiment AI</strong> — Real-time chat with image sharing and live sentiment analysis, stored securely in MongoDB Atlas.<br/><code>React · Node · MongoDB · NLP</code></li><li><strong>GreenSight AI</strong> — Deep-learning pipeline that classifies off-road terrain into 10 environmental classes in real time.<br/><code>Python · YOLOv8 · PyTorch</code></li><li><strong>Indian Sign Language Recognition</strong> — Continuous sentence formation from signs with multi-language text-to-speech, built accessibility-first.<br/><code>OpenCV · PyTorch · Python</code></li></ul>
+</details>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-full.svg">
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-light.svg" />
@@ -96,13 +109,17 @@ Front-end: React, TypeScript, JavaScript, Three.js, HTML5, CSS3, Webflow
 Back-end &amp; cloud: Python, Node.js, Flask, MongoDB, Netlify, Hostinger
 AI / ML: PyTorch, TensorFlow, OpenCV, YOLOv8, Twilio
 Tools: Git, Bitbucket, PyCharm, WordPress, LaTeX, Adobe CC
-↗ Click to open the interactive version." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-dark.svg" />
+Click to expand this section here." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/stack-dark.svg" />
 </picture>
-</a>
+</summary>
+
+<ul><li><strong>Front-end</strong> — React · TypeScript · JavaScript · Three.js · HTML5 · CSS3 · Webflow</li><li><strong>Back-end &amp; cloud</strong> — Python · Node.js · Flask · MongoDB · Netlify · Hostinger</li><li><strong>AI / ML</strong> — PyTorch · TensorFlow · OpenCV · YOLOv8 · Twilio</li><li><strong>Tools</strong> — Git · Bitbucket · PyCharm · WordPress · LaTeX · Adobe CC</li></ul>
+</details>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-full.svg">
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-light.svg" />
@@ -114,21 +131,28 @@ OPSWAT — Cybersecurity
 RapidMiner — Data science
 Forage — Job simulation
 Great Learning — Upskilling
-↗ Click to open the interactive version." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-dark.svg" />
+Click to expand this section here." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/certifications-dark.svg" />
 </picture>
-</a>
+</summary>
+
+<ul><li><strong>Google</strong> — Professional</li><li><strong>Oracle</strong> — Cloud</li><li><strong>Git</strong> — Version control</li><li><strong>OPSWAT</strong> — Cybersecurity</li><li><strong>RapidMiner</strong> — Data science</li><li><strong>Forage</strong> — Job simulation</li><li><strong>Great Learning</strong> — Upskilling</li></ul>
+</details>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-full.svg">
+<details>
+<summary>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-light.svg" />
   <img width="100%" alt="Languages by code share, plus public repos, stars, followers and pull requests" title="LANGUAGES &amp; NUMBERS
 Code share across public repos, refreshed every 12 hours.
-↗ Click to open the interactive version." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-dark.svg" />
+Click to expand this section here." src="https://raw.githubusercontent.com/ABDULMUNAFZ/ABDULMUNAFZ/output/languages-dark.svg" />
 </picture>
-</a>
+</summary>
+
+<p><strong>Languages &amp; numbers.</strong> The visual is refreshed every 12 hours from public GitHub data, including code share and profile activity.</p>
+</details>
 
 <br/>
 
