@@ -94,7 +94,7 @@ export function frame({ W, H, theme, fullPage, label, aria, css = "", body }) {
   const dims = fullPage ? "" : ` width="${W}" height="${H}"`;
   const header = label
     ? `<circle cx="48" cy="48" r="4" fill="${t.accent}"/><text x="60" y="52" class="lbl" style="fill:${t.text}">${esc(label)}</text>` +
-      `<text x="${W - 44}" y="52" class="lbl" text-anchor="end">${fullPage ? "HOVER TO EXPLORE" : "OPEN CARD ↗"}</text>`
+      `<text x="${W - 44}" y="52" class="lbl" text-anchor="end">${fullPage ? "HOVER TO EXPLORE" : "EXPAND BELOW ↓"}</text>`
     : "";
   return `<svg xmlns="http://www.w3.org/2000/svg"${dims} viewBox="${-pad} ${-pad} ${W + 2 * pad} ${H + 2 * pad}" role="img" aria-label="${esc(aria)}">
 <style>
