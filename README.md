@@ -3,6 +3,11 @@
 </a>
 
 <p align="center">
+  <img src="./koi/koi.gif" width="256" alt="A koi generated from Abdul Munaf Z's public GitHub activity" />
+</p>
+<p align="center"><sub>My koi evolves with my public GitHub activity.</sub></p>
+
+<p align="center">
   <a href="https://www.abdulmunaf.in/"><img src="https://img.shields.io/badge/Portfolio-abdulmunaf.in-1A1D23?style=flat-square&labelColor=FF7A3D" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/abdul-munaf-z-6380a8251"><img src="https://img.shields.io/badge/LinkedIn-Abdul_Munaf_Z-1A1D23?style=flat-square&labelColor=2B2F36" alt="LinkedIn" /></a>
   <a href="mailto:z.abdulmunaf@gmail.com"><img src="https://img.shields.io/badge/Email-z.abdulmunaf@gmail.com-1A1D23?style=flat-square&logo=gmail&logoColor=FF7A3D&labelColor=2B2F36" alt="Email" /></a>
