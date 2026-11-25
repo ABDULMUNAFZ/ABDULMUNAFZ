@@ -8,11 +8,11 @@
 <p align="center"><sub>My koi evolves with my public GitHub activity.</sub></p>
 
 <p align="center">
-  <a href="https://www.abdulmunaf.in/"><img src="https://img.shields.io/badge/Portfolio-abdulmunaf.in-1A1D23?style=flat-square&labelColor=FF7A3D" alt="Portfolio" /></a>
-  <a href="https://linkedin.com/in/abdul-munaf-z-6380a8251"><img src="https://img.shields.io/badge/LinkedIn-Abdul_Munaf_Z-1A1D23?style=flat-square&labelColor=2B2F36" alt="LinkedIn" /></a>
-  <a href="mailto:z.abdulmunaf@gmail.com"><img src="https://img.shields.io/badge/Email-z.abdulmunaf@gmail.com-1A1D23?style=flat-square&logo=gmail&logoColor=FF7A3D&labelColor=2B2F36" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ABDULMUNAFZ&label=views&color=1A1D23&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/ABDULMUNAFZ?label=followers&style=flat-square&color=1A1D23&labelColor=2B2F36" alt="Followers" />
+  <a href="https://www.abdulmunaf.in/"><img src="https://img.shields.io/badge/Portfolio-abdulmunaf.in-1B1B1B?style=flat-square&labelColor=FF4A1C" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/abdul-munaf-z-6380a8251"><img src="https://img.shields.io/badge/LinkedIn-Abdul_Munaf_Z-1B1B1B?style=flat-square&labelColor=2E2E2E" alt="LinkedIn" /></a>
+  <a href="mailto:z.abdulmunaf@gmail.com"><img src="https://img.shields.io/badge/Email-z.abdulmunaf@gmail.com-1B1B1B?style=flat-square&logo=gmail&logoColor=FF4A1C&labelColor=2E2E2E" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=ABDULMUNAFZ&label=views&color=1B1B1B&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/ABDULMUNAFZ?label=followers&style=flat-square&color=1B1B1B&labelColor=2E2E2E" alt="Followers" />
 </p>
 
 <br/>

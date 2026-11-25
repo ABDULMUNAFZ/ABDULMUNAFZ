@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Abdul Munaf Z — front-end engineer and ML builder">
 <defs>
-  <radialGradient id="glow" cx="78%" cy="62%" r="40%"><stop offset="0" stop-color="#FF7A3D" stop-opacity=".16"/><stop offset="1" stop-color="#FF7A3D" stop-opacity="0"/></radialGradient>
-  <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0B0D10" stop-opacity="0"/><stop offset="1" stop-color="#0B0D10"/></linearGradient>
+  <radialGradient id="glow" cx="78%" cy="62%" r="40%"><stop offset="0" stop-color="#FF4A1C" stop-opacity=".18"/><stop offset="1" stop-color="#FF4A1C" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#161616" stop-opacity="0"/><stop offset="1" stop-color="#161616"/></linearGradient>
   <clipPath id="card"><rect width="1200" height="340" rx="18"/></clipPath>
 </defs>
 <style>
@@ -14,7 +14,7 @@
   @media (prefers-reduced-motion:reduce){.f,.in,.cur{animation:none}}
 </style>
 <g clip-path="url(#card)">
-  <rect width="1200" height="340" fill="#0B0D10"/>
+  <rect width="1200" height="340" fill="#161616"/>
   <rect width="1200" height="340" fill="url(#glow)"/>
   <g stroke="#1C2026" stroke-width="1"><line x1="1010" y1="90" x2="802.1539030917347" y2="210"/><line x1="1010" y1="90" x2="1217.8460969082653" y2="210"/><line x1="1035.9807621135333" y1="105" x2="828.1346652052679" y2="225"/><line x1="984.0192378864668" y1="105" x2="1191.865334794732" y2="225"/><line x1="1061.9615242270663" y1="120" x2="854.115427318801" y2="240"/><line x1="958.0384757729337" y1="120" x2="1165.884572681199" y2="240"/><line x1="1087.9422863405994" y1="135" x2="880.0961894323342" y2="255"/><line x1="932.0577136594005" y1="135" x2="1139.903810567666" y2="255"/><line x1="1113.9230484541326" y1="150" x2="906.0769515458674" y2="270"/><line x1="906.0769515458674" y1="150" x2="1113.9230484541326" y2="270"/><line x1="1139.903810567666" y1="165" x2="932.0577136594005" y2="285"/><line x1="880.0961894323342" y1="165" x2="1087.9422863405994" y2="285"/><line x1="1165.884572681199" y1="180" x2="958.0384757729337" y2="300"/><line x1="854.115427318801" y1="180" x2="1061.9615242270663" y2="300"/><line x1="1191.865334794732" y1="195" x2="984.0192378864668" y2="315"/><line x1="828.1346652052679" y1="195" x2="1035.9807621135333" y2="315"/><line x1="1217.8460969082653" y1="210" x2="1010" y2="330"/><line x1="802.1539030917347" y1="210" x2="1010" y2="330"/></g>
   <rect y="250" width="1200" height="90" fill="url(#fade)"/>
@@ -50,12 +50,12 @@
 <g><polygon points="985.6,195.9 1010.0,210.0 1010.0,238.2 985.6,224.1" fill="#1e2126" stroke="#30353D" stroke-width="0.8"/><polygon points="1034.4,195.9 1010.0,210.0 1010.0,238.2 1034.4,224.1" fill="#16181c" stroke="#30353D" stroke-width="0.8"/><polygon points="1010.0,181.8 1034.4,195.9 1010.0,210.0 985.6,195.9" fill="#30353d" stroke="#30353D" stroke-width="0.8"/></g>
 <g class="f" style="animation-delay:2.4s"><polygon points="985.6,165.9 1010.0,180.0 1010.0,208.2 985.6,194.1" fill="#c75f30"/><polygon points="1034.4,165.9 1010.0,180.0 1010.0,208.2 1034.4,194.1" fill="#944723"/><polygon points="1010.0,151.8 1034.4,165.9 1010.0,180.0 985.6,165.9" fill="#ff8944"/></g>
 </g>
-<rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#23272E"/>
+<rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#2E2E2E"/>
 <g class="in">
-  <circle cx="64" cy="84" r="4" fill="#FF7A3D"/>
-  <text x="78" y="88" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#8B8F98">COIMBATORE, IN  ·  M.SC COMPUTER TECHNOLOGY</text>
-  <text x="60" y="160" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="68" font-weight="800" letter-spacing="-2" fill="#ECE7DD">Abdul Munaf Z</text>
-  <text x="62" y="204" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="23" font-weight="500" fill="#A9ADB5">Front-end engineer building interfaces that <tspan fill="#ECE7DD">see</tspan>, <tspan fill="#ECE7DD">think</tspan> &amp; <tspan fill="#ECE7DD">speak</tspan>.</text>
-  <text x="62" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B8F98"><tspan fill="#FF7A3D">$</tspan> react · typescript · python · computer vision<tspan class="cur" fill="#FF7A3D"> ▍</tspan></text>
+  <circle cx="64" cy="84" r="4" fill="#FF4A1C"/>
+  <text x="78" y="88" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="600" letter-spacing="2" fill="#9C948C">COIMBATORE, IN  ·  M.SC COMPUTER TECHNOLOGY</text>
+  <text x="60" y="160" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="68" font-weight="800" letter-spacing="-2" fill="#ECE6E0">Abdul Munaf Z</text>
+  <text x="62" y="204" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="23" font-weight="500" fill="#B8B0A9">Front-end engineer building interfaces that <tspan fill="#ECE6E0">see</tspan>, <tspan fill="#ECE6E0">think</tspan> &amp; <tspan fill="#ECE6E0">speak</tspan>.</text>
+  <text x="62" y="262" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#9C948C"><tspan fill="#FF4A1C">$</tspan> react · typescript · python · computer vision<tspan class="cur" fill="#FF4A1C"> ▍</tspan></text>
 </g>
 </svg>
